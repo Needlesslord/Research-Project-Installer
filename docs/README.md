@@ -15,14 +15,14 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 ## What is included in this research?
 
- - [What is an Installer?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#what-is-an-installer)
- - [Have you seen it in games?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#have-you-seen-it-in-games)
- - [What is the approach to this problem in this research?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#what-is-the-approach-to-this-problem-in-this-research)
- - [Can it be improved?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#can-it-be-improved)
- - [How can YOU do it?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#how-can-you-do-it)
- - [How can you continue improving?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#how-can-you-continue-improving)
- - [Links to documentation](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#links-to-documentation)
- - [Further information](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#further-information)
+ - [What is an Installer?](#what-is-an-installer)
+ - [Have you seen it in games?](#have-you-seen-it-in-games)
+ - [What is the approach to this problem in this research?](#what-is-the-approach-to-this-problem-in-this-research)
+ - [Can it be improved?](#can-it-be-improved)
+ - [How can YOU do it?](#how-can-you-do-it)
+ - [How can you continue improving?](#how-can-you-continue-improving)
+ - [Links to documentation](#links-to-documentation)
+ - [Further information](#further-information)
 
 ***
 
