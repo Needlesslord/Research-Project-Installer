@@ -8,7 +8,7 @@ This web page and the [GitHub repository](https://github.com/Needlesslord/Resear
 
 ## Who am I?
 
-I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord](https://github.com/Needlesslord)), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, nder supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
+I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord*](https://github.com/Needlesslord)), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, nder supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
 
 
 ***
