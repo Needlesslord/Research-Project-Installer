@@ -1,6 +1,6 @@
 # Personal Research: Installer
 
-This web page and the [GitHub repository]() created from are dedicated to what an Installer is and how to create one for your software in Windows, with small steps and a solution provided. For further information, a bibliography is provided below. 
+This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
 
 ***
