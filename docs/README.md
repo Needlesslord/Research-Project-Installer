@@ -13,10 +13,27 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 ***
 
+## What is included in this research?
+
+ - [What is an Installer?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#what-is-an-installer)
+ - [Have you seen it in games?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#have-you-seen-it-in-games)
+ - [What is the approach to this problem in this research?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#what-is-the-approach-to-this-problem-in-this-research)
+ - [Can it be improved?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#can-it-be-improved)
+ - [How can YOU do it?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#how-can-you-do-it)
+ - [How can you continue improving?](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#how-can-you-continue-improving)
+ - [Links to documentation](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#links-to-documentation)
+ - [Further information](https://github.com/Needlesslord/Research-Project-Installer/tree/master/docs#further-information)
+
+***
+
 
 ## What is an Installer?
 
+An **Installer** is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs.
 
+
+
+###
 
 ***
 
@@ -86,7 +103,7 @@ solution: explanation on each todo and what they do and why they are build that 
 
 Here are the links and references where I got all the information I used to create this research.
 
-- links to documentation
+[Computer Hope: Installer](https://www.computerhope.com/jargon/i/installer.htm)
 
 
 
