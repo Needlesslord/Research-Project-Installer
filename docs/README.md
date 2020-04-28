@@ -2,13 +2,14 @@
 
 This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and the Wix Toolset extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
+*Disclaimer! If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or contact me directly at needlesslord@gmail.com.*
 
 ***
 
 
 ## Who am I?
 
-I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord*](https://github.com/Needlesslord), e-mail: needlesslord@gmail.com), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, under supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
+I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord*](https://github.com/Needlesslord), e-mail needlesslord@gmail.com), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, under supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
 
 
 ***
@@ -29,7 +30,19 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 ## What is an Installer?
 
-An **Installer** is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The istallation process for software depends on your OS (operation system) and the program you are installing.
+An **Installer**, **Installation Package** or **Application Packaging** is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The istallation process for software depends on your OS (operation system) and the program you are installing. 
+
+You may have seen them as executable (they can come in different formats, usually depending on the device) files you open to install games, different softwares and others, with detailed instructions that you usually skip with the "Next" button. This executable (sofware which is a file used by a service) is created to install an application onto an specified device contain the files, registry and logic. They involve the preparation of standard, structured sofware installations targeted for automated deployment and should be prepared for both commercial software and home-made apps. 
+
+They usually **contain more than only the .exe** (executable file). For example, they often contain multiple files in different locations, shorcuts, registry, runtime engines, .NET registration, shell integration, ActiveX controls, databases, and more! As said before, they can also come in different formats, such as Setup.MSI (Microsoft Windows Installer); Setup.exe (Legacy executables); .APPX (Windows store, introduced with Windows 8); Install.vbs, Install.ps1 or Install. bat (Batch or script files), Loose/Raw Files or .dll, .xla, .xlam, .ppam, .dotm, etc. (add-ins or plug-ins), and more!
+
+
+## Why are Installers used?
+
+Installers can be used to install games on end-user machines. They usually offer full support for a customized user interface, as well as patching.
+
+**Application management costs** can be a problem for many corporate networks due to the expense of the mantainance of desktop and notebook systems. Therefore, new application management techniques are being developed to help enterprises administer their existing PC investments more efficiently. One of them is application packaging, which helps business manage growing volumes of software for desktop and server systems.
+
 
 ### What should you know before installing a software?
 
@@ -120,9 +133,10 @@ Here are the links and references where I got all the information I used to crea
 [Computer Hope: System requirements](https://www.computerhope.com/jargon/s/systrequ.htm)
 [Computer Hope: How to install software](https://www.computerhope.com/issues/ch000561.htm)
 [Computer Hope: Readme](https://www.computerhope.com/jargon/r/readme.htm)
-
-
-
+[Installer Research](https://carlosupc.github.io/Installer-Research/)
+[Soft Zone: Cómo instalar aplicaciones .Appx o .AppxBundle en Windows 10](https://www.softzone.es/2017/01/04/instalar-aplicaciones-appx-appxbundle-windows-10/) *(Spanish)*
+[Search Enterprise Desktop: AppX file](https://searchenterprisedesktop.techtarget.com/definition/AppX-file)
+[FileInfo: .APPX File Extension](https://fileinfo.com/extension/appx)
 
 ***
 
