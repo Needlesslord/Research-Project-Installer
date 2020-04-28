@@ -1,10 +1,11 @@
-- research title
+# Personal Research: Installer
 
-small introduction
+This web page and the [GitHub repository]() created from are dedicated to what an Installer is and how to create one for your software in Windows, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
-- personal introduction (social media, linkedin, github)
+Who am I?
 
-I am [Núria Lamonja i Pujol](linkedin), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](web citm). This content is generated for the second year's subject Project 2, nder supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.linkedin.com/company/raylibtech/) and [emegeme](https://www.linkedin.com/company/emegeme/).
+I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord](https://github.com/Needlesslord)), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, nder supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
+
 
 - intro to the problem
 
