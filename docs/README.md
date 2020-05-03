@@ -53,7 +53,7 @@ Installers can be used to install games on end-user machines. They usually offer
  For those of you who may not be ffamiliar with what a "readme file" is, it is a file with the extensions .txt or .md that contains information for the user about the software, such as instructions, additional help and details about patches and updates. Sometimes, the information it contains may not be included in the full documentation, so it is good to check out both. I the readme is not in a .txt file extension, your computer may not know how to open it. You cna choose the Notepad (advised) or any text editor of choice to open the file, since it will only contain text.
  
  
- + Pro tip! When installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it promps you to **reboot the computer**, do so.
+ + *__Pro tip!__* When installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it promps you to **reboot the computer**, do so.
 
 
 
@@ -184,7 +184,7 @@ lists of todos and expected outcome and what they are needed for
 
 ### What do you have *TODO*?
 
-*Tip!: If you are using Visual Studio, you can press Ctr+Shift+F and look for "TODO" in all your code. This way you will find the exercises in the code easier*
+*__Pro tip!__* If you are using Visual Studio, you can press Ctr+Shift+F and look for "TODO" in all your code. This way you will find the exercises in the code easier
 
 #### TODO1: Customize product features and mapping .exe project files
 
