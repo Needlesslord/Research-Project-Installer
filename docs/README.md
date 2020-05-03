@@ -9,14 +9,14 @@ This web page and the [GitHub repository](https://github.com/Needlesslord/Resear
 
 ## Who am I?
 
-I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord*](https://github.com/Needlesslord), e-mail needlesslord@gmail.com), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, under supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
+I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord*](https://github.com/Needlesslord), e-mail *needlesslord@gmail.com*), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, under supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
 
 
 ***
 
 ## What is included in this research?
 
- - [What is an Installer?](#what-is-an-installer)
+ - [What is an *Installer*?](#what-is-an-installer)
  - [Have you seen it in games?](#have-you-seen-it-in-games)
  - [What is the approach to this problem in this research?](#what-is-the-approach-to-this-problem-in-this-research)
  - [Can it be improved?](#can-it-be-improved)
@@ -28,7 +28,7 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 ***
 
 
-## What is an Installer?
+## What is an [*Installer*](https://en.wikipedia.org/wiki/Installation_(computer_programs)#Installer)?
 
 An **Installer**, **Installation Package** or **Application Packaging** is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The istallation process for software depends on your OS (operation system) and the program you are installing. 
 
@@ -37,7 +37,7 @@ You may have seen them as executable (they can come in different formats, usuall
 They usually **contain more than only the .exe** (executable file). For example, they often contain multiple files in different locations, shorcuts, registry, runtime engines, .NET registration, shell integration, ActiveX controls, databases, and more! As said before, they can also come in different formats, such as Setup.MSI (Microsoft Windows Installer); Setup.exe (Legacy executables); .APPX (Windows store, introduced with Windows 8); Install.vbs, Install.ps1 or Install. bat (Batch or script files), Loose/Raw Files or .dll, .xla, .xlam, .ppam, .dotm, etc. (add-ins or plug-ins), and more!
 
 
-## Why are Installers used?
+### What are Installers used for?
 
 Installers can be used to install games on end-user machines. They usually offer full support for a customized user interface, as well as patching.
 
@@ -57,7 +57,15 @@ Installers can be used to install games on end-user machines. They usually offer
 
 
 
-###
+### What is [*Deployment*](https://en.wikipedia.org/wiki/Software_deployment)?
+
+
+#### What should you know about Deployment?
+
+
+### Why is Deployment important for the Installer?
+
+
 
 
 
@@ -78,6 +86,58 @@ Installers can be used to install games on end-user machines. They usually offer
 
 - description in detail for the selected approach (very visual and simple)
 
+I'm going to use MSI
+
+### What is [*MSI* (Microsoft Windows Installer)](https://en.wikipedia.org/wiki/Windows_Installer)?
+
+
+
+#### Why am I using MSI?
+
+- scope
+- reliability
+- windows os
+
+
+#### How does the MSI Application Management work?
+
+
+
+#### What files and components are included in the MSI?
+
+
+#### What does MSI support?
+
+
+#### What can be done using MSI?
+
+
+##### How does Deployment tasks work on MSI?
+
+
+##### How do you sign an Application Packaging?
+
+
+
+##### How can you test an Application in a [*Virtual Machine*]()?
+
+###### What is a [*Virtual Machine*]()?
+
+###### What is [[*VirtualBox*]()?
+
+###### How do you work with VirtualBox?
+
+
+#### Is there something else you should know about MSI Packaging and Deployment tasks?
+
+
+### What is [*WIX Toolset*]()?
+
+
+
+#### What are the features of WIX Toolset?
+
+
 
 
 ***
@@ -87,6 +147,8 @@ Installers can be used to install games on end-user machines. They usually offer
 
 - explanation of any other improvement on the system (very visual and simple)
 
+
+*custom actions*
 
 
 
@@ -98,11 +160,68 @@ Installers can be used to install games on end-user machines. They usually offer
 
 - TODOs and solution inside the repository as vs projects (very visual and simple)
 
-explanation on what to do
+### What should you know before starting?
+
+ + Project files and components
+ 
+ + Directory System
+ 
+ + Shortcut Components
+ 
+ + Icon
+ 
+ + UI Dialog
+
+### What are the TODOs (exercises) teach  you to do?
+
+- icons
+- taskbar app (sizes and formats)
+- sign the executable with company
+- windows certification
+- test the game w/ vm (dependencies: libraries and dll needed)
 
 lists of todos and expected outcome and what they are needed for
 
+### What do you have *TODO*?
+
+*Tip!: If you are using Visual Studio, you can press Ctr+Shift+F and look for "TODO" in all your code. This way you will find the exercises in the code easier*
+
+#### TODO1: Customize product features and mapping .exe project files
+
+#### TODO2: Add Start Menu Shortcut
+
+#### TODO3: Add Desktop shortcut
+
+#### TODO4: Add control panel and .exe project icons
+
+#### TODO5: Add UI Dialog theme (installDir)
+
+#### TODO6: Customize UI Dialog theme using .bmp files
+
+#### TODO7: Add Windows License 
+
+#### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
+
+
+### How is it done?
+
 solution: explanation on each todo and what they do and why they are build that way
+
+#### TODO1: Customize product features and mapping .exe project files
+
+#### TODO2: Add Start Menu Shortcut
+
+#### TODO3: Add Desktop shortcut
+
+#### TODO4: Add control panel and .exe project icons
+
+#### TODO5: Add UI Dialog theme (installDir)
+
+#### TODO6: Customize UI Dialog theme using .bmp files
+
+#### TODO7: Add Windows License 
+
+#### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
 
 
 [Here you can find the link to the exercise]()
@@ -138,7 +257,9 @@ Here are the links and references where I got all the information I used to crea
 [Search Enterprise Desktop: AppX file](https://searchenterprisedesktop.techtarget.com/definition/AppX-file)
 [FileInfo: .APPX File Extension](https://fileinfo.com/extension/appx)
 [Stack Overflow: What are the benefits of a MSI installer over a standard setup.exe?](https://stackoverflow.com/questions/3976241/what-are-the-benefits-of-a-msi-installer-over-a-standard-setup-exe)
-
+[Wikipedia: Windows Installer](https://en.wikipedia.org/wiki/Windows_Installer)
+[Wikipedia: Software deployment](https://en.wikipedia.org/wiki/Software_deployment)
+[Wikipedia: Installation (computer programs)](https://en.wikipedia.org/wiki/Installation_(computer_programs))
 
 
 ***
