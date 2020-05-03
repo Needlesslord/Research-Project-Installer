@@ -60,6 +60,7 @@ Installers can be used to install games on end-user machines. They usually offer
 ### What is [*Deployment*](https://en.wikipedia.org/wiki/Software_deployment)?
 
 
+
 #### What should you know about Deployment?
 
 
@@ -68,6 +69,7 @@ Installers can be used to install games on end-user machines. They usually offer
 
 
 
+*__For more information about Deployment, please take a look at the information my collegue [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH).__*
 
 ***
 
@@ -237,8 +239,9 @@ solution: explanation on each todo and what they do and why they are build that 
 
 ## How can you continue improving?
 
-- homework for practising
+- [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
 
+- [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
 
 ***
@@ -248,18 +251,21 @@ solution: explanation on each todo and what they do and why they are build that 
 
 Here are the links and references where I got all the information I used to create this research.
 
-[Computer Hope: Installer](https://www.computerhope.com/jargon/i/installer.htm)
-[Computer Hope: System requirements](https://www.computerhope.com/jargon/s/systrequ.htm)
-[Computer Hope: How to install software](https://www.computerhope.com/issues/ch000561.htm)
-[Computer Hope: Readme](https://www.computerhope.com/jargon/r/readme.htm)
-[Installer Research](https://carlosupc.github.io/Installer-Research/)
-[Soft Zone: Cómo instalar aplicaciones .Appx o .AppxBundle en Windows 10](https://www.softzone.es/2017/01/04/instalar-aplicaciones-appx-appxbundle-windows-10/) *(Spanish)*
-[Search Enterprise Desktop: AppX file](https://searchenterprisedesktop.techtarget.com/definition/AppX-file)
-[FileInfo: .APPX File Extension](https://fileinfo.com/extension/appx)
-[Stack Overflow: What are the benefits of a MSI installer over a standard setup.exe?](https://stackoverflow.com/questions/3976241/what-are-the-benefits-of-a-msi-installer-over-a-standard-setup-exe)
-[Wikipedia: Windows Installer](https://en.wikipedia.org/wiki/Windows_Installer)
-[Wikipedia: Software deployment](https://en.wikipedia.org/wiki/Software_deployment)
-[Wikipedia: Installation (computer programs)](https://en.wikipedia.org/wiki/Installation_(computer_programs))
+- [Computer Hope: Installer](https://www.computerhope.com/jargon/i/installer.htm)
+- [Computer Hope: System requirements](https://www.computerhope.com/jargon/s/systrequ.htm)
+- [Computer Hope: How to install software](https://www.computerhope.com/issues/ch000561.htm)
+- [Computer Hope: Readme](https://www.computerhope.com/jargon/r/readme.htm)
+- [Installer Research](https://carlosupc.github.io/Installer-Research/)
+- [Soft Zone: Cómo instalar aplicaciones .Appx o .AppxBundle en Windows 10](https://www.softzone.es/2017/01/04/instalar-aplicaciones-appx-appxbundle-windows-10/) *(Spanish)*
+- [Search Enterprise Desktop: AppX file](https://searchenterprisedesktop.techtarget.com/definition/AppX-file)
+- [FileInfo: .APPX File Extension](https://fileinfo.com/extension/appx)
+- [Stack Overflow: What are the benefits of a MSI installer over a standard setup.exe?](https://stackoverflow.com/questions/3976241/what-are-the-benefits-of-a-msi-installer-over-a-standard-setup-exe)
+- [Wikipedia: Windows Installer](https://en.wikipedia.org/wiki/Windows_Installer)
+- [Wikipedia: Software deployment](https://en.wikipedia.org/wiki/Software_deployment)
+- [Wikipedia: Installation (computer programs)](https://en.wikipedia.org/wiki/Installation_(computer_programs))
+- [Stack Overflow: How can I create an MSI setup?](https://stackoverflow.com/questions/1042566/how-can-i-create-an-msi-setup)
+- [Firegiant: WiX Toolset Tutorial](https://www.firegiant.com/wix/tutorial/)
+
 
 
 ***
@@ -268,28 +274,15 @@ Here are the links and references where I got all the information I used to crea
 ## Further information
 
 
-- further information
+About Automated Builds: 
 
+ + [Automated Builds](https://github.com/xsiro/RESEARCH)
 
+About other tools to create a Windows Installer Package: 
 
-
-
-Research article
-
-
-// Problem Description
-
-
-// State of the Art (Current Solutions)
-
-
-// Proposed Solution
-
-
-// Possible Innovations
-
-
-// Provided Code and/or Templates
-
-
-// Links and References
+ + [Help Desk Geek: 4 Great Tools to Create Windows Installer Packages](https://helpdeskgeek.com/free-tools-review/4-tools-to-create-windows-installer-packages/)
+ + [Microsoft: Create an MSIX package from any desktop installer (MSI, EXE, ClickOnce, or App-V)](https://docs.microsoft.com/en-us/windows/msix/packaging-tool/create-app-package)
+ + About Advanced Installer: 
+    - [Official web](https://www.advancedinstaller.com/)
+    - [Features of the Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html)  
+    - [Youtube *(includes tutorials)*](https://www.youtube.com/user/AdvancedInstaller)
