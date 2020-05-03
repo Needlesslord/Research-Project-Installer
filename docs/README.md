@@ -2,7 +2,7 @@
 
 This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and the Wix Toolset extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
-*Disclaimer! If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
+*__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
 
 ***
 
@@ -47,13 +47,13 @@ Installers can be used to install games on end-user machines. They usually offer
 ### What should you know before installing a software?
 
  + First of all, you have to make sure **your computer meets the *system/software requirements* of the program you are attempting to install**, it being a game, utility, etc. It is a listing of what software programs or hardware devices are required to operate the program properly and can be found on their packaging or can be found on the Internet. If your computer does not meet the *minimum requirements*, it will probably not run or not even install. Also, if your computer **only** meets the *minimum requirements* but not the *suggested requirements*, it will run, but very slowly. 
- If you do not understand a term used in the requirements (they can be very technical and most people may not be familiar with many IT lingo), the easiest way to understand the meaning behind it is to perform a search on the word. [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) is a very complete web where all these terms and information can be easily found.
+*__Pro tip!__* If you do not understand a term used in the requirements (they can be very technical and most people may not be familiar with many IT lingo), the easiest way to understand the meaning behind it is to perform a search on the word. [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) is a very complete web where all these terms and information can be easily found.
  
  + Secondly, you should **check the manual or readme file**, which contains the **exact instructions** on how to install your program and are usually fouund in the same directory (a directory could be compared to a folder, for those who are not familiar with the term) as the installation files. 
  For those of you who may not be ffamiliar with what a "readme file" is, it is a file with the extensions .txt or .md that contains information for the user about the software, such as instructions, additional help and details about patches and updates. Sometimes, the information it contains may not be included in the full documentation, so it is good to check out both. I the readme is not in a .txt file extension, your computer may not know how to open it. You cna choose the Notepad (advised) or any text editor of choice to open the file, since it will only contain text.
  
  
- + *__Pro tip!__* When installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it promps you to **reboot the computer**, do so.
+ + *__Pro tip!__* Finally, when installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it promps you to **reboot the computer**, do so.
 
 
 
@@ -69,7 +69,7 @@ Installers can be used to install games on end-user machines. They usually offer
 
 
 
-*__For more information about Deployment, please take a look at the information my collegue [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH).__*
+*__For more information about Deployment, please take a look at the research my collegue [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH) or [Pol Galan](https://github.com/pgalmor) did as well on the same topic [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
 
 ***
 
@@ -86,9 +86,7 @@ Installers can be used to install games on end-user machines. They usually offer
 
 ## What is the approach to this problem in this research?
 
-- description in detail for the selected approach (very visual and simple)
-
-I'm going to use MSI
+This research in particular will be used in an RTS game developed for the same subject, Project 2 taught at CITM-TTC (UPC). The OS (operating system) used to develop it is Windows (in particular, Windows 10 and 8), therefore, we are going to use *MSI* (Microsoft Windows Installer).
 
 ### What is [*MSI* (Microsoft Windows Installer)](https://en.wikipedia.org/wiki/Windows_Installer)?
 
