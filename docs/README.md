@@ -2,21 +2,21 @@
 
 This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and the Wix Toolset extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
-*Disclaimer! If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
+*__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
 
 ***
 
 
 ## Who am I?
 
-I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord*](https://github.com/Needlesslord), e-mail needlesslord@gmail.com), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, under supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
+I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub username [*Needlesslord*](https://github.com/Needlesslord), e-mail *needlesslord@gmail.com*), student of the [Bachelor's Degree in Video Games by UPC at CITM-TTC](https://www.citm.upc.edu/ing/estudis/grau-videojocs-bcn/). This content is generated for the second year's subject Project 2, under supervision of lecturer [Ramon Santamaria](https://www.linkedin.com/in/raysan/), tech developer and lead of [raylib technologies](https://www.raylib.com/) and [emegeme](https://www.emegeme.com/).
 
 
 ***
 
 ## What is included in this research?
 
- - [What is an Installer?](#what-is-an-installer)
+ - [What is an *Installer*?](#what-is-an-installer)
  - [Have you seen it in games?](#have-you-seen-it-in-games)
  - [What is the approach to this problem in this research?](#what-is-the-approach-to-this-problem-in-this-research)
  - [Can it be improved?](#can-it-be-improved)
@@ -28,7 +28,7 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 ***
 
 
-## What is an Installer?
+## What is an [*Installer*](https://en.wikipedia.org/wiki/Installation_(computer_programs)#Installer)?
 
 An **Installer**, **Installation Package** or **Application Packaging** is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The istallation process for software depends on your OS (operation system) and the program you are installing. 
 
@@ -37,7 +37,7 @@ You may have seen them as executable (they can come in different formats, usuall
 They usually **contain more than only the .exe** (executable file). For example, they often contain multiple files in different locations, shorcuts, registry, runtime engines, .NET registration, shell integration, ActiveX controls, databases, and more! As said before, they can also come in different formats, such as Setup.MSI (Microsoft Windows Installer); Setup.exe (Legacy executables); .APPX (Windows store, introduced with Windows 8); Install.vbs, Install.ps1 or Install. bat (Batch or script files), Loose/Raw Files or .dll, .xla, .xlam, .ppam, .dotm, etc. (add-ins or plug-ins), and more!
 
 
-## Why are Installers used?
+### What are Installers used for?
 
 Installers can be used to install games on end-user machines. They usually offer full support for a customized user interface, as well as patching.
 
@@ -47,19 +47,29 @@ Installers can be used to install games on end-user machines. They usually offer
 ### What should you know before installing a software?
 
  + First of all, you have to make sure **your computer meets the *system/software requirements* of the program you are attempting to install**, it being a game, utility, etc. It is a listing of what software programs or hardware devices are required to operate the program properly and can be found on their packaging or can be found on the Internet. If your computer does not meet the *minimum requirements*, it will probably not run or not even install. Also, if your computer **only** meets the *minimum requirements* but not the *suggested requirements*, it will run, but very slowly. 
- If you do not understand a term used in the requirements (they can be very technical and most people may not be familiar with many IT lingo), the easiest way to understand the meaning behind it is to perform a search on the word. [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) is a very complete web where all these terms and information can be easily found.
+*__Pro tip!__* If you do not understand a term used in the requirements (they can be very technical and most people may not be familiar with many IT lingo), the easiest way to understand the meaning behind it is to perform a search on the word. [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) is a very complete web where all these terms and information can be easily found.
  
  + Secondly, you should **check the manual or readme file**, which contains the **exact instructions** on how to install your program and are usually fouund in the same directory (a directory could be compared to a folder, for those who are not familiar with the term) as the installation files. 
  For those of you who may not be ffamiliar with what a "readme file" is, it is a file with the extensions .txt or .md that contains information for the user about the software, such as instructions, additional help and details about patches and updates. Sometimes, the information it contains may not be included in the full documentation, so it is good to check out both. I the readme is not in a .txt file extension, your computer may not know how to open it. You cna choose the Notepad (advised) or any text editor of choice to open the file, since it will only contain text.
  
  
- + Pro tip! When installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it promps you to **reboot the computer**, do so.
+ + *__Pro tip!__* Finally, when installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it promps you to **reboot the computer**, do so.
 
 
 
-###
+### What is [*Deployment*](https://en.wikipedia.org/wiki/Software_deployment)?
 
 
+
+#### What should you know about Deployment?
+
+
+### Why is Deployment important for the Installer?
+
+
+
+
+*__For more information about Deployment, please take a look at the research my collegue [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH) or [Pol Galan](https://github.com/pgalmor) did as well on the same topic [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
 
 ***
 
@@ -76,7 +86,57 @@ Installers can be used to install games on end-user machines. They usually offer
 
 ## What is the approach to this problem in this research?
 
-- description in detail for the selected approach (very visual and simple)
+This research in particular will be used in an RTS game developed for the same subject, Project 2 taught at CITM-TTC (UPC). The OS (operating system) used to develop it is Windows (in particular, Windows 10 and 8), therefore, we are going to use *MSI* (Microsoft Windows Installer).
+
+### What is [*MSI* (Microsoft Windows Installer)](https://en.wikipedia.org/wiki/Windows_Installer)?
+
+
+
+#### Why am I using MSI?
+
+- scope
+- reliability
+- windows os
+
+
+#### How does the MSI Application Management work?
+
+
+
+#### What files and components are included in the MSI?
+
+
+#### What does MSI support?
+
+
+#### What can be done using MSI?
+
+
+##### How does Deployment tasks work on MSI?
+
+
+##### How do you sign an Application Packaging?
+
+
+
+##### How can you test an Application in a [*Virtual Machine*]()?
+
+###### What is a [*Virtual Machine*]()?
+
+###### What is [[*VirtualBox*]()?
+
+###### How do you work with VirtualBox?
+
+
+#### Is there something else you should know about MSI Packaging and Deployment tasks?
+
+
+### What is [*WIX Toolset*]()?
+
+
+
+#### What are the features of WIX Toolset?
+
 
 
 
@@ -88,6 +148,8 @@ Installers can be used to install games on end-user machines. They usually offer
 - explanation of any other improvement on the system (very visual and simple)
 
 
+*custom actions*
+
 
 
 ***
@@ -98,11 +160,68 @@ Installers can be used to install games on end-user machines. They usually offer
 
 - TODOs and solution inside the repository as vs projects (very visual and simple)
 
-explanation on what to do
+### What should you know before starting?
+
+ + Project files and components
+ 
+ + Directory System
+ 
+ + Shortcut Components
+ 
+ + Icon
+ 
+ + UI Dialog
+
+### What are the TODOs (exercises) teach  you to do?
+
+- icons
+- taskbar app (sizes and formats)
+- sign the executable with company
+- windows certification
+- test the game w/ vm (dependencies: libraries and dll needed)
 
 lists of todos and expected outcome and what they are needed for
 
+### What do you have *TODO*?
+
+*__Pro tip!__* If you are using Visual Studio, you can press Ctr+Shift+F and look for "TODO" in all your code. This way you will find the exercises in the code easier
+
+#### TODO1: Customize product features and mapping .exe project files
+
+#### TODO2: Add Start Menu Shortcut
+
+#### TODO3: Add Desktop shortcut
+
+#### TODO4: Add control panel and .exe project icons
+
+#### TODO5: Add UI Dialog theme (installDir)
+
+#### TODO6: Customize UI Dialog theme using .bmp files
+
+#### TODO7: Add Windows License 
+
+#### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
+
+
+### How is it done?
+
 solution: explanation on each todo and what they do and why they are build that way
+
+#### TODO1: Customize product features and mapping .exe project files
+
+#### TODO2: Add Start Menu Shortcut
+
+#### TODO3: Add Desktop shortcut
+
+#### TODO4: Add control panel and .exe project icons
+
+#### TODO5: Add UI Dialog theme (installDir)
+
+#### TODO6: Customize UI Dialog theme using .bmp files
+
+#### TODO7: Add Windows License 
+
+#### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
 
 
 [Here you can find the link to the exercise]()
@@ -118,8 +237,9 @@ solution: explanation on each todo and what they do and why they are build that 
 
 ## How can you continue improving?
 
-- homework for practising
+- [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
 
+- [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
 
 ***
@@ -129,15 +249,20 @@ solution: explanation on each todo and what they do and why they are build that 
 
 Here are the links and references where I got all the information I used to create this research.
 
-[Computer Hope: Installer](https://www.computerhope.com/jargon/i/installer.htm)
-[Computer Hope: System requirements](https://www.computerhope.com/jargon/s/systrequ.htm)
-[Computer Hope: How to install software](https://www.computerhope.com/issues/ch000561.htm)
-[Computer Hope: Readme](https://www.computerhope.com/jargon/r/readme.htm)
-[Installer Research](https://carlosupc.github.io/Installer-Research/)
-[Soft Zone: Cómo instalar aplicaciones .Appx o .AppxBundle en Windows 10](https://www.softzone.es/2017/01/04/instalar-aplicaciones-appx-appxbundle-windows-10/) *(Spanish)*
-[Search Enterprise Desktop: AppX file](https://searchenterprisedesktop.techtarget.com/definition/AppX-file)
-[FileInfo: .APPX File Extension](https://fileinfo.com/extension/appx)
-[Stack Overflow: What are the benefits of a MSI installer over a standard setup.exe?](https://stackoverflow.com/questions/3976241/what-are-the-benefits-of-a-msi-installer-over-a-standard-setup-exe)
+- [Computer Hope: Installer](https://www.computerhope.com/jargon/i/installer.htm)
+- [Computer Hope: System requirements](https://www.computerhope.com/jargon/s/systrequ.htm)
+- [Computer Hope: How to install software](https://www.computerhope.com/issues/ch000561.htm)
+- [Computer Hope: Readme](https://www.computerhope.com/jargon/r/readme.htm)
+- [Installer Research](https://carlosupc.github.io/Installer-Research/)
+- [Soft Zone: Cómo instalar aplicaciones .Appx o .AppxBundle en Windows 10](https://www.softzone.es/2017/01/04/instalar-aplicaciones-appx-appxbundle-windows-10/) *(Spanish)*
+- [Search Enterprise Desktop: AppX file](https://searchenterprisedesktop.techtarget.com/definition/AppX-file)
+- [FileInfo: .APPX File Extension](https://fileinfo.com/extension/appx)
+- [Stack Overflow: What are the benefits of a MSI installer over a standard setup.exe?](https://stackoverflow.com/questions/3976241/what-are-the-benefits-of-a-msi-installer-over-a-standard-setup-exe)
+- [Wikipedia: Windows Installer](https://en.wikipedia.org/wiki/Windows_Installer)
+- [Wikipedia: Software deployment](https://en.wikipedia.org/wiki/Software_deployment)
+- [Wikipedia: Installation (computer programs)](https://en.wikipedia.org/wiki/Installation_(computer_programs))
+- [Stack Overflow: How can I create an MSI setup?](https://stackoverflow.com/questions/1042566/how-can-i-create-an-msi-setup)
+- [Firegiant: WiX Toolset Tutorial](https://www.firegiant.com/wix/tutorial/)
 
 
 
@@ -147,28 +272,15 @@ Here are the links and references where I got all the information I used to crea
 ## Further information
 
 
-- further information
+About Automated Builds: 
 
+ + [Automated Builds](https://github.com/xsiro/RESEARCH)
 
+About other tools to create a Windows Installer Package: 
 
-
-
-Research article
-
-
-// Problem Description
-
-
-// State of the Art (Current Solutions)
-
-
-// Proposed Solution
-
-
-// Possible Innovations
-
-
-// Provided Code and/or Templates
-
-
-// Links and References
+ + [Help Desk Geek: 4 Great Tools to Create Windows Installer Packages](https://helpdeskgeek.com/free-tools-review/4-tools-to-create-windows-installer-packages/)
+ + [Microsoft: Create an MSIX package from any desktop installer (MSI, EXE, ClickOnce, or App-V)](https://docs.microsoft.com/en-us/windows/msix/packaging-tool/create-app-package)
+ + About Advanced Installer: 
+    - [Official web](https://www.advancedinstaller.com/)
+    - [Features of the Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html)  
+    - [Youtube *(includes tutorials)*](https://www.youtube.com/user/AdvancedInstaller)
