@@ -169,11 +169,15 @@ This research in particular will be used in an RTS game developed for the same s
 
 
 
-##### How can you test an Application in a [*Virtual Machine*]()?
+##### How can you test an Application in a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
-###### What is a [*Virtual Machine*]()?
+###### What is a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
-###### What is [[*VirtualBox*]()?
+###### What is [*VirtualBox*](https://es.wikipedia.org/wiki/VirtualBox)?
+
+
+
+*In the following [link](https://www.virtualbox.org/) you can go to the official web page of VirtualBox.*
 
 ###### How do you work with VirtualBox?
 
@@ -181,13 +185,27 @@ This research in particular will be used in an RTS game developed for the same s
 #### Is there something else you should know about MSI Packaging and Deployment tasks?
 
 
-### What is [*WIX Toolset*]()?
+### What is [*WIX Toolset*](https://en.wikipedia.org/wiki/WiX)?
 
+*WiX* is short for *Windows Installer XML Toolset*. It is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates.
+
+
+*In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.*
 
 
 #### What are the features of WIX Toolset?
 
+*******COPY PASTE FROM WiX WEB*********
 
+The WiX toolset lets developers create installers for Windows Installer, the Windows installation engine.
+
+The core of WiX is a set of build tools that build Windows Installer packages using the same build concepts as the rest of your product: source code is compiled and then linked to create executables; in this case .exe setup bundles, .msi installation packages, .msm merge modules, and .msp patches. The WiX command-line build tools work with any automated build system. Also, MSBuild is supported from the command line, Visual Studio, and Team Build.
+
+WiX includes several extensions that offer functionality beyond that of Windows Installer. For example, WiX can install IIS web sites, create SQL Server databases, and register exceptions in the Windows Firewall, among others.
+
+With Burn, the WiX bootstrapper, you can create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. Burn lets you download packages or combine them into a single downloadable .exe.
+
+The WiX SDK includes managed and native libraries that make it easier to write code that works with Windows Installer, including custom actions in both C# and C++.
 
 
 ***
@@ -199,6 +217,8 @@ This research in particular will be used in an RTS game developed for the same s
 
 
 *custom actions*
+
+*In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals.*
 
 
 
@@ -313,8 +333,14 @@ Here are the links and references where I got all the information I used to crea
 - [Wikipedia: Installation (computer programs)](https://en.wikipedia.org/wiki/Installation_(computer_programs))
 - [Stack Overflow: How can I create an MSI setup?](https://stackoverflow.com/questions/1042566/how-can-i-create-an-msi-setup)
 - [Firegiant: WiX Toolset Tutorial](https://www.firegiant.com/wix/tutorial/)
+- [Wikipedia: VirtualBox](https://es.wikipedia.org/wiki/VirtualBox)
+- [Wikipedia: Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine)
+- [VirtualBox](https://www.virtualbox.org/)
+- [Wikipedia: WiX](https://en.wikipedia.org/wiki/WiX)
+- [WiX Toolset](https://wixtoolset.org/)
+- [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
 
-
+*All images were taken from Google Images. Credit goes to their respective authors*
 
 ***
 
@@ -334,3 +360,6 @@ About other tools to create a Windows Installer Package:
     - [Official web](https://www.advancedinstaller.com/)
     - [Features of the Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html)  
     - [Youtube *(includes tutorials)*](https://www.youtube.com/user/AdvancedInstaller)
+    
+About WiX Toolset and how it could be improved:
+    - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
