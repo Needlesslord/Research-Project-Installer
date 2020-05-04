@@ -9,7 +9,7 @@
 
 *__Take into account that we will be working with Windows OS, Visual Studio 2017 and the WiX Toolset to create an MSI file.__*
 
-### For the full research, please take a look at the [web page](https://needlesslord.github.io/Research-Project-Installer/).
+###### For the full research, please take a look at the [web page](https://needlesslord.github.io/Research-Project-Installer/).
 
 
 ## About the Author
