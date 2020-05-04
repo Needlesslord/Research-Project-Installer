@@ -59,9 +59,15 @@ Installers can be used to install games on end-user machines. They usually offer
 
 ### What is [*Deployment*](https://en.wikipedia.org/wiki/Software_deployment)?
 
+First of all, we need to understad what [*Automated Builds*](https://en.wikipedia.org/wiki/Build_automation) are. In a short and easy way, it is the process of automating the creation of a software build and the associated processes. This means that, with no human interaction, the code will create releases of our software, like different "launches", mainly to have a contingency plan. Imagine you are working on your code, but you made a mistake and it doesn't work anymore; you could go back to a previous version, created automatically, in order to continue working. There are many programs which can do that for you. 
 
+Automated build can be divided in two main parts: *deployment* and [*continuous iteration*](https://en.wikipedia.org/wiki/Continuous_integration). However, we are just going to talk about deployment in this research.
+
+Diving into *deployment*, it is a very simple concept: 
 
 #### What should you know about Deployment?
+
+The following part is particular to MSI Tools, which will be introduced below.
 
 
 ### Why is Deployment important for the Installer?
@@ -76,9 +82,53 @@ Installers can be used to install games on end-user machines. They usually offer
 
 ## Have you seen it in games?
 
+Installation Packages are used broadly, as said before. From programs to games to other type of software. However, in this section, I will show you where you may have seen it in games and how they made your life easier. Mostly, since users are familiar with this way of installing games and also make it really simple, fast and easy all (or almost all) games use Installers.
 
-- different approaches by different games
+*Disclaimer! Please note that these pictures are from different years, so the window design may be different now*
 
+### Game Shops
+
+For example, in Game shops, when you want to use the app instead of the web, you are asked to install them to your computer through an Installation Package. Epic Games and Steam are used as examples below.
+
+Here you can see two different pictures of the Epic Games Launcher Setup, which in this case, since it was in a Windows OS uses MSI. In both of them they are asking for a "Destination Folder" or "directory". This means they installer is asking for a folder where you want to save all the files needed to run the game and possible future downloads.
+
+![Epic-Games-Installer-Directory](https://user-images.githubusercontent.com/51851736/81014839-e39c5e80-8e5d-11ea-8675-8af2289bce46.png)
+
+![Epic-Games-Installer-Directory-2](https://user-images.githubusercontent.com/51851736/81014840-e434f500-8e5d-11ea-9e7b-747972856413.png)
+
+Here you can see how the Epic Games Launcher Setup is installing all the needed files in your computer.
+
+![Epic-Games-Installer-Launcher](https://user-images.githubusercontent.com/51851736/81014841-e4cd8b80-8e5d-11ea-9e3d-d6fea7ca88ea.jpg)
+
+Here you can see how to uninstall a game directly from the Epic Games Store, step by step.
+
+![Epic-Games-Uninstall-Game](https://user-images.githubusercontent.com/51851736/81014843-e4cd8b80-8e5d-11ea-9b8f-5d0848f181a8.png)
+
+The following picture is from Steam's Installer. It shows the License agreement, which you have to accept in order to press "Next".
+
+![Steam-License-Agreement](https://user-images.githubusercontent.com/51851736/81014851-e72fe580-8e5d-11ea-908a-d984f41d7ef6.jpg)
+
+The following two pictures are from installing a game from Steam on a Mac OS (Apple). The first one shows how the end-user can choose whether to create or not shourtcuts and the second one is the message Steam displays once you have already installed your product.
+
+![Steam-Game-Install-Shortcuts](https://user-images.githubusercontent.com/51851736/81014849-e72fe580-8e5d-11ea-89a4-de2d4b6288e6.png)
+
+![Steam-Game-Install-Finish](https://user-images.githubusercontent.com/51851736/81014847-e6974f00-8e5d-11ea-884e-d0b41d4d4684.png)
+
+
+### Games
+
+In games, for example, you always see them. The following images display different installers for individual games, which are not installed from Game Shops.
+
+Here we can see what is first shown to the user when installing LOL (League of Legends).
+
+![Install-League-of-Legends](https://user-images.githubusercontent.com/51851736/81014844-e5662200-8e5d-11ea-8058-f40517477f2f.jpg)
+
+
+### Mods
+
+Of course, Mods for different games also require and almost always use installers. The following picture is for an installation of a Vehicle Mod Pack for the game GTA IV (Grand Theft Auto IV).
+
+![Install-Mods-GTAIV](https://user-images.githubusercontent.com/51851736/81014845-e6974f00-8e5d-11ea-9876-c1d2a04dfdbf.jpg)
 
 
 ***
