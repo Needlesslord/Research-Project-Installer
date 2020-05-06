@@ -88,6 +88,8 @@ In short, software deployment includes all the process required for preparing a 
 
 #### What should you know about Deployment?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 The following part is particular to MSI Tools, which will be introduced below.
 
 
@@ -114,7 +116,7 @@ Then, even if it can create problems for our source code and the list of require
 
 Installation Packages are used broadly, as said before. From programs to games to other type of software. However, in this section, I will show you where you may have seen it in games and how they made your life easier. Mostly, since users are familiar with this way of installing games and also make it really simple, fast and easy all (or almost all) games use Installers.
 
-*Disclaimer! Please note that these pictures are from different years, so the window design may be different now*
+*Disclaimer! Please note that these pictures are from different years, so the design or usage may be different now.*
 
 
 ### Game Shops
@@ -172,9 +174,14 @@ This research in particular will be used in an RTS game developed for the same s
 
 ### What is [*MSI* (Microsoft Windows Installer)](https://en.wikipedia.org/wiki/Windows_Installer)?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 
 #### Why am I using MSI?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 - scope
 - reliability
@@ -183,29 +190,50 @@ This research in particular will be used in an RTS game developed for the same s
 
 #### How does the MSI Application Management work?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 
 #### What files and components are included in the MSI?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
+
 
 #### What does MSI support?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
 #### What can be done using MSI?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 ##### How does Deployment tasks work on MSI?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 ##### How do you sign an Application Packaging?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
 
 ##### How can you test an Application in a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
+
 ###### What is a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
+
 ###### What is [*VirtualBox*](https://es.wikipedia.org/wiki/VirtualBox)?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
 
@@ -214,8 +242,12 @@ This research in particular will be used in an RTS game developed for the same s
 
 ###### How do you work with VirtualBox?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 #### Is there something else you should know about MSI Packaging and Deployment tasks?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
 ### What is [*WIX Toolset*](https://en.wikipedia.org/wiki/WiX)?
@@ -227,6 +259,9 @@ This research in particular will be used in an RTS game developed for the same s
 
 
 #### What are the features of WIX Toolset?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 *******COPY PASTE FROM WiX WEB*********
 
@@ -246,6 +281,9 @@ The WiX SDK includes managed and native libraries that make it easier to write c
 
 ## Can it be improved?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
+
 - explanation of any other improvement on the system (very visual and simple)
 
 
@@ -260,11 +298,16 @@ The WiX SDK includes managed and native libraries that make it easier to write c
 
 ## How can YOU do it?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 - TODOs and solution inside the repository as vs projects (very visual and simple)
 
 
 ### What should you know before starting?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
  + Project files and components
  
@@ -279,11 +322,14 @@ The WiX SDK includes managed and native libraries that make it easier to write c
 
 ### What are the TODOs (exercises) teach  you to do?
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
+
 - icons
 - taskbar app (sizes and formats)
 - sign the executable with company
 - windows certification
-- test the game w/ vm (dependencies: libraries and dll needed)
+- test the game w/ VM (dependencies: libraries and dll needed)
 
 lists of todos and expected outcome and what they are needed for
 
@@ -291,6 +337,9 @@ lists of todos and expected outcome and what they are needed for
 ### What do you have *TODO*?
 
 *__Pro tip!__* If you are using Visual Studio, you can press Ctr+Shift+F and look for "TODO" in all your code. This way you will find the exercises in the code easier
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 #### TODO1: Customize product features and mapping .exe project files
 
@@ -310,6 +359,9 @@ lists of todos and expected outcome and what they are needed for
 
 
 ### How is it done?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 solution: explanation on each todo and what they do and why they are build that way
 
@@ -395,14 +447,13 @@ Here are the links and references where I got all the information I used to crea
 - [Total Software Deployment](https://www.total-software-deployment.com/)
 - [Soft Inventive: Creating a software installation package for deployment](https://docs.softinventive.com/tsd/techpaper/creating-a-software-installation-package-for-deployment)
 
-*All images were taken from Google Images. Credit goes to their respective authors*
+*All images were taken from Google Images. Credit goes to their respective authors.*
 
 
 ***
 
 
 ## Further information
-
 
 About Automated Builds: 
 
