@@ -7,7 +7,7 @@
 
 **What is an [*Installer*](https://en.wikipedia.org/wiki/Installation_(computer_programs)#Installer)?** An *Installer*, *Installation Package* or *Application Packaging* is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The istallation process for software depends on your OS (operation system) and the program you are installing.
 
-*__Take into account that we will be working with Windows OS, Visual Studio 2017 and the WiX Toolset to create an MSI file.__*
+*__Take into account that we will be working with Windows OS, Visual Studio 2017 and the WiX Toolset to create an MSI file. NSIS and Inno Setup are used too, but they are more secondary and to encourage the user to learn from themselves with proposed exercises.__*
 
 ###### For the full research, please take a look at the [web page](https://needlesslord.github.io/Research-Project-Installer/).
 
