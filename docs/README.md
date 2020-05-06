@@ -250,7 +250,7 @@ This research in particular will be used in an RTS game developed for the same s
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
-### What is [*WIX Toolset*](https://en.wikipedia.org/wiki/WiX)?
+### What is [*WiX Toolset*](https://en.wikipedia.org/wiki/)?
 
 *WiX* is short for *Windows Installer XML Toolset*. It is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates.
 
@@ -258,7 +258,7 @@ This research in particular will be used in an RTS game developed for the same s
 *In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.*
 
 
-#### What are the features of WIX Toolset?
+#### What are the features of WiX Toolset?
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
@@ -274,6 +274,12 @@ WiX includes several extensions that offer functionality beyond that of Windows 
 With Burn, the WiX bootstrapper, you can create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. Burn lets you download packages or combine them into a single downloadable .exe.
 
 The WiX SDK includes managed and native libraries that make it easier to write code that works with Windows Installer, including custom actions in both C# and C++.
+
+
+#### How do you install WiX Toolset?
+
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 
 ***
