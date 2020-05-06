@@ -81,7 +81,9 @@ First of all, we need to understad what [*Automated Builds*](https://en.wikipedi
 
 Automated build can be divided in two main parts: *deployment* and [*continuous iteration*](https://en.wikipedia.org/wiki/Continuous_integration). However, we are just going to talk about deployment in this research.
 
-Diving into *deployment*, it is a very simple concept: 
+Diving into *deployment*, it is a very simple concept: it is all of the activities that make a software system available for use. The general deployment process consists of several interrelated activities with possible transitions between them. Somethign to take into account is that, since it involves both the producer and the consumer, it has to be customized according to specific requirements or characteristics. 
+
+In short, software deployment includes all the process required for preparing a software application to run and operate in a specific environment. It can bring many advantages, such as it being time saving, enhancing security, enabling to monitoring of user actions, effectiveness in software updates, and more. For more about its advantages, check out the following [link](https://pdf.wondershare.com/business/what-is-software-deployment.html)
 
 
 #### What should you know about Deployment?
@@ -389,6 +391,7 @@ Here are the links and references where I got all the information I used to crea
 - [Inno Setup: GitHub](https://github.com/jrsoftware/issrc)
 - [Inno Setup: Documentation](https://jrsoftware.org/ishelp/)
 - [Inno Setup: License](https://jrsoftware.org/files/is/license.txt)
+- [Pdf Element: What is Software Deployment and the Advantages](https://pdf.wondershare.com/business/what-is-software-deployment.html)
 
 
 *All images were taken from Google Images. Credit goes to their respective authors*
@@ -425,3 +428,8 @@ About other tools to create a Windows Installer Package:
     
 About WiX Toolset and how it could be improved:
     - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
+    
+About Deployment and Automated Builds:
+    - [Automated Builds](https://github.com/xsiro/RESEARCH)
+    - [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
+
