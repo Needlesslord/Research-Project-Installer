@@ -307,6 +307,14 @@ solution: explanation on each todo and what they do and why they are build that 
 
 ## How can you continue improving?
 
+To continue learning about installers, I propose that you do those exercises on these other installers, which are [NSIS](https://nsis.sourceforge.io/Main_Page) and [Inno Setup](https://jrsoftware.org/isinfo.php).
+
+- **Inno Setup** is a free installer for Windows programs. [Here](https://jrsoftware.org/isinfo.php#features) you can see its features, from where I will highlight the support they offer, the creation of a single EXE and customizable setup types, as well as uninstall capabilities, shortcuts, multilingual, supports encrypted and passwarded installs as well as digital signs, and its full source code is available from [GitHub](https://github.com/jrsoftware/issrc). [Here](https://jrsoftware.org/ishelp/) you will find its documentation. [Here](https://jrsoftware.org/files/is/license.txt) you can read the license.
+
+- **NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, and more. [Here](https://nsis.sourceforge.io/Features) you can see the list with its features, from where I will highlight, in addition with what has already been said, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. [Here](https://nsis.sourceforge.io/License) you can read the license.
+
+In addition, if you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
+
 - [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
 
 - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
@@ -339,6 +347,15 @@ Here are the links and references where I got all the information I used to crea
 - [Wikipedia: WiX](https://en.wikipedia.org/wiki/WiX)
 - [WiX Toolset](https://wixtoolset.org/)
 - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
+- [NSIS](https://nsis.sourceforge.io/Main_Page)
+- [NSIS: Features](https://nsis.sourceforge.io/Features)
+- [NSIS: License](https://nsis.sourceforge.io/License)
+- [Inno Setup](https://jrsoftware.org/isinfo.php)
+- [Inno Setup: Features](https://jrsoftware.org/isinfo.php#features)
+- [Inno Setup: GitHub](https://github.com/jrsoftware/issrc)
+- [Inno Setup: Documentation](https://jrsoftware.org/ishelp/)
+- [Inno Setup: License](https://jrsoftware.org/files/is/license.txt)
+
 
 *All images were taken from Google Images. Credit goes to their respective authors*
 
@@ -360,6 +377,16 @@ About other tools to create a Windows Installer Package:
     - [Official web](https://www.advancedinstaller.com/)
     - [Features of the Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html)  
     - [Youtube *(includes tutorials)*](https://www.youtube.com/user/AdvancedInstaller)
+ + About NSIS:
+     - [NSIS](https://nsis.sourceforge.io/Main_Page)
+     - [NSIS: Features](https://nsis.sourceforge.io/Features)
+     - [NSIS: License](https://nsis.sourceforge.io/License)
+ + About Inno Setup:
+    - [Inno Setup](https://jrsoftware.org/isinfo.php)
+    - [Inno Setup: Features](https://jrsoftware.org/isinfo.php#features)
+    - [Inno Setup: GitHub](https://github.com/jrsoftware/issrc)
+    - [Inno Setup: Documentation](https://jrsoftware.org/ishelp/)
+    - [Inno Setup: License](https://jrsoftware.org/files/is/license.txt)
     
 About WiX Toolset and how it could be improved:
     - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
