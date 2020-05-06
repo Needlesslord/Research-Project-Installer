@@ -83,7 +83,7 @@ Automated build can be divided in two main parts: *deployment* and [*continuous 
 
 Diving into *deployment*, it is a very simple concept: it is all of the activities that make a software system available for use. The general deployment process consists of several interrelated activities with possible transitions between them. Somethign to take into account is that, since it involves both the producer and the consumer, it has to be customized according to specific requirements or characteristics. 
 
-In short, software deployment includes all the process required for preparing a software application to run and operate in a specific environment. It can bring many advantages, such as it being time saving, enhancing security, enabling to monitoring of user actions, effectiveness in software updates, and more. For more about its advantages, check out the following [link](https://pdf.wondershare.com/business/what-is-software-deployment.html)
+In short, software deployment includes all the process required for preparing a software application to run and operate in a specific environment. It can bring many advantages, such as it being time saving, enhancing security, enabling to monitoring of user actions, effectiveness in software updates, and more. For more about its advantages, check out the following [link](https://pdf.wondershare.com/business/what-is-software-deployment.html).
 
 
 #### What should you know about Deployment?
@@ -101,7 +101,7 @@ As said before, deployment is a simple concept, but it has some things we must t
 
 - **Setup requirements are always changing and growing.** In addition to technical problems that we may have, we have the list of things a setup may need to do, which with upgrades, changes and advancements in technology, has to also be updated and is continuously growing. New versions of Windows (in this particular case, which could be generalized) seem to bring new obstacles to make deployment harer.
 
-Then, even if it can create problems for our source code and the list of requirements is always growing, is it worth? The answer, of course, is yes.
+Then, even if it can create problems for our source code and the list of requirements is always growing, is it worth? The answer, of course, is yes. It is actually key for Installation Packages, since it can allow for example, unattended setup, meaning that, taking into account that some installs are toughter than others, it can help you distribute such packags to your computer by recording the changes in your system after it is installed and then these changes are deployed to other computers on your network automatically, so you don't have to do it. To summarize, it only make the life of developers easier, since it simplifies your work, automates the code and the releases and it can prevent errors in the code.
 
 
 *__For more information about Deployment, please take a look at the research my collegue [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH) or [Pol Galan](https://github.com/pgalmor) did as well on the same topic [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
@@ -392,7 +392,8 @@ Here are the links and references where I got all the information I used to crea
 - [Inno Setup: Documentation](https://jrsoftware.org/ishelp/)
 - [Inno Setup: License](https://jrsoftware.org/files/is/license.txt)
 - [Pdf Element: What is Software Deployment and the Advantages](https://pdf.wondershare.com/business/what-is-software-deployment.html)
-
+- [Total Software Deployment](https://www.total-software-deployment.com/)
+- [Soft Inventive: Creating a software installation package for deployment](https://docs.softinventive.com/tsd/techpaper/creating-a-software-installation-package-for-deployment)
 
 *All images were taken from Google Images. Credit goes to their respective authors*
 
@@ -431,5 +432,7 @@ About WiX Toolset and how it could be improved:
     
 About Deployment and Automated Builds:
     - [Automated Builds](https://github.com/xsiro/RESEARCH)
-    - [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
+    - [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD)
+    - [Pdf Element: Best 5 Software Deployment Tools for Enterprise](https://pdf.wondershare.com/business/software-deployment-tools.html)
+
 
