@@ -174,8 +174,11 @@ This research in particular will be used in an RTS game developed for the same s
 
 ### What is [*MSI* (Microsoft Windows Installer)](https://en.wikipedia.org/wiki/Windows_Installer)?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+MSI, also known as Microsoft Software Installer or nowaadays as Windows Installer, is an installer package file format used by Windows. MSI files are used for installation, storage and removal of programs. It was developed by Microsoft and it is used for the O of Microsoft Windows, under the [Freeware License](https://en.wikipedia.org/wiki/Freeware).
 
+MSI files are database files, used by Windows Installer. They contain information about an application which is devided into features and components, and every component may hold files, registry data, shortcuts, etc. It also contains the UI that is to be used for installing, and various other data such as any prerequisites to look for, custom actions to execute, the order of the installation procedure, whether to support Administrative installations, etc. It can also contain the actual files to be installed themselves, but this isn't always the case. MSI files are executed by an EXE file that is part of Windows, called MSIEXEC.EXE. This application reads the data in the MSI file and executes the installation.
+
+MSI files are the current recommended way of doing installations on Windows. The alternative is writing a program that performs the installation itself. 
 
 
 #### Why am I using MSI?
@@ -452,6 +455,9 @@ Here are the links and references where I got all the information I used to crea
 - [Pdf Element: What is Software Deployment and the Advantages](https://pdf.wondershare.com/business/what-is-software-deployment.html)
 - [Total Software Deployment](https://www.total-software-deployment.com/)
 - [Soft Inventive: Creating a software installation package for deployment](https://docs.softinventive.com/tsd/techpaper/creating-a-software-installation-package-for-deployment)
+- [Wikipedia: Freeware License](https://en.wikipedia.org/wiki/Freeware)
+- [Whatis: MSI File format](https://whatis.techtarget.com/fileformat/MSI-Installer-package-Microsoft-Windows)
+- [Broadcom: Understanding the Difference Between .exe and .msi](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=0e501eb2-b17e-471a-abcb-a638045342ce&CommunityKey=41d8253b-a238-4563-8718-ed7623beafbc&tab=librarydocuments)
 
 *All images were taken from Google Images. Credit goes to their respective authors.*
 
