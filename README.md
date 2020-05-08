@@ -20,3 +20,5 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 + [Links to documentation in the web page](https://needlesslord.github.io/Research-Project-Installer/#links-to-documentation)
 + [Further information in the web page](https://needlesslord.github.io/Research-Project-Installer/#further-information)
+
+*__DISCLAIMER! This information is relevant as of may 2020__*
