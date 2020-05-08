@@ -88,9 +88,19 @@ In short, software deployment includes all the process required for preparing a 
 
 #### What should you know about Deployment?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
 The following part is particular to MSI Tools, which will be introduced below.
+
+The tasks and features included in a setup are very different and they can range from very basic, such as third party tool support, to highly customized tasks. MSI has "custom actions", where you can actually code yourself to deal with unique deployment requirements. In this section, however, I'm only going to be talking about the first one, since custom actions ca be used to improve and go beyond in your Installer.
+
+The set up basics are fundamental to your Installation Package. All third party tools provide good support for there setup fundamentals, but there are some differences. The installation of prerequisites may be the area where third party tools and free frameworks differe the most in terms of ease of use. However, there are some fundamentals that all setups must have built-in.
+
+- They must check if the system is suitable for installation (your computer meets the *system/software requirements*)
+
+- They must scan for presence and, if necessary, install prerequisites and runtimes
+
+- They must provide a competent GUI, which must be suitable for the input of required settings from the user
+
+- They must allow installation in silent mode (for corporate use, mostly)
 
 
 ### Why is Deployment important for the Installer?
