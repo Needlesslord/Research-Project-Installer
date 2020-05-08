@@ -241,8 +241,15 @@ MSI files are the current recommended way of doing installations on Windows. The
 
 ###### What is a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+Before explaining how to test an application in a Virtual Machine, it is important to undertand the concept and what it is. Basically, a Virtual Machine (VS) is an emulation of a computer system. They are based on computer architectures and provide the same functionality of a physical computer. 
 
+There are different kinds fo virtual machines, each one with different functions:
+
+- [**System virtual machines (VMs).**](https://en.wikipedia.org/wiki/System_virtual_machine) They provide a substitute for the real machine, since they provide the functionalities needed to execute an entire OS, allowing as well multiple environments which are isolated from one another but co-exist in the same physical machine
+
+- [**Process virtual machines.**](https://en.wikipedia.org/wiki/Virtual_machine#Process_virtual_machines) They are designed to execute computer programs in a platform-independent environment.
+
+The main purpose of VM is to test software in the safet way. Testing in VM allws to simulate a full operating system, isolated from the rest of our machine, and it's the perfect way to test our setup installer to check whether it works or not in different OS and their previous versions.
 
 ###### What is [*VirtualBox*](https://es.wikipedia.org/wiki/VirtualBox)?
 
@@ -468,6 +475,7 @@ Here are the links and references where I got all the information I used to crea
 - [Wikipedia: Freeware License](https://en.wikipedia.org/wiki/Freeware)
 - [Whatis: MSI File format](https://whatis.techtarget.com/fileformat/MSI-Installer-package-Microsoft-Windows)
 - [Broadcom: Understanding the Difference Between .exe and .msi](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=0e501eb2-b17e-471a-abcb-a638045342ce&CommunityKey=41d8253b-a238-4563-8718-ed7623beafbc&tab=librarydocuments)
+- [Wikipedia: System virtual machines (VMs)](https://en.wikipedia.org/wiki/System_virtual_machine) They provide a substitute for the real 
 
 *All images were taken from Google Images. Credit goes to their respective authors.*
 
