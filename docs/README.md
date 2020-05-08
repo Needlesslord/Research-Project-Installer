@@ -4,6 +4,7 @@ This web page and the [GitHub repository](https://github.com/Needlesslord/Resear
 
 *__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
 
+*__DISCLAIMER! This information is relevant as of may 2020__*
 
 ***
 
