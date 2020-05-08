@@ -236,8 +236,6 @@ MSI files are the current recommended way of doing installations on Windows. The
 
 ##### How can you test an Application in a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
 
 ###### What is a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
@@ -249,20 +247,40 @@ There are different kinds fo virtual machines, each one with different functions
 
 - [**Process virtual machines.**](https://en.wikipedia.org/wiki/Virtual_machine#Process_virtual_machines) They are designed to execute computer programs in a platform-independent environment.
 
-The main purpose of VM is to test software in the safet way. Testing in VM allws to simulate a full operating system, isolated from the rest of our machine, and it's the perfect way to test our setup installer to check whether it works or not in different OS and their previous versions.
+**The main purpose of VM is to test software in the safest way.** Testing in VM allws to simulate a full operating system, isolated from the rest of our machine, and it's the perfect way to test our setup installer to check whether it works or not in different OS and their previous versions.
 
 ###### What is [*VirtualBox*](https://es.wikipedia.org/wiki/VirtualBox)?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+There are several tools that you can use to create VM. In my researh, however, I'm going to use VirtualBox, but bear in mind that there are many other and some may be more suitable for you project, depending on the scope, knowledge, etc.
 
-
+Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, Linux, Solaris and OpenSolaris. Basically it supports the creation and management of guest virtual machines. It is aimed both for enterprises and home use. Bear in mind that VirtualBox is being actively developed with frequent releases and a growing list of features.
 
 *In the following [link](https://www.virtualbox.org/) you can go to the official web page of VirtualBox.*
+*In the following [link](https://www.virtualbox.org/wiki/VirtualBox_PUEL) you can see the license (GNU General Public License (GPL)).*
+*In the following [link](https://www.virtualbox.org/wiki/Documentation) you can see the documentation.*
 
 
 ###### How do you work with VirtualBox?
 
+####### How do you install VirtualBox?
+
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+ 
+ Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS.
+ 
+
+####### How do you create your own VM in VirtualBox and start using it?
+
+- - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+ 
+
+Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your sofware will be alone to test it.
+
+- First, open Vitual Box and click "New" to create a new virtual machine
+
+
+
+For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Begginers Guide)*.
 
 
 #### Is there something else you should know about MSI Packaging and Deployment tasks?
@@ -476,6 +494,7 @@ Here are the links and references where I got all the information I used to crea
 - [Whatis: MSI File format](https://whatis.techtarget.com/fileformat/MSI-Installer-package-Microsoft-Windows)
 - [Broadcom: Understanding the Difference Between .exe and .msi](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=0e501eb2-b17e-471a-abcb-a638045342ce&CommunityKey=41d8253b-a238-4563-8718-ed7623beafbc&tab=librarydocuments)
 - [Wikipedia: System virtual machines (VMs)](https://en.wikipedia.org/wiki/System_virtual_machine) They provide a substitute for the real 
+- [YouTube: *How to Use VirtualBox (Begginers Guide)*, by TechGumbo](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo)
 
 *All images were taken from Google Images. Credit goes to their respective authors.*
 
