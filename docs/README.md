@@ -325,11 +325,6 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 
 ## How can YOU do it?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
-- TODOs and solution inside the repository as vs projects (very visual and simple)
-
 
 ### What should you know before starting?
 
@@ -361,9 +356,35 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 lists of todos and expected outcome and what they are needed for
 
 
+-------
+
+
+
+To start with your Installer, as obvious as it may be, you have to install the software first. Above this section you can find how to install NSIS, the program I will be teaching you how to use in order to create an Installer for your game, software adn others.
+
+ - In the first step, to get familiar with NSIS, I will be teaching how to create an executable (.exe) from a .zip. Since this research is aimed mostly to the games developed in the subject Project II taught at CITM and they are delivered in .zip and also are released in Github in the same format, I thought it was a previous step that would be nice to get to know the software and how it works.
+
+ - Now that you already know how to create a very basic Installer, without Icon or any personalization, I will introduce you to .nsi scripts to do so. First of all, they can be created and work from any text editor, so you don't need to install any other softwares. However, bear in mind there are some programs which can help you with scripts. Note though that these scripts have a language you will have to learn. [Here you have a summary]().
+
+
+
+
+
 ### What do you have *TODO*?
 
 *__Pro tip!__* If you are using Visual Studio, you can press Ctr+Shift+F and look for "TODO" in all your code. This way you will find the exercises in the code easier
+
+*__Disclaimer! You can find the solutions below.__*
+
+
+#### TODO0-1: Create an installer from a .zip file
+
+After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you belive will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "BZip2" and generate your file. You have it!
+
+#### TODO0-2: Learn the NSI language
+
+[Here]() you can find a link to a script with basic syntax errors in this language. Find them all so that it works.
+
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
@@ -387,7 +408,21 @@ lists of todos and expected outcome and what they are needed for
 
 ### How is it done?
 
+
+
+#### TODO0-1
+
+
+
+If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you have a Youtube video Tutorial by Ivan Angelkoski that may help.
+
+#### TODO0-2
+
+[Here]() you can find the script without errors and small explanations. Remember that ";" is used to comment, so the explanations will be after them.
+
+
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+
 
 
 solution: explanation on each todo and what they do and why they are build that way
