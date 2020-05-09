@@ -1,6 +1,6 @@
 # Personal Research: Installer
 
-This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and the Wix Toolset extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
+This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and NSIS Installer extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
 *__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
 
@@ -289,33 +289,19 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
-### What is [*WiX Toolset*](https://en.wikipedia.org/wiki/)?
-
-*WiX* is short for *Windows Installer XML Toolset*. It is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates.
+### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
 
 
-*In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.*
+**NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, and more. [Here](https://nsis.sourceforge.io/Features) you can see the list with its features, from where I will highlight, in addition with what has already been said, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. [Here](https://nsis.sourceforge.io/License) you can read the license.
 
-
-#### What are the features of WiX Toolset?
+#### What are the features of NSIS?
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
-*******COPY PASTE FROM WiX WEB*********
-
-The WiX toolset lets developers create installers for Windows Installer, the Windows installation engine.
-
-The core of WiX is a set of build tools that build Windows Installer packages using the same build concepts as the rest of your product: source code is compiled and then linked to create executables; in this case .exe setup bundles, .msi installation packages, .msm merge modules, and .msp patches. The WiX command-line build tools work with any automated build system. Also, MSBuild is supported from the command line, Visual Studio, and Team Build.
-
-WiX includes several extensions that offer functionality beyond that of Windows Installer. For example, WiX can install IIS web sites, create SQL Server databases, and register exceptions in the Windows Firewall, among others.
-
-With Burn, the WiX bootstrapper, you can create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. Burn lets you download packages or combine them into a single downloadable .exe.
-
-The WiX SDK includes managed and native libraries that make it easier to write code that works with Windows Installer, including custom actions in both C# and C++.
 
 
-#### How do you install WiX Toolset?
+#### How do you install NSIS?
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
@@ -331,10 +317,6 @@ The WiX SDK includes managed and native libraries that make it easier to write c
 
 - explanation of any other improvement on the system (very visual and simple)
 
-
-*custom actions*
-
-*In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals.*
 
 
 
@@ -440,17 +422,19 @@ solution: explanation on each todo and what they do and why they are build that 
 
 ## How can you continue improving?
 
-To continue learning about installers, I propose that you do those exercises on these other installers, which are [NSIS](https://nsis.sourceforge.io/Main_Page) and [Inno Setup](https://jrsoftware.org/isinfo.php).
+To continue learning about installers, I propose that you do those exercises on these other installers, which are [WiX Toolset](https://en.wikipedia.org/wiki/) and [Inno Setup](https://jrsoftware.org/isinfo.php).
 
 - **Inno Setup** is a free installer for Windows programs. [Here](https://jrsoftware.org/isinfo.php#features) you can see its features, from where I will highlight the support they offer, the creation of a single EXE and customizable setup types, as well as uninstall capabilities, shortcuts, multilingual, supports encrypted and passwarded installs as well as digital signs, and its full source code is available from [GitHub](https://github.com/jrsoftware/issrc). [Here](https://jrsoftware.org/ishelp/) you will find its documentation. [Here](https://jrsoftware.org/files/is/license.txt) you can read the license.
 
-- **NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, and more. [Here](https://nsis.sourceforge.io/Features) you can see the list with its features, from where I will highlight, in addition with what has already been said, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. [Here](https://nsis.sourceforge.io/License) you can read the license.
 
-In addition, if you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
+ - **WiX Toolset**, is short for *Windows Installer XML Toolset*, is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates. *In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.* The following [link](https://wixtoolset.org/) leads to the official web page of WiX Toolset. MSBuild is supported from the command line, Visual Studio, and Team Build and includes several extensions that offer functionality beyond that of Windows Installer. You can also create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. In addition, you have custom actions, where you can code if you want to go further in your Installer. In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals. If you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
 
-- [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
-
-- [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
+   + [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
+   + [Here]() you will find another research on installers using the WiX Toolset.
+   
+   
+   
+ - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
 
 ***
