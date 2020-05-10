@@ -250,7 +250,14 @@ First of all, it is important to understand what [*digital signature*](https://e
  
 Signing an application package provides the user with verification that the application data has not been modified after being signed, while confirming the identity of the user or the company that signed it. Therefore, signing an Installer is an importnat thing since you help ensure that tampered files are not installed on end-user computers.
 
-There are many methods and ways to approach this topic, but since we are using .msi files for the deploument of applications, I chose [SignTool.exe](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe), which is a command line tool that is used to sign an Application Package or a batch of applications with a certificate. This 
+There are many methods and ways to approach this topic, but since we are using .msi files for the deploument of applications, I chose [SignTool.exe](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe), which is a command line tool that is used to sign an Application Package or a batch of applications with a certificate. This tool is installed in the Bin folder of the Microsoft Windows [Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit) installation path. Therfore, we need Microsoft Windows SDK to be able to work with SingTool.exe, which you can download [here](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/). [Here](https://stackoverrun.com/es/q/8776869) you will find how ton install SignTool.exe for Windows 10. [Here](https://stackoverflow.com/questions/43636484/how-to-install-signtool-exe-for-vs-2017) you will find a link to learn how to install SignTool.exe for Visual Studio 2017.
+
+The steps are easy:
+
+- First, make sure you have the certificate you want to sign the file with in your computer.
+- Then, open a Visual Studio command prompt
+- Afterwards, change to the directory that contains the .msi file.
+- You can now sign the .msi file using the following command: *__signtool sign /sha1 CertificateHash SetupNameFile.msi__*
 
 
 ##### How can you test an Application in a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
@@ -606,6 +613,7 @@ Here are the links and references where I got all the information I used to crea
 - [YouTube: *How to Use VirtualBox (Begginers Guide)*, by TechGumbo](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo)
 - [Wikipedia: Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
 - [Microsoft Build: SignTool.exe (Sign Tool)](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe)
+- [Wikipedia: Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit)
 
 *All images were taken from Google Images. Credit goes to their respective authors.*
 
