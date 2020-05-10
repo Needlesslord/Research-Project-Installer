@@ -1,0 +1,9 @@
+In the following links you can go to the web page where the software was downloaded from as May 2020.
+
+NSIS: version NSIS 3.05, released Decembre 15th 2019
+https://nsis.sourceforge.io/Download
+
+NSIS Quick Setup Script Generator 
+https://nsis.sourceforge.io/NSIS_Quick_Setup_Script_Generator
+   -> There is a link provided to download the package. It can be found in "Links"->"Download", 
+      in the line that says "NSIS Quick Setup Script Generator  Nsisqssg.zip (74 KB) the current release.".

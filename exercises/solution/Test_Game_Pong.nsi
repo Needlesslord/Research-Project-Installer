@@ -11,10 +11,10 @@
 !define COMP_NAME "Needlesslord-UPC"
 !define WEB_SITE "https://needlesslord.github.io/Research-Project-Installer/"
 !define VERSION "01.00.00.00"
-!define COPYRIGHT "Needlesslord-UPC © 2020"
+!define COPYRIGHT "Needlesslord-UPC  © 2020"
 !define DESCRIPTION "Application"
-!define LICENSE_TXT "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\LICENSE.txt"
-!define INSTALLER_NAME "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Test_Game_Pong_setup.exe"
+!define LICENSE_TXT "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\LICENSE.txt"
+!define INSTALLER_NAME "C:\Users\needl\Downloads\Apunts uni\Installer\Nsisqssg\Output\Test_Game_Pong\Test_Game_Pong_setup.exe"
 !define MAIN_APP_EXE "Test_Game_Pong.exe"
 !define INSTALL_TYPE "SetShellVarContext all"
 !define REG_ROOT "HKLM"
@@ -48,6 +48,8 @@ InstallDir "$PROGRAMFILES\Test_Game_Pong"
 ######################################################################
 
 !include "MUI.nsh"
+!include "MUI2.nsh"
+
 
 ; TODO2: ICON MENU (SEE INSTRUCTIONS IN THE GITHUB PAGE LINKED ABOVE) ---------------------------
 
@@ -62,6 +64,8 @@ InstallDir "$PROGRAMFILES\Test_Game_Pong"
 !define MUI_ICON "Test_Game_Pong_Icon.ico"
 
 ; ------------------------------------------------------------------------------------------------
+
+
 
 !define MUI_ABORTWARNING
 !define MUI_UNABORTWARNING
@@ -93,40 +97,38 @@ InstallDir "$PROGRAMFILES\Test_Game_Pong"
 
 !insertmacro MUI_LANGUAGE "English"
 
-
-
 ######################################################################
 
 Section -MainProgram
 ${INSTALL_TYPE}
 SetOverwrite ifnewer
 SetOutPath "$INSTDIR"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\config.xml"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libFLAC-8.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libjpeg-9.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libmikmod-2.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libmodplug-1.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libogg-0.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libpng16-16.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libtiff-5.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libvorbis-0.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libvorbisfile-3.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\libwebp-4.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\SDL2.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\SDL2_image.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\SDL2_mixer.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\SDL2_ttf.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\smpeg2.dll"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\Test_Game_Pong.exe"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\zlib1.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\config.xml"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libFLAC-8.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libjpeg-9.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libmikmod-2.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libmodplug-1.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libogg-0.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libpng16-16.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libtiff-5.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libvorbis-0.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libvorbisfile-3.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\libwebp-4.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\SDL2.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\SDL2_image.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\SDL2_mixer.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\SDL2_ttf.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\smpeg2.dll"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\Test_Game_Pong.exe"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\zlib1.dll"
 SetOutPath "$INSTDIR\textures"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\textures\Ball.png"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\textures\Numbers.png"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\textures\Player.png"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\textures\Ball.png"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\textures\Numbers.png"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\textures\Player.png"
 SetOutPath "$INSTDIR\audio\music"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\audio\music\music.ogg"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\audio\music\music.ogg"
 SetOutPath "$INSTDIR\audio\fx"
-File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\handout\Test Game Release\Game\audio\fx\hello_man.wav"
+File "C:\Users\needl\Documents\GitHub\Research-Project-Installer\exercises\solution\Game\audio\fx\hello_man.wav"
 SectionEnd
 
 ######################################################################
