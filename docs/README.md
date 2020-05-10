@@ -1,6 +1,6 @@
 # Personal Research: Installer
 
-This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and the Wix Toolset extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
+This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and NSIS Installer extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
 *__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
 
@@ -194,6 +194,10 @@ MSI files are the current recommended way of doing installations on Windows. The
 
 #### Why am I using MSI?
 
+In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisits.
+
+Windows Installer has many built-in functions that will save you time and effort. 
+ 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
@@ -263,14 +267,14 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 ###### How do you work with VirtualBox?
 
-####### How do you install VirtualBox?
+###### *How do you install VirtualBox?*
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
  
  Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS.
  
 
-####### How do you create your own VM in VirtualBox and start using it?
+###### *How do you create your own VM in VirtualBox and start using it?*
 
 - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
  
@@ -289,64 +293,94 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
-### What is [*WiX Toolset*](https://en.wikipedia.org/wiki/)?
-
-*WiX* is short for *Windows Installer XML Toolset*. It is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates.
+### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
 
 
-*In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.*
+**NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, and more. [Here](https://nsis.sourceforge.io/Features) you can see the list with its features, from where I will highlight, in addition with what has already been said, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. [Here](https://nsis.sourceforge.io/License) you can read the license.
 
-
-#### What are the features of WiX Toolset?
+#### What are the features of NSIS?
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
-*******COPY PASTE FROM WiX WEB*********
-
-The WiX toolset lets developers create installers for Windows Installer, the Windows installation engine.
-
-The core of WiX is a set of build tools that build Windows Installer packages using the same build concepts as the rest of your product: source code is compiled and then linked to create executables; in this case .exe setup bundles, .msi installation packages, .msm merge modules, and .msp patches. The WiX command-line build tools work with any automated build system. Also, MSBuild is supported from the command line, Visual Studio, and Team Build.
-
-WiX includes several extensions that offer functionality beyond that of Windows Installer. For example, WiX can install IIS web sites, create SQL Server databases, and register exceptions in the Windows Firewall, among others.
-
-With Burn, the WiX bootstrapper, you can create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. Burn lets you download packages or combine them into a single downloadable .exe.
-
-The WiX SDK includes managed and native libraries that make it easier to write code that works with Windows Installer, including custom actions in both C# and C++.
 
 
-#### How do you install WiX Toolset?
+#### How do you install NSIS?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+The following images will show you all the steps to install NSIS. In addition, I will show you how to install a package to help you with the creation of scripts for NSIS.
 
+##### Installing NSIS (and Uninstalling)
 
+First of all, you have to go to the download page, you have the link [here](https://nsis.sourceforge.io/Download). In this case, we are downloading the version NSIS 3.05, released Decembre 15th 2019. [Here](https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/RELEASE.html/view) you have the release notes. You just have to **click "Download"** in bold letters under the release date and version.
+
+![1](https://user-images.githubusercontent.com/51851736/81496479-33dd4b80-92b8-11ea-92cc-c9a8f2604bcc.PNG)
+
+Once downloaded it, you just have to click the downloaded file, called "nsis-3.05-setup.exe". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it else where. Double click on it and the NSIS installer will start running. You will see this. **Press "Next".**
+
+![2](https://user-images.githubusercontent.com/51851736/81496614-165cb180-92b9-11ea-821d-6bc2bde1c956.PNG)
+
+Next you will be shown the License Agreement. **Press "I agree".** It is advisable to read it throroughly.
+
+![3](https://user-images.githubusercontent.com/51851736/81496612-15c41b00-92b9-11ea-9ed9-2085c326b147.PNG)
+
+Now you will need to choose what components to install. Since one of NSIS' main features is how light it is, you can install them all without worrying about taking up too much space. Therefore, it is advisable to leave the predefined option "Full" in the "Select the type of install". It will only require 7MB. **Press "Next".**
+
+![4](https://user-images.githubusercontent.com/51851736/81496947-9c79f780-92bb-11ea-8699-60ac375200f0.PNG)
+
+Then, you will have to choose the Install location. It is also advisable to leave the destination folder as it is, but you can change it if you wnat to. **Press "Install".**
+
+![5](https://user-images.githubusercontent.com/51851736/81496948-9d128e00-92bb-11ea-9231-4a5eaa3f5e54.PNG)
+
+It will show the following, with a bar loading to show how the install is going. It will take no time due to its size. **Press "Next"** once the install has finished.
+
+![6](https://user-images.githubusercontent.com/51851736/81496949-9d128e00-92bb-11ea-8402-635ea2640190.PNG)
+
+Your software is ready to use! Now you can choose whether you want directly to run NSIS and/or show the release notes. It is advisable to only "Run NSIS" and to untick the other box, this way you can test if NSIS is working well. **Press "Finish".**
+
+![7](https://user-images.githubusercontent.com/51851736/81496950-9dab2480-92bb-11ea-82b5-8b7d3e628849.PNG)
+
+Once you run it this will be shown to you. 
+
+![8a](https://user-images.githubusercontent.com/51851736/81496951-9dab2480-92bb-11ea-80ac-1c7bffb5d55a.PNG)
+
+In addition, this is what it will show you if you had chosen to see the release notes. However, you can find them in the web page too.
+
+![8b](https://user-images.githubusercontent.com/51851736/81496952-9e43bb00-92bb-11ea-8726-7d29a263a7ba.PNG)
+
+To uninstall NSIS, you must double click again the executable called "nsis-3.05-setup.exe". The first you will be shown will be the same as when installing, however, at some point you will be asked "Unistall NSIS" or "Add/Reinstall components". Choose "Uninstall NSIS". After that you need to choose the locaion where all the files related NSIS are and then click "Uninstall". A pregress bar will be shown and after choosing to "Close", NSIS will no longer be in your computer. The following images will show you the process.
+
+![A](https://user-images.githubusercontent.com/51851736/81496953-9e43bb00-92bb-11ea-953d-0f06f293deb5.PNG)
+![B](https://user-images.githubusercontent.com/51851736/81496954-9edc5180-92bb-11ea-9a6e-25d35ff17f19.PNG)
+![C](https://user-images.githubusercontent.com/51851736/81496955-9edc5180-92bb-11ea-91d6-83d908a620ad.PNG)
+![D](https://user-images.githubusercontent.com/51851736/81496956-9f74e800-92bb-11ea-8dc3-c6cba2962d31.PNG)
+![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
+
+##### Installing/Using NSIS Quick Setup Script Generator 
+
+In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator.
+
+First of all, you have to download the .zip from the following [web page](https://nsis.sourceforge.io/NSIS_Quick_Setup_Script_Generator). There is a link provided to download the package. It can be found in "Links"->"Download", in the line that says "NSIS Quick Setup Script Generator  Nsisqssg.zip (74 KB) the current release.".
+
+![1](https://user-images.githubusercontent.com/51851736/81497300-dba94800-92bd-11ea-8680-17bb71750aac.PNG)
+
+Once downloaded it, you just have to click the downloaded file, called "Nsisqssg.zip". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it else where. We want to unzip the file, so you will have to right-click the file and select "Extract in Nsisqssg\". This will creeate a folder where all the scrips will be saved, both in .nsi format, .ini and .txt. If you go inside this folder, you will find an executable called "NSIS Quick Setup Script Generator.exe". Double click it to start running. **Press "Next".**
+
+![2](https://user-images.githubusercontent.com/51851736/81497296-da781b00-92bd-11ea-866c-891264a28f67.PNG)
+
+After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
 
 ***
 
 
 ## Can it be improved?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
-- explanation of any other improvement on the system (very visual and simple)
-
-
-*custom actions*
-
-*In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals.*
-
+There is a lot of room to improve your installers using NSIS. Since you can create your own scripts and produce all the content you need for your own Installer. In addition, some basic scripts can be used, and always come with NSIS when installing.
 
 
 ***
 
 
 ## How can YOU do it?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
-- TODOs and solution inside the repository as vs projects (very visual and simple)
 
 
 ### What should you know before starting?
@@ -379,10 +413,39 @@ The WiX SDK includes managed and native libraries that make it easier to write c
 lists of todos and expected outcome and what they are needed for
 
 
+-------
+
+
+
+To start with your Installer, as obvious as it may be, you have to install the software first. Above this section you can find how to install NSIS, the program I will be teaching you how to use in order to create an Installer for your game, software adn others.
+
+ - In the first step, to get familiar with NSIS, I will be teaching how to create an executable (.exe) from a .zip. Since this research is aimed mostly to the games developed in the subject Project II taught at CITM and they are delivered in .zip and also are released in Github in the same format, I thought it was a previous step that would be nice to get to know the software and how it works.
+
+ - Now that you already know how to create a very basic Installer, without Icon or any personalization, I will introduce you to .nsi scripts to do so. First of all, they can be created and work from any text editor, so you don't need to install any other softwares. However, bear in mind there are some programs which can help you with scripts. Note though that these scripts have a language you will have to learn. [Here you have a summary]().
+
+
+
+
+
 ### What do you have *TODO*?
 
 *__Pro tip!__* If you are using Visual Studio, you can press Ctr+Shift+F and look for "TODO" in all your code. This way you will find the exercises in the code easier
 
+*__Disclaimer! You can find the solutions below.__*
+
+
+#### TODO0-1: Create an installer from a .zip file
+
+After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you belive will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "BZip2" and generate your file. You have it!
+
+#### TODO0-2: Learn the NSI language
+
+[Here]() you can find a link to a script with basic syntax errors in this language. Find them all so that it works.
+
+#### TODO1: Using NSIS Quick Setup Script Generator to create a basic script
+
+As said before, we will use this software provided by NSIS to create a basic script. Open the executable and play with it. The interface is very intuitive. After completing all of the fields, you will have your first script in NSIS. Of course, you may not understand some part or if you can leave a field blank, etc, so an explanation on how to use this software can be found in the solutions below.
+
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
@@ -401,30 +464,42 @@ lists of todos and expected outcome and what they are needed for
 #### TODO7: Add Windows License 
 
 #### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
+
+
+
+
+
+
 
 
 ### How is it done?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
-solution: explanation on each todo and what they do and why they are build that way
+#### TODO0-1
 
-#### TODO1: Customize product features and mapping .exe project files
 
-#### TODO2: Add Start Menu Shortcut
 
-#### TODO3: Add Desktop shortcut
+If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you have a Youtube video Tutorial by Ivan Angelkoski that may help.
 
-#### TODO4: Add control panel and .exe project icons
+#### TODO0-2
 
-#### TODO5: Add UI Dialog theme (installDir)
+[Here]() you can find the script without errors and small explanations. Remember that ";" is used to comment, so the explanations will be after them.
 
-#### TODO6: Customize UI Dialog theme using .bmp files
+#### TODO1
 
-#### TODO7: Add Windows License 
+Here there is an explanation on how to use Quick Setup Script Generator.
 
-#### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
+AS stated beforehand, to use this software you just need the executable. Once done, all your scripts will be saved into the same folder, but I'll get to that later. Open the executable and **Press "Next"**.
+
+!
+
+Here is where you will start creating your script with the help of your software. In this section you are asked for a "New project name". You can also "Load a previously saved project", but since we are creating a script from scratch we will not use that feature. Here you can write down the name of your game. The following two images are used as a how it is first shown and what I have written for the example used in this research. **Press "Next".**
+
+
+
+
+### Where can you find the exercise?
 
 
 [Here you can find the link to the exercise]()
@@ -440,17 +515,19 @@ solution: explanation on each todo and what they do and why they are build that 
 
 ## How can you continue improving?
 
-To continue learning about installers, I propose that you do those exercises on these other installers, which are [NSIS](https://nsis.sourceforge.io/Main_Page) and [Inno Setup](https://jrsoftware.org/isinfo.php).
+To continue learning about installers, I propose that you do those exercises on these other installers, which are [WiX Toolset](https://en.wikipedia.org/wiki/) and [Inno Setup](https://jrsoftware.org/isinfo.php).
 
 - **Inno Setup** is a free installer for Windows programs. [Here](https://jrsoftware.org/isinfo.php#features) you can see its features, from where I will highlight the support they offer, the creation of a single EXE and customizable setup types, as well as uninstall capabilities, shortcuts, multilingual, supports encrypted and passwarded installs as well as digital signs, and its full source code is available from [GitHub](https://github.com/jrsoftware/issrc). [Here](https://jrsoftware.org/ishelp/) you will find its documentation. [Here](https://jrsoftware.org/files/is/license.txt) you can read the license.
 
-- **NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, and more. [Here](https://nsis.sourceforge.io/Features) you can see the list with its features, from where I will highlight, in addition with what has already been said, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. [Here](https://nsis.sourceforge.io/License) you can read the license.
 
-In addition, if you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
+ - **WiX Toolset**, is short for *Windows Installer XML Toolset*, is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates. *In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.* The following [link](https://wixtoolset.org/) leads to the official web page of WiX Toolset. MSBuild is supported from the command line, Visual Studio, and Team Build and includes several extensions that offer functionality beyond that of Windows Installer. You can also create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. In addition, you have custom actions, where you can code if you want to go further in your Installer. In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals. If you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
 
-- [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
-
-- [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
+   + [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
+   + [Here]() you will find another research on installers using the WiX Toolset.
+   
+   
+   
+ - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
 
 ***
