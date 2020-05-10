@@ -246,8 +246,11 @@ Windows Installer can support many applications installed, from a network share 
 
 ##### How do you sign an Application Packaging?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+First of all, it is important to understand what [*digital signature*](https://en.wikipedia.org/wiki/Digital_signature) means.  Basically, a digital signature is a mathematical scheme based on algorithms to verify the authenticity of digital messages or documents. They are a standard element of the most cryptographic protocol suits and widely used for software distribution, as well as in other fields, such as financial transactions or contract management software, and it is key to detect forgery or tampering.
+ 
+Signing an application package provides the user with verification that the application data has not been modified after being signed, while confirming the identity of the user or the company that signed it. Therefore, signing an Installer is an importnat thing since you help ensure that tampered files are not installed on end-user computers.
 
+There are many methods and ways to approach this topic, but since we are using .msi files for the deploument of applications, I chose [SignTool.exe](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe), which is a command line tool that is used to sign an Application Package or a batch of applications with a certificate. This 
 
 
 ##### How can you test an Application in a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
@@ -307,6 +310,8 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 ### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
 
 **NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It [Here](https://nsis.sourceforge.io/License) you can read the license.
+
+*__DISCLAIMER! I decided to use NSIS due to the fetures it has to offer, but please note that there are a lot of other Installation softwares, such as WiX Toolset or Inno Setup which can be more suitable for you. Some of them are mentioned in sections below with tutorials so you can also learn about them__*
 
 
 #### What are the features of NSIS?
@@ -473,6 +478,8 @@ After opening NSI, you are shown different "links" that will take you to differe
 
 #### TODO0-2: Learn the NSI language
 
+[Here](https://atom.io/packages/language-nsis) you have a summary of .nsi language.
+
 [Here]() you can find a link to a script with basic syntax errors in this language. Find them all so that it works.
 
 #### TODO1: Using NSIS Quick Setup Script Generator to create a basic script
@@ -483,7 +490,7 @@ As said before, we will use this software provided by NSIS to create a basic scr
 
 **You will need a bitmap (.bmp).**
 
-In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the MUI to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define!" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the [MUI](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System#Modern_user_interface) to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define!" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
 
 #### TODO3: Icon executable
 
@@ -491,37 +498,15 @@ In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh 
 
 In this TODO  You will have to add a .nsh for the MUI to control the interface (UI Dialog). In this case, you have to add an "executable image" to personalize your setup software. In this case you will have to "!define" an icon. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
-#### TODO1: Customize product features and mapping .exe project files
-
-#### TODO2: Add Start Menu Shortcut
-
-#### TODO3: Add Desktop shortcut
-
-#### TODO4: Add control panel and .exe project icons
-
-#### TODO5: Add UI Dialog theme (installDir)
-
-#### TODO6: Customize UI Dialog theme using .bmp files
-
-#### TODO7: Add Windows License 
-
-#### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
-
-
-
-
-
-
-
 
 ### How is it done?
 
-
-
 #### TODO0-1
+
+
+
+
+
 
 
 
@@ -619,6 +604,8 @@ Here are the links and references where I got all the information I used to crea
 - [Broadcom: Understanding the Difference Between .exe and .msi](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=0e501eb2-b17e-471a-abcb-a638045342ce&CommunityKey=41d8253b-a238-4563-8718-ed7623beafbc&tab=librarydocuments)
 - [Wikipedia: System virtual machines (VMs)](https://en.wikipedia.org/wiki/System_virtual_machine) They provide a substitute for the real 
 - [YouTube: *How to Use VirtualBox (Begginers Guide)*, by TechGumbo](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo)
+- [Wikipedia: Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
+- [Microsoft Build: SignTool.exe (Sign Tool)](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe)
 
 *All images were taken from Google Images. Credit goes to their respective authors.*
 
