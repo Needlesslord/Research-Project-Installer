@@ -194,16 +194,17 @@ MSI files are the current recommended way of doing installations on Windows. The
 
 #### Why am I using MSI?
 
-In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisits.
+In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisits. 
 
-Windows Installer has many built-in functions that will save you time and effort. 
- 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+Nevertheless, these are in my particular case, to know what I was looking for. Windows Installer has many built-in functions that will save you time and effort, and here you have a list to show you why I went with it:
 
+- Automatic, install, uninstall, reinstall, reapir support and add/remove components. In addition, if yout software is already installed, instead of showing you the install interface it will show you the mateinance interface.
 
-- scope
-- reliability
-- windows os
+- In manteinance mode, it will detect which components ofan application are installed and it will allow the user  to add or remove features or reinstall/uninstall the application. In addition, the repair functionality is automatically run everytime a shortcut for the application is activated, which is particularly useful for administrators whose users may clean up the disk's space carelessly.
+
+- Installer’s advertising feature. Advertising allows an application to appear to be installed, but files are not actually installed on the system until the application is activated through a shortcut, extension, or COM server. Advertising makes an application available on the desktop, but since it’s not installed until it is activated, companies save on licensing fees and disk space. Once a user clicks on a shortcut or double-clicks on a file associated with that application, the application installs automatically.
+
+- The same functionality can be written into the application itself. For example, an application may have a particular feature that is rarely used, so it is not installed by default. A developer could put Windows Installer API calls in the code that activates that feature to make it install on demand. Using installation on demand saves disk space and avoids requiring the user to exit the program and rerun the setup to install features that aren’t installed by default.
 
 
 #### How does the MSI Application Management work?
@@ -214,14 +215,24 @@ Windows Installer has many built-in functions that will save you time and effort
 
 #### What files and components are included in the MSI?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+- **.msi file:** A file with .msi extension is a simple database file that can be read by Microsoft Windows Installer service contained in all recent versions of Microsoft Windows. The database contains the files, registry and instructions to the Windows Installer service in order to install the application.
 
+- **Msiexec.exe:** The Msiexec.exe program is a component of Windows Installer. When it is called by Setup, Msiexec.exe uses Msi.dll to read the package (.msi) files, apply any transform (.mst) files, and incorporate command-line options supplied by Setup. The installer performs all installation-related tasks, including copying files to the hard disk, making registry modifications, creating shortcuts on the desktop, and displaying dialog boxes to prompt for user installation preferences when necessary. When Windows Installer is installed on a computer, it changes the registered file type of .msi files so that if you double-click an .msi file, Msiexec.exe runs with that file.
 
+- **MSI Extensions:** Each installation package includes an .msi file containing the installation database, a summary information stream, and data streams for various parts of the installation. The .msi file can also contain one or more transforms, internal source files, and external source files or cabinet files required by the installation. 
+
+Note the following extensions:
+ - .msi: Windows Installer database
+ - .msm: Windows Installer merge module
+ - .msp: Windows Installer patch
+ - .mst: Windows Installer transform
+ - .idt: Exported Windows Installer database table
+ - .cub: Validation module
+ - .pcp: Windows Installer patch creation file
 
 #### What does MSI support?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
+Windows Installer can support many applications installed, from a network share (referred to as an administrative installation), to a locally on an end user’s PC. The downside to using a network share can be that systems receive patches or repairs only when they are connected to the network, which may be a consideration for organizations supporting many notebook users.
 
 #### What can be done using MSI?
 
@@ -295,14 +306,36 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 
 ### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
 
+**NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It [Here](https://nsis.sourceforge.io/License) you can read the license.
 
-**NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, and more. [Here](https://nsis.sourceforge.io/Features) you can see the list with its features, from where I will highlight, in addition with what has already been said, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. [Here](https://nsis.sourceforge.io/License) you can read the license.
 
 #### What are the features of NSIS?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+NSIS is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. 
 
+The most important aspects you have to remember of NSIS are:
 
+- It's main selling point is it small size, which makes it fast and efficient
+
+- Compatible with all major Windows versions, from Windows 95 to Windows 10
+
+- Unique compression methods, from ZLib to, what's most important, LZMA. LZMA is the best compressor nowadays since it hasthe best results with difference
+
+- Multiple languages in one installer, and you can also create your own language files
+
+- Many features and checks for the target system, with your own creation of scripts
+
+- Custom dialogs and interfaces, from custom wizard pages to your own custom interface
+
+- Plug-in system, written in C, C++, Delphi or any other language
+
+- Support for web installation and file patching
+
+- Project integration, different releases and automatic builds, which allows you to easily integrate multiple projects into a single installer or automatically generate installer builds
+
+- Easy and understandable design.
+
+To see the full features of NSIS, here you have a [link](https://nsis.sourceforge.io/Features) to the section dedicated to them from NSIS' web page.
 
 
 #### How do you install NSIS?
@@ -355,7 +388,7 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![D](https://user-images.githubusercontent.com/51851736/81496956-9f74e800-92bb-11ea-8dc3-c6cba2962d31.PNG)
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
-##### Installing/Using NSIS Quick Setup Script Generator 
+##### Installing/Start using NSIS Quick Setup Script Generator 
 
 In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator.
 
@@ -446,6 +479,18 @@ After opening NSI, you are shown different "links" that will take you to differe
 
 As said before, we will use this software provided by NSIS to create a basic script. Open the executable and play with it. The interface is very intuitive. After completing all of the fields, you will have your first script in NSIS. Of course, you may not understand some part or if you can leave a field blank, etc, so an explanation on how to use this software can be found in the solutions below.
 
+#### TODO2: Icon Menu
+
+**You will need a bitmap (.bmp).**
+
+In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the MUI to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define!" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+
+#### TODO3: Icon executable
+
+**You will need an icon (.ico).** [If it complains about your icons](https://nsis.sourceforge.io/Why_does_it_complain_about_my_icons%3F) 
+
+In this TODO  You will have to add a .nsh for the MUI to control the interface (UI Dialog). In this case, you have to add an "executable image" to personalize your setup software. In this case you will have to "!define" an icon. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
@@ -502,11 +547,11 @@ Here is where you will start creating your script with the help of your software
 ### Where can you find the exercise?
 
 
-[Here you can find the link to the exercise]()
+[Here you can find the link to the exercise](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Code)
 
-[Here you can find the final result]()
+[Here you can find the final result](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Release)
 
-[Here you can find the solution]()
+[Here you can find the solution](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/solution)
 
 
 
@@ -514,6 +559,9 @@ Here is where you will start creating your script with the help of your software
 
 
 ## How can you continue improving?
+
+If you want to **Import a root certificate**, you can go to the following [link](https://nsis.sourceforge.io/Import_Root_Certificate) where it is explained how to do so silently.
+
 
 To continue learning about installers, I propose that you do those exercises on these other installers, which are [WiX Toolset](https://en.wikipedia.org/wiki/) and [Inno Setup](https://jrsoftware.org/isinfo.php).
 
@@ -523,10 +571,8 @@ To continue learning about installers, I propose that you do those exercises on 
  - **WiX Toolset**, is short for *Windows Installer XML Toolset*, is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates. *In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.* The following [link](https://wixtoolset.org/) leads to the official web page of WiX Toolset. MSBuild is supported from the command line, Visual Studio, and Team Build and includes several extensions that offer functionality beyond that of Windows Installer. You can also create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. In addition, you have custom actions, where you can code if you want to go further in your Installer. In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals. If you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
 
    + [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
-   + [Here]() you will find another research on installers using the WiX Toolset.
-   
-   
-   
+   + [Here](https://carlosupc.github.io/Installer-Research/) you will find another research on installers using the WiX Toolset.
+      
  - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
 
