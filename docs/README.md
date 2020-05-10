@@ -215,14 +215,24 @@ Nevertheless, these are in my particular case, to know what I was looking for. W
 
 #### What files and components are included in the MSI?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+- **.msi file:** A file with .msi extension is a simple database file that can be read by Microsoft Windows Installer service contained in all recent versions of Microsoft Windows. The database contains the files, registry and instructions to the Windows Installer service in order to install the application.
 
+- **Msiexec.exe:** The Msiexec.exe program is a component of Windows Installer. When it is called by Setup, Msiexec.exe uses Msi.dll to read the package (.msi) files, apply any transform (.mst) files, and incorporate command-line options supplied by Setup. The installer performs all installation-related tasks, including copying files to the hard disk, making registry modifications, creating shortcuts on the desktop, and displaying dialog boxes to prompt for user installation preferences when necessary. When Windows Installer is installed on a computer, it changes the registered file type of .msi files so that if you double-click an .msi file, Msiexec.exe runs with that file.
 
+- **MSI Extensions:** Each installation package includes an .msi file containing the installation database, a summary information stream, and data streams for various parts of the installation. The .msi file can also contain one or more transforms, internal source files, and external source files or cabinet files required by the installation. 
+
+Note the following extensions:
+ - .msi: Windows Installer database
+ - .msm: Windows Installer merge module
+ - .msp: Windows Installer patch
+ - .mst: Windows Installer transform
+ - .idt: Exported Windows Installer database table
+ - .cub: Validation module
+ - .pcp: Windows Installer patch creation file
 
 #### What does MSI support?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
+Windows Installer can support many applications installed, from a network share (referred to as an administrative installation), to a locally on an end user’s PC. The downside to using a network share can be that systems receive patches or repairs only when they are connected to the network, which may be a consideration for organizations supporting many notebook users.
 
 #### What can be done using MSI?
 
