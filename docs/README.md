@@ -263,14 +263,14 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 ###### How do you work with VirtualBox?
 
-####### How do you install VirtualBox?
+###### *How do you install VirtualBox?*
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
  
  Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS.
  
 
-####### How do you create your own VM in VirtualBox and start using it?
+###### *How do you create your own VM in VirtualBox and start using it?*
 
 - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
  
@@ -303,9 +303,53 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 
 #### How do you install NSIS?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+The following images will show you all the steps to install NSIS. In addition, I will show you how to install a package to help you with the creation of scripts for NSIS.
 
+##### Installing NSIS (and Uninstalling)
 
+First of all, you have to go to the download page, you have the link [here](https://nsis.sourceforge.io/Download). In this case, we are downloading the version NSIS 3.05, released Decembre 15th 2019. [Here](https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/RELEASE.html/view) you have the release notes. You just have to **click "Download"** in bold letters under the release date and version.
+
+![1](https://user-images.githubusercontent.com/51851736/81496479-33dd4b80-92b8-11ea-92cc-c9a8f2604bcc.PNG)
+
+Once downloaded it, you just have to click the downloaded file, called "nsis-3.05-setup.exe". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it else where. Double click on it and the NSIS installer will start running. You will see this. **Press "Next".**
+
+![2](https://user-images.githubusercontent.com/51851736/81496614-165cb180-92b9-11ea-821d-6bc2bde1c956.PNG)
+
+Next you will be shown the License Agreement. **Press "I agree".** It is advisable to read it throroughly.
+
+![3](https://user-images.githubusercontent.com/51851736/81496612-15c41b00-92b9-11ea-9ed9-2085c326b147.PNG)
+
+Now you will need to choose what components to install. Since one of NSIS' main features is how light it is, you can install them all without worrying about taking up too much space. Therefore, it is advisable to leave the predefined option "Full" in the "Select the type of install". It will only require 7MB. **Press "Next".**
+
+![4](https://user-images.githubusercontent.com/51851736/81496947-9c79f780-92bb-11ea-8699-60ac375200f0.PNG)
+
+Then, you will have to choose the Install location. It is also advisable to leave the destination folder as it is, but you can change it if you wnat to. **Press "Install".**
+
+![5](https://user-images.githubusercontent.com/51851736/81496948-9d128e00-92bb-11ea-9231-4a5eaa3f5e54.PNG)
+
+It will show the following, with a bar loading to show how the install is going. It will take no time due to its size. **Press "Next"** once the install has finished.
+
+![6](https://user-images.githubusercontent.com/51851736/81496949-9d128e00-92bb-11ea-8402-635ea2640190.PNG)
+
+Your software is ready to use! Now you can choose whether you want directly to run NSIS and/or show the release notes. It is advisable to only "Run NSIS" and to untick the other box, this way you can test if NSIS is working well. **Press "Finish".**
+
+![7](https://user-images.githubusercontent.com/51851736/81496950-9dab2480-92bb-11ea-82b5-8b7d3e628849.PNG)
+
+Once you run it this will be shown to you. 
+
+![8a](https://user-images.githubusercontent.com/51851736/81496951-9dab2480-92bb-11ea-80ac-1c7bffb5d55a.PNG)
+
+In addition, this is what it will show you if you had chosen to see the release notes. However, you can find them in the web page too.
+
+![8b](https://user-images.githubusercontent.com/51851736/81496952-9e43bb00-92bb-11ea-8726-7d29a263a7ba.PNG)
+
+To uninstall NSIS, you must double click again the executable called "nsis-3.05-setup.exe". The first you will be shown will be the same as when installing, however, at some point you will be asked "Unistall NSIS" or "Add/Reinstall components". Choose "Uninstall NSIS". After that you need to choose the locaion where all the files related NSIS are and then click "Uninstall". A pregress bar will be shown and after choosing to "Close", NSIS will no longer be in your computer. The following images will show you the process.
+
+![A](https://user-images.githubusercontent.com/51851736/81496953-9e43bb00-92bb-11ea-953d-0f06f293deb5.PNG)
+![B](https://user-images.githubusercontent.com/51851736/81496954-9edc5180-92bb-11ea-9a6e-25d35ff17f19.PNG)
+![C](https://user-images.githubusercontent.com/51851736/81496955-9edc5180-92bb-11ea-91d6-83d908a620ad.PNG)
+![D](https://user-images.githubusercontent.com/51851736/81496956-9f74e800-92bb-11ea-8dc3-c6cba2962d31.PNG)
+![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
 ***
 
