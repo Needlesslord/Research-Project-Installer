@@ -351,17 +351,26 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![D](https://user-images.githubusercontent.com/51851736/81496956-9f74e800-92bb-11ea-8dc3-c6cba2962d31.PNG)
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
+##### Installing/Using NSIS Quick Setup Script Generator 
+
+In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator.
+
+First of all, you have to download the .zip from the following [web page](https://nsis.sourceforge.io/NSIS_Quick_Setup_Script_Generator). There is a link provided to download the package. It can be found in "Links"->"Download", in the line that says "NSIS Quick Setup Script Generator  Nsisqssg.zip (74 KB) the current release.".
+
+![1](https://user-images.githubusercontent.com/51851736/81497300-dba94800-92bd-11ea-8680-17bb71750aac.PNG)
+
+Once downloaded it, you just have to click the downloaded file, called "Nsisqssg.zip". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it else where. We want to unzip the file, so you will have to right-click the file and select "Extract in Nsisqssg\". This will creeate a folder where all the scrips will be saved, both in .nsi format, .ini and .txt. If you go inside this folder, you will find an executable called "NSIS Quick Setup Script Generator.exe". Double click it to start running. **Press "Next".**
+
+![2](https://user-images.githubusercontent.com/51851736/81497296-da781b00-92bd-11ea-866c-891264a28f67.PNG)
+
+After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
+
 ***
 
 
 ## Can it be improved?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
-- explanation of any other improvement on the system (very visual and simple)
-
-
+There is a lot of room to improve your installers using NSIS. Since you can create your own scripts and produce all the content you need for your own Installer. In addition, some basic scripts can be used, and always come with NSIS when installing.
 
 
 ***
