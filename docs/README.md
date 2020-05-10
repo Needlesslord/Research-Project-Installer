@@ -438,6 +438,9 @@ After opening NSI, you are shown different "links" that will take you to differe
 
 [Here]() you can find a link to a script with basic syntax errors in this language. Find them all so that it works.
 
+#### TODO1: Using NSIS Quick Setup Script Generator to create a basic script
+
+As said before, we will use this software provided by NSIS to create a basic script. Open the executable and play with it. The interface is very intuitive. After completing all of the fields, you will have your first script in NSIS. Of course, you may not understand some part or if you can leave a field blank, etc, so an explanation on how to use this software can be found in the solutions below.
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
@@ -457,6 +460,12 @@ After opening NSI, you are shown different "links" that will take you to differe
 #### TODO7: Add Windows License 
 
 #### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
+
+
+
+
+
+
 
 
 ### How is it done?
@@ -473,28 +482,20 @@ If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you h
 
 [Here]() you can find the script without errors and small explanations. Remember that ";" is used to comment, so the explanations will be after them.
 
+#### TODO1
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+Here there is an explanation on how to use Quick Setup Script Generator.
+
+AS stated beforehand, to use this software you just need the executable. Once done, all your scripts will be saved into the same folder, but I'll get to that later. Open the executable and **Press "Next"**.
+
+!
+
+Here is where you will start creating your script with the help of your software. In this section you are asked for a "New project name". You can also "Load a previously saved project", but since we are creating a script from scratch we will not use that feature. Here you can write down the name of your game. The following two images are used as a how it is first shown and what I have written for the example used in this research. **Press "Next".**
 
 
 
-solution: explanation on each todo and what they do and why they are build that way
 
-#### TODO1: Customize product features and mapping .exe project files
-
-#### TODO2: Add Start Menu Shortcut
-
-#### TODO3: Add Desktop shortcut
-
-#### TODO4: Add control panel and .exe project icons
-
-#### TODO5: Add UI Dialog theme (installDir)
-
-#### TODO6: Customize UI Dialog theme using .bmp files
-
-#### TODO7: Add Windows License 
-
-#### TODO8: Uncomment dependencies (libraries, dll, assets, etc)
+### Where can you find the exercise?
 
 
 [Here you can find the link to the exercise]()
