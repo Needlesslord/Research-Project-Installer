@@ -295,14 +295,36 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 
 ### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
 
+**NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It [Here](https://nsis.sourceforge.io/License) you can read the license.
 
-**NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, and more. [Here](https://nsis.sourceforge.io/Features) you can see the list with its features, from where I will highlight, in addition with what has already been said, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. [Here](https://nsis.sourceforge.io/License) you can read the license.
 
 #### What are the features of NSIS?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+NSIS is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. 
 
+The most important aspects you have to remember of NSIS are:
 
+- It's main selling point is it small size, which makes it fast and efficient
+
+- Compatible with all major Windows versions, from Windows 95 to Windows 10
+
+- Unique compression methods, from ZLib to, what's most important, LZMA. LZMA is the best compressor nowadays since it hasthe best results with difference
+
+- Multiple languages in one installer, and you can also create your own language files
+
+- Many features and checks for the target system, with your own creation of scripts
+
+- Custom dialogs and interfaces, from custom wizard pages to your own custom interface
+
+- Plug-in system, written in C, C++, Delphi or any other language
+
+- Support for web installation and file patching
+
+- Project integration, different releases and automatic builds, which allows you to easily integrate multiple projects into a single installer or automatically generate installer builds
+
+- Easy and understandable design.
+
+To see the full features of NSIS, here you have a [link](https://nsis.sourceforge.io/Features) to the section dedicated to them from NSIS' web page.
 
 
 #### How do you install NSIS?
@@ -446,6 +468,18 @@ After opening NSI, you are shown different "links" that will take you to differe
 
 As said before, we will use this software provided by NSIS to create a basic script. Open the executable and play with it. The interface is very intuitive. After completing all of the fields, you will have your first script in NSIS. Of course, you may not understand some part or if you can leave a field blank, etc, so an explanation on how to use this software can be found in the solutions below.
 
+#### TODO2: Icon Menu
+
+**You will need a bitmap (.bmp).**
+
+In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the MUI to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define!" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+
+#### TODO3: Icon executable
+
+**You will need an icon (.ico).** [If it complains about your icons](https://nsis.sourceforge.io/Why_does_it_complain_about_my_icons%3F) 
+
+In this TODO  You will have to add a .nsh for the MUI to control the interface (UI Dialog). In this case, you have to add an "executable image" to personalize your setup software. In this case you will have to "!define" an icon. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
@@ -502,11 +536,11 @@ Here is where you will start creating your script with the help of your software
 ### Where can you find the exercise?
 
 
-[Here you can find the link to the exercise]()
+[Here you can find the link to the exercise](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Code)
 
-[Here you can find the final result]()
+[Here you can find the final result](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Release)
 
-[Here you can find the solution]()
+[Here you can find the solution](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/solution)
 
 
 
@@ -523,10 +557,8 @@ To continue learning about installers, I propose that you do those exercises on 
  - **WiX Toolset**, is short for *Windows Installer XML Toolset*, is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates. *In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.* The following [link](https://wixtoolset.org/) leads to the official web page of WiX Toolset. MSBuild is supported from the command line, Visual Studio, and Team Build and includes several extensions that offer functionality beyond that of Windows Installer. You can also create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. In addition, you have custom actions, where you can code if you want to go further in your Installer. In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals. If you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
 
    + [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
-   + [Here]() you will find another research on installers using the WiX Toolset.
-   
-   
-   
+   + [Here](https://carlosupc.github.io/Installer-Research/) you will find another research on installers using the WiX Toolset.
+      
  - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
 
