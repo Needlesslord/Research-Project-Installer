@@ -547,7 +547,7 @@ Here is where you will start creating your script with the help of your software
 ### Where can you find the exercise?
 
 
-[Here you can find the link to the exercise](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Code)
+[Here you can find the link to the exercise](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Code/Exercises)
 
 [Here you can find the final result](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Release)
 
