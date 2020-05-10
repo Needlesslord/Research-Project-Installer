@@ -388,7 +388,7 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![D](https://user-images.githubusercontent.com/51851736/81496956-9f74e800-92bb-11ea-8dc3-c6cba2962d31.PNG)
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
-##### Installing/Using NSIS Quick Setup Script Generator 
+##### Installing/Start using NSIS Quick Setup Script Generator 
 
 In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator.
 
@@ -559,6 +559,9 @@ Here is where you will start creating your script with the help of your software
 
 
 ## How can you continue improving?
+
+If you want to **Import a root certificate**, you can go to the following [link](https://nsis.sourceforge.io/Import_Root_Certificate) where it is explained how to do so silently.
+
 
 To continue learning about installers, I propose that you do those exercises on these other installers, which are [WiX Toolset](https://en.wikipedia.org/wiki/) and [Inno Setup](https://jrsoftware.org/isinfo.php).
 
