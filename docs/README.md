@@ -194,6 +194,10 @@ MSI files are the current recommended way of doing installations on Windows. The
 
 #### Why am I using MSI?
 
+In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisits.
+
+Windows Installer has many built-in functions that will save you time and effort. 
+ 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
