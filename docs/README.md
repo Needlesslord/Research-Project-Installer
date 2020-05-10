@@ -194,16 +194,17 @@ MSI files are the current recommended way of doing installations on Windows. The
 
 #### Why am I using MSI?
 
-In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisits.
+In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisits. 
 
-Windows Installer has many built-in functions that will save you time and effort. 
- 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+Nevertheless, these are in my particular case, to know what I was looking for. Windows Installer has many built-in functions that will save you time and effort, and here you have a list to show you why I went with it:
 
+- Automatic, install, uninstall, reinstall, reapir support and add/remove components. In addition, if yout software is already installed, instead of showing you the install interface it will show you the mateinance interface.
 
-- scope
-- reliability
-- windows os
+- In manteinance mode, it will detect which components ofan application are installed and it will allow the user  to add or remove features or reinstall/uninstall the application. In addition, the repair functionality is automatically run everytime a shortcut for the application is activated, which is particularly useful for administrators whose users may clean up the disk's space carelessly.
+
+- Installer’s advertising feature. Advertising allows an application to appear to be installed, but files are not actually installed on the system until the application is activated through a shortcut, extension, or COM server. Advertising makes an application available on the desktop, but since it’s not installed until it is activated, companies save on licensing fees and disk space. Once a user clicks on a shortcut or double-clicks on a file associated with that application, the application installs automatically.
+
+- The same functionality can be written into the application itself. For example, an application may have a particular feature that is rarely used, so it is not installed by default. A developer could put Windows Installer API calls in the code that activates that feature to make it install on demand. Using installation on demand saves disk space and avoids requiring the user to exit the program and rerun the setup to install features that aren’t installed by default.
 
 
 #### How does the MSI Application Management work?
