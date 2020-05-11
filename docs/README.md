@@ -424,7 +424,9 @@ To see the full features of NSIS, here you have a [link](https://nsis.sourceforg
 
 The following images will show you all the steps to install NSIS. In addition, I will show you how to install a package to help you with the creation of scripts for NSIS.
 
-##### Installing NSIS (and Uninstalling)
+<details>
+ <summary><strong> Installing NSIS (and Uninstalling) </strong></summary>
+<br>
 
 First of all, you have to go to the download page, you have the link [here](https://nsis.sourceforge.io/Download). In this case, we are downloading the version NSIS 3.05, released Decembre 15th 2019. [Here](https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/RELEASE.html/view) you have the release notes. You just have to **click "Download"** in bold letters under the release date and version.
 
@@ -475,10 +477,11 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
 </details>
+</details>
 
-
-
-##### Installing/Start using NSIS Quick Setup Script Generator 
+<details>
+ <summary><strong> Installing/Start using NSIS Quick Setup Script Generator </strong></summary>
+<br>
 
 <details>
  <summary> In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator. </summary>
@@ -495,6 +498,8 @@ Once downloaded it, you just have to click the downloaded file, called "Nsisqssg
 After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
 
 </details>
+</details>
+
 
 
 ***
