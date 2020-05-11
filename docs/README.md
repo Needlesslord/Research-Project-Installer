@@ -304,7 +304,6 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 ###### How do you work with VirtualBox?
 
-###### *How do you install VirtualBox?*
 
 <details>
 <summary> Click on me to see how to install VirutalBox </summary>
@@ -345,10 +344,6 @@ And you are done!
  ![8](https://user-images.githubusercontent.com/51851736/81560450-b7b73680-9391-11ea-9bfa-51cb7466f656.PNG)
  
  </details>
-
-
-
-###### *How do you create your own VM in VirtualBox and start using it?*
 
 
 Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your sofware will be alone to test it.
