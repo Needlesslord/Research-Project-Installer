@@ -345,7 +345,7 @@ And you are done!
  ![8](https://user-images.githubusercontent.com/51851736/81560450-b7b73680-9391-11ea-9bfa-51cb7466f656.PNG)
  
  </details>
-<br>
+
 
 
 ###### *How do you create your own VM in VirtualBox and start using it?*
@@ -386,7 +386,7 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 ![R](https://user-images.githubusercontent.com/51851736/81562992-f8b14a00-9395-11ea-9025-2935464b4ca1.PNG)
 
  </details>
-<br>
+
 
 
 ### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
