@@ -288,10 +288,40 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 ###### *How do you install VirtualBox?*
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
- 
- Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS. [Here](https://www.virtualbox.org/wiki/Downloads) you have the link to the download page of VirtualBox.
- 
+
+The welcome page will be first shown. **Press "Next".**
+
+![1](https://user-images.githubusercontent.com/51851736/81560029-e385ec80-9390-11ea-8769-6982bc4a46da.PNG)
+
+Here you can choose, what install or not to install. **Press "Next".**
+
+![2](https://user-images.githubusercontent.com/51851736/81560030-e41e8300-9390-11ea-84db-bf2f96fe022c.PNG)
+
+Here you can choos how to install said features. **Press "Next".**
+
+![3](https://user-images.githubusercontent.com/51851736/81560032-e41e8300-9390-11ea-8021-1c4694ee9322.PNG)
+
+Now you have a warning. **Press "Yes".**
+
+![4](https://user-images.githubusercontent.com/51851736/81560033-e41e8300-9390-11ea-93ca-4f86ecb70fc0.PNG)
+
+Here is to start installing. **Press "Install".**
+
+![5](https://user-images.githubusercontent.com/51851736/81560034-e4b71980-9390-11ea-9127-6f6de57133b4.PNG)
+
+You will be shown a progress bar. In my case, the download was quick.
+
+![6](https://user-images.githubusercontent.com/51851736/81560035-e4b71980-9390-11ea-89d5-2212247173e8.PNG)
+
+Windows may ask if you trust the software. **Press "Yes".**
+
+![7](https://user-images.githubusercontent.com/51851736/81560348-89395b80-9391-11ea-95b7-7d9a2283f1f8.PNG)
+
+Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS. [Here](https://www.virtualbox.org/wiki/Downloads) you have the link to the download page of VirtualBox.
+
+And you are done!
+
+ ![8](https://user-images.githubusercontent.com/51851736/81560450-b7b73680-9391-11ea-9bfa-51cb7466f656.PNG)
 
 ###### *How do you create your own VM in VirtualBox and start using it?*
 
