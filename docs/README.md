@@ -417,27 +417,13 @@ After that, the app will start showing you commands, but I will talk about them 
 
 There is a lot of room to improve your installers using NSIS. Since you can create your own scripts and produce all the content you need for your own Installer. In addition, some basic scripts can be used, and always come with NSIS when installing.
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+ 
 
 ***
 
 
 ## How can YOU do it?
-
-
-### What should you know before starting?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
- + Project files and components
- 
- + Directory System
- 
- + Shortcut Components
- 
- + Icon
- 
- + UI Dialog
 
 
 ### What are the TODOs (exercises) teach  you to do?
