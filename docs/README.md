@@ -6,6 +6,8 @@ This web page and the [GitHub repository](https://github.com/Needlesslord/Resear
 
 *__DISCLAIMER! This information is relevant as of may 2020__*
 
+<br>
+
 ***
 
 
@@ -127,6 +129,8 @@ Then, even if it can create problems for our source code and the list of require
 *__For more information about Deployment, please take a look at the research my collegue [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH) or [Pol Galan](https://github.com/pgalmor) did as well on the same topic [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
 
 
+<br>
+
 ***
 
 
@@ -193,9 +197,7 @@ Of course, Mods for different games also require and almost always use installer
 </details>
 <br>
 
-
 ***
-
 
 ## What is the approach to this problem in this research?
 
@@ -503,11 +505,9 @@ Once downloaded it, you just have to click the downloaded file, called "Nsisqssg
 After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
 
 </details>
- <br>
-
+<br>
 
 ***
-
 
 ## Can it be improved?
 
@@ -515,6 +515,7 @@ There is a lot of room to improve your installers using NSIS. Since you can crea
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
  
+<br>
 
 ***
 
@@ -702,6 +703,7 @@ This last picture shows the files I have in my folder at the moment.
 [Here you can find the solution](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/solution)
 
 
+<br>
 
 ***
 
@@ -723,6 +725,7 @@ To continue learning about installers, I propose that you do those exercises on 
       
  - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*__Advanced Installer__*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
+<br>
 
 ***
 
@@ -779,9 +782,7 @@ To continue learning about installers, I propose that you do those exercises on 
 </details>
 <br>
 
-
 ***
-
 
 ## Further information
 
