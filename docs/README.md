@@ -568,7 +568,9 @@ If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you h
 
 #### TODO1
 
-Here there is an explanation on how to use Quick Setup Script Generator.
+<details>
+<summary><strong> Here there is an explanation on how to use Quick Setup Script Generator. </strong></summary>
+<br>
 
 AS stated beforehand, to use this software you just need the executable. Once done, all your scripts will be saved into the same folder, but I'll get to that later. Open the executable and **Press "Next"**.
 
@@ -604,6 +606,8 @@ Here you have your script!
 
 ![H](https://user-images.githubusercontent.com/51851736/81554973-f8aa4d80-9387-11ea-9414-1ad1ce7e7bd9.PNG)
 
+</details>
+
 As said, everything will be saved in the NSI-QSSG folder in your computer. The following files will be generated (the name is for the game and code I provided):
 
 - Test_Game_Pong.ini
@@ -616,13 +620,16 @@ As said, everything will be saved in the NSI-QSSG folder in your computer. The f
 
 If you want to edit your file again with NSIS-QSSG you will need to open the .ini file. To continue working to add your own code, you will need the .nsi file.
 
-**THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW**
-
+<details>
+<summary><strong> THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW </strong></summary>
+<br>
+ 
 ![1](https://user-images.githubusercontent.com/51851736/81557528-6a849600-938c-11ea-843f-9cd37ec427c5.PNG)
 ![2](https://user-images.githubusercontent.com/51851736/81557531-6b1d2c80-938c-11ea-9b7e-761c605ab969.PNG)
 ![3](https://user-images.githubusercontent.com/51851736/81557532-6c4e5980-938c-11ea-9d16-2fca40fcd051.PNG)
 ![4](https://user-images.githubusercontent.com/51851736/81557536-6ce6f000-938c-11ea-97be-8d6a5f8f389b.PNG)
 
+</details>
 
 #### TODO2
 
@@ -641,13 +648,18 @@ To add an icon to your installer we are also using MUI, therefore, it will be wr
 
 ![todo3](https://user-images.githubusercontent.com/51851736/81557711-b6373f80-938c-11ea-8101-af5a84942d6c.PNG)
 
-**THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW**
+<details>
+<summary><strong> THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW </strong></summary>
+<br>
+
 
 ![1](https://user-images.githubusercontent.com/51851736/81558754-8ab55480-938e-11ea-855f-e0e888789ba9.PNG)
 ![2](https://user-images.githubusercontent.com/51851736/81558758-8b4deb00-938e-11ea-8e1f-7ba3356b6dd7.PNG)
 ![3](https://user-images.githubusercontent.com/51851736/81558760-8be68180-938e-11ea-9314-ad7b2e4e08cb.PNG)
 ![4](https://user-images.githubusercontent.com/51851736/81558761-8be68180-938e-11ea-9b79-621cdb33b9f6.PNG)
 ![5](https://user-images.githubusercontent.com/51851736/81558762-8be68180-938e-11ea-90e9-1e0dfd0a6899.PNG)
+
+</details>
 
 This last picture shows the files I have in my folder at the moment.
 
@@ -682,7 +694,7 @@ To continue learning about installers, I propose that you do those exercises on 
    + [Here](https://www.firegiant.com/wix/tutorial/) you have a link with another tutorial with another approach on how to use the WiX Toolset.
    + [Here](https://carlosupc.github.io/Installer-Research/) you will find another research on installers using the WiX Toolset.
       
- - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*Advanced Installer*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
+ - [Here](https://www.advancedinstaller.com/user-guide/tutorial-simple.html) you have another very simple tutorial aimed at those with **NO PREVIOUS EXPERIENCE** in using [*__Advanced Installer__*](https://www.advancedinstaller.com/), using the [Freeware edition](https://www.advancedinstaller.com/top-freeware-features.html). However, this tool, which is very powerful and easy to use, it is only available on trial for 30 days, after which you have to [pay](https://www.advancedinstaller.com/purchase.html).
 
 
 ***
@@ -690,7 +702,9 @@ To continue learning about installers, I propose that you do those exercises on 
 
 ## Links to documentation
 
-Here are the links and references where I got all the information I used to create this research.
+<details>
+<summary> Here are the links and references where I got all the information I used to create this research. </summary>
+<br>
 
 - [Computer Hope: Installer](https://www.computerhope.com/jargon/i/installer.htm)
 - [Computer Hope: System requirements](https://www.computerhope.com/jargon/s/systrequ.htm)
@@ -735,17 +749,25 @@ Here are the links and references where I got all the information I used to crea
 
 *Some of the images were taken from Google Images. All the screenshots for the tutorials were done by me. Credit goes to their respective authors.*
 
+</details>
 
 ***
 
 
 ## Further information
 
-About Automated Builds: 
+<details>
+<summary> About Automated Builds: </summary>
+<br>
 
  + [Automated Builds](https://github.com/xsiro/RESEARCH)
 
-About other tools to create a Windows Installer Package: 
+</details>
+
+
+<details>
+<summary> About other tools to create a Windows Installer Package: </summary>
+<br>
 
  + [Help Desk Geek: 4 Great Tools to Create Windows Installer Packages](https://helpdeskgeek.com/free-tools-review/4-tools-to-create-windows-installer-packages/)
  + [Microsoft: Create an MSIX package from any desktop installer (MSI, EXE, ClickOnce, or App-V)](https://docs.microsoft.com/en-us/windows/msix/packaging-tool/create-app-package)
@@ -763,13 +785,18 @@ About other tools to create a Windows Installer Package:
     - [Inno Setup: GitHub](https://github.com/jrsoftware/issrc)
     - [Inno Setup: Documentation](https://jrsoftware.org/ishelp/)
     - [Inno Setup: License](https://jrsoftware.org/files/is/license.txt)
-    
-About WiX Toolset and how it could be improved:
+ + About WiX Toolset and how it could be improved:
     - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
+
     
-About Deployment and Automated Builds:
+</details>
+
+
+<details>
+<summary> About Deployment and Automated Builds: </summary>
+<br>
     - [Automated Builds](https://github.com/xsiro/RESEARCH)
     - [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD)
     - [Pdf Element: Best 5 Software Deployment Tools for Enterprise](https://pdf.wondershare.com/business/software-deployment-tools.html)
 
-
+</details>
