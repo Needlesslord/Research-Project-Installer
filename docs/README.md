@@ -218,6 +218,9 @@ To support these functions, the Windows Installer needs to receive instructions 
 
 #### What files and components are included in the MSI?
 
+ 
+Previously, installation packages were always setup.exe files. However, due to inconsistencies in the way independent software vendors and internal software development groups created these installation files, sometimes complications came up when administrators attempted to manage automated installations. Therefore, the emerging standard is for Windows Installer to use the msiexec.exe program to process the installation packages at an end user’s PC. The packages follow a standardized database structure containing the information that Windows Installer requires to install or uninstall an application and to run the user interface for the setup. In overall, The Windows Installer technology is divided into two parts that work in combination; these include a client-side installer service (Msiexec.exe) and a Microsoft Software Installation (MSI) package file. Windows Installer uses information contained in a package file to install the program.
+
 - **.msi file:** A file with .msi extension is a simple database file that can be read by Microsoft Windows Installer service contained in all recent versions of Microsoft Windows. The database contains the files, registry and instructions to the Windows Installer service in order to install the application.
 
 - **Msiexec.exe:** The Msiexec.exe program is a component of Windows Installer. When it is called by Setup, Msiexec.exe uses Msi.dll to read the package (.msi) files, apply any transform (.mst) files, and incorporate command-line options supplied by Setup. The installer performs all installation-related tasks, including copying files to the hard disk, making registry modifications, creating shortcuts on the desktop, and displaying dialog boxes to prompt for user installation preferences when necessary. When Windows Installer is installed on a computer, it changes the registered file type of .msi files so that if you double-click an .msi file, Msiexec.exe runs with that file.
@@ -232,6 +235,7 @@ Note the following extensions:
  - .idt: Exported Windows Installer database table
  - .cub: Validation module
  - .pcp: Windows Installer patch creation file
+
 
 #### What does MSI support?
 
