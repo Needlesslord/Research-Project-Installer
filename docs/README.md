@@ -257,6 +257,8 @@ The steps are easy:
 - Afterwards, change to the directory that contains the .msi file.
 - You can now sign the .msi file using the following command: *__signtool sign /sha1 CertificateHash SetupNameFile.msi__*
 
+[Here](https://www.youtube.com/watch?v=y00n9alXHGs) you have a tutorial on "How to Sign an Executable File using Signtool In Windows" by GlobalSign in Youtube.
+
 
 ##### How can you test an Application in a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
@@ -686,6 +688,7 @@ Here are the links and references where I got all the information I used to crea
 - [Wikipedia: Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
 - [Microsoft Build: SignTool.exe (Sign Tool)](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe)
 - [Wikipedia: Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit)
+- [Youtube: How to Sign an Executable File using Signtool In Windows](https://www.youtube.com/watch?v=y00n9alXHGs)
 
 *All images were taken from Google Images. Credit goes to their respective authors.*
 
