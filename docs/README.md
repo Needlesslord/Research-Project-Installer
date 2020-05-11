@@ -34,6 +34,8 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 
 </details>
+<br>
+<br>
 
 ***
 
@@ -190,7 +192,8 @@ Of course, Mods for different games also require and almost always use installer
 ![Install-Mods-GTAIV](https://user-images.githubusercontent.com/51851736/81014845-e6974f00-8e5d-11ea-9876-c1d2a04dfdbf.jpg)
 
 </details>
-
+<br>
+<br>
 
 ***
 
@@ -346,6 +349,8 @@ And you are done!
  ![8](https://user-images.githubusercontent.com/51851736/81560450-b7b73680-9391-11ea-9bfa-51cb7466f656.PNG)
  
  </details>
+<br>
+<br>
 
 ###### *How do you create your own VM in VirtualBox and start using it?*
 
@@ -385,6 +390,8 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 ![R](https://user-images.githubusercontent.com/51851736/81562992-f8b14a00-9395-11ea-9025-2935464b4ca1.PNG)
 
  </details>
+<br>
+<br>
 
 
 ### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
@@ -478,6 +485,8 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
 </details>
+<br>
+<br>
 
 ##### Installing/Start using NSIS Quick Setup Script Generator 
 
@@ -496,7 +505,9 @@ Once downloaded it, you just have to click the downloaded file, called "Nsisqssg
 After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
 
 </details>
- 
+ <br>
+<br>
+
 
 ***
 
@@ -769,6 +780,8 @@ To continue learning about installers, I propose that you do those exercises on 
 *Some of the images were taken from Google Images. All the screenshots for the tutorials were done by me. Credit goes to their respective authors.*
 
 </details>
+<br>
+<br>
 
 ***
 
