@@ -458,7 +458,7 @@ There is a lot of room to improve your installers using NSIS. Since you can crea
 ## How can YOU do it?
 
 
-### What are the TODOs (exercises) teach  you to do?
+### What will the TODOs (exercises) teach you *TODO*?
 
 To start with your Installer, as obvious as it may be, you have to install the software first. Above this section you can find how to install NSIS, the program I will be teaching you how to use in order to create an Installer for your game, software adn others.
 
@@ -683,14 +683,14 @@ Here are the links and references where I got all the information I used to crea
 - [Wikipedia: Freeware License](https://en.wikipedia.org/wiki/Freeware)
 - [Whatis: MSI File format](https://whatis.techtarget.com/fileformat/MSI-Installer-package-Microsoft-Windows)
 - [Broadcom: Understanding the Difference Between .exe and .msi](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=0e501eb2-b17e-471a-abcb-a638045342ce&CommunityKey=41d8253b-a238-4563-8718-ed7623beafbc&tab=librarydocuments)
-- [Wikipedia: System virtual machines (VMs)](https://en.wikipedia.org/wiki/System_virtual_machine) They provide a substitute for the real 
+- [Wikipedia: System virtual machines (VMs)](https://en.wikipedia.org/wiki/System_virtual_machine)
 - [YouTube: *How to Use VirtualBox (Begginers Guide)*, by TechGumbo](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo)
 - [Wikipedia: Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
 - [Microsoft Build: SignTool.exe (Sign Tool)](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe)
 - [Wikipedia: Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit)
 - [Youtube: How to Sign an Executable File using Signtool In Windows](https://www.youtube.com/watch?v=y00n9alXHGs)
 
-*All images were taken from Google Images. Credit goes to their respective authors.*
+*Some of the images were taken from Google Images. All the screenshots for the tutorials were done by me. Credit goes to their respective authors.*
 
 
 ***
