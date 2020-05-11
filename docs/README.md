@@ -20,7 +20,7 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 ## What is included in this research?
 
 <details>
-<summary> Sections </summary>
+<summary> Sections / </summary>
 <br>
 
  - [What is an *Installer*?](#what-is-an-installer)
