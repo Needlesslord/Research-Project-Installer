@@ -209,11 +209,17 @@ Nevertheless, these are in my particular case, to know what I was looking for. W
 
 #### How does the MSI Application Management work?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+The Windows Installer service was designed to support every phase of the application management life cycle, providing a service to support each step involved in managing a desktop application from deployment through retirement.
 
+To support these functions, the Windows Installer needs to receive instructions from an installation package.
+
+![MSI-cycle_life](https://user-images.githubusercontent.com/51851736/81513955-793b6080-932c-11ea-8ed2-43e51b91e945.png)
 
 
 #### What files and components are included in the MSI?
+
+ 
+Previously, installation packages were always setup.exe files. However, due to inconsistencies in the way independent software vendors and internal software development groups created these installation files, sometimes complications came up when administrators attempted to manage automated installations. Therefore, the emerging standard is for Windows Installer to use the msiexec.exe program to process the installation packages at an end user’s PC. The packages follow a standardized database structure containing the information that Windows Installer requires to install or uninstall an application and to run the user interface for the setup. In overall, The Windows Installer technology is divided into two parts that work in combination; these include a client-side installer service (Msiexec.exe) and a Microsoft Software Installation (MSI) package file. Windows Installer uses information contained in a package file to install the program.
 
 - **.msi file:** A file with .msi extension is a simple database file that can be read by Microsoft Windows Installer service contained in all recent versions of Microsoft Windows. The database contains the files, registry and instructions to the Windows Installer service in order to install the application.
 
@@ -230,18 +236,10 @@ Note the following extensions:
  - .cub: Validation module
  - .pcp: Windows Installer patch creation file
 
+
 #### What does MSI support?
 
 Windows Installer can support many applications installed, from a network share (referred to as an administrative installation), to a locally on an end user’s PC. The downside to using a network share can be that systems receive patches or repairs only when they are connected to the network, which may be a consideration for organizations supporting many notebook users.
-
-#### What can be done using MSI?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
-##### How does Deployment tasks work on MSI?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
 ##### How do you sign an Application Packaging?
@@ -310,11 +308,6 @@ Obviously, once we have installed VirtualBox we cannot start testing right away.
 
 
 For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Begginers Guide)*.
-
-
-#### Is there something else you should know about MSI Packaging and Deployment tasks?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
 ### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
@@ -424,6 +417,8 @@ After that, the app will start showing you commands, but I will talk about them 
 
 There is a lot of room to improve your installers using NSIS. Since you can create your own scripts and produce all the content you need for your own Installer. In addition, some basic scripts can be used, and always come with NSIS when installing.
 
+ - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+ 
 
 ***
 
@@ -431,48 +426,17 @@ There is a lot of room to improve your installers using NSIS. Since you can crea
 ## How can YOU do it?
 
 
-### What should you know before starting?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
- + Project files and components
- 
- + Directory System
- 
- + Shortcut Components
- 
- + Icon
- 
- + UI Dialog
-
-
 ### What are the TODOs (exercises) teach  you to do?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
-
-
-- icons
-- taskbar app (sizes and formats)
-- sign the executable with company
-- windows certification
-- test the game w/ VM (dependencies: libraries and dll needed)
-
-lists of todos and expected outcome and what they are needed for
-
-
--------
-
-
 
 To start with your Installer, as obvious as it may be, you have to install the software first. Above this section you can find how to install NSIS, the program I will be teaching you how to use in order to create an Installer for your game, software adn others.
 
  - In the first step, to get familiar with NSIS, I will be teaching how to create an executable (.exe) from a .zip. Since this research is aimed mostly to the games developed in the subject Project II taught at CITM and they are delivered in .zip and also are released in Github in the same format, I thought it was a previous step that would be nice to get to know the software and how it works.
 
- - Now that you already know how to create a very basic Installer, without Icon or any personalization, I will introduce you to .nsi scripts to do so. First of all, they can be created and work from any text editor, so you don't need to install any other softwares. However, bear in mind there are some programs which can help you with scripts. Note though that these scripts have a language you will have to learn. [Here you have a summary]().
+ - Now that you already know how to create a very basic Installer, without Icon or any personalization, I will introduce you to .nsi scripts to do so. First of all, they can be created and work from any text editor, so you don't need to install any other softwares. However, bear in mind there are some programs which can help you with scripts. Note though that these scripts have a language you will have to learn. [Here you have a summary](https://atom.io/packages/language-nsis).
 
-
-
+ - After that, we are going to create a script with a script generator, as said before. This will include Licenses, app's name, installer's name, directories, and more.
+ 
+ - Finally, I will teach you in the final TODOs how to add an icon to an installer or how to personalize a little bit your Installer's UI, in our case, adding and image. However, you can do much more, and [here](https://nsis.sourceforge.io/Docs/Modern%20UI/Readme.html) you have a link to other personalization features.
 
 
 ### What do you have *TODO*?
@@ -490,7 +454,7 @@ After opening NSI, you are shown different "links" that will take you to differe
 
 [Here](https://atom.io/packages/language-nsis) you have a summary of .nsi language.
 
-[Here]() you can find a link to a script with basic syntax errors in this language. Find them all so that it works.
+[Here](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Code/Exercises/TODO0-2) you can find a link to a script with basic syntax errors in this language. Find them all so that it works.
 
 #### TODO1: Using NSIS Quick Setup Script Generator to create a basic script
 
@@ -515,7 +479,7 @@ In this TODO  You will have to add a .nsh for the MUI to control the interface (
 
 
 
-
+- - - IMAGES (IN ALL THE TODOS) - - -
 
 
 
@@ -524,7 +488,7 @@ If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you h
 
 #### TODO0-2
 
-[Here]() you can find the script without errors and small explanations. Remember that ";" is used to comment, so the explanations will be after them.
+[Here](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/solution/TODO0-2) you can find the script without errors and small explanations. Remember that ";" is used to comment, so the explanations will be after them.
 
 #### TODO1
 
