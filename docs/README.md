@@ -480,7 +480,7 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
 </details>
-<br>
+
 
 
 ##### Installing/Start using NSIS Quick Setup Script Generator 
