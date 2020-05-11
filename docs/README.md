@@ -477,12 +477,13 @@ In this TODO  You will have to add a .nsh for the MUI to control the interface (
 
 #### TODO0-1
 
+Here are all the screenshots on how to do it. First you need to select "Installer based on .ZIP file" under the "Compiler" section. A new window will be opened. You will need to look for the .zip in "Open...", which will let ou browse in your computer. You can then change your installer name and choose the interface design (I left it at "Modern" since it's what we will be using) and then select the "Output EXE File", which if you click "Browse..." you can look for it and select it in your computer. I recommend you to leave LMZA in "Compression" since it's the most efficient out of all of them. **Press "Generate".** You now have your installer, which should look like the last picture.
 
-
-- - - IMAGES (IN ALL THE TODOS) - - -
-
-
-
+![1](https://user-images.githubusercontent.com/51851736/81559309-76be2280-938f-11ea-9cc7-c01914a26a6b.PNG)
+![2](https://user-images.githubusercontent.com/51851736/81559310-7756b900-938f-11ea-808b-95de1bbfb4ed.PNG)
+![3](https://user-images.githubusercontent.com/51851736/81559311-77ef4f80-938f-11ea-8647-ea0e3e1f8e1f.PNG)
+![4](https://user-images.githubusercontent.com/51851736/81559312-77ef4f80-938f-11ea-8544-552866fe128a.PNG)
+![5](https://user-images.githubusercontent.com/51851736/81559315-7887e600-938f-11ea-9c9c-5d44a5bdf396.PNG)
 
 If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you have a Youtube video Tutorial by Ivan Angelkoski that may help.
 
