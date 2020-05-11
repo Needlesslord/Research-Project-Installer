@@ -540,15 +540,42 @@ As said, everything will be saved in the NSI-QSSG folder in your computer. The f
 
 If you want to edit your file again with NSIS-QSSG you will need to open the .ini file. To continue working to add your own code, you will need the .nsi file.
 
+**THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW**
+
+![1](https://user-images.githubusercontent.com/51851736/81557528-6a849600-938c-11ea-843f-9cd37ec427c5.PNG)
+![2](https://user-images.githubusercontent.com/51851736/81557531-6b1d2c80-938c-11ea-9b7e-761c605ab969.PNG)
+![3](https://user-images.githubusercontent.com/51851736/81557532-6c4e5980-938c-11ea-9d16-2fca40fcd051.PNG)
+![4](https://user-images.githubusercontent.com/51851736/81557536-6ce6f000-938c-11ea-97be-8d6a5f8f389b.PNG)
+
+
 #### TODO2
 
+Here, as said before, you have to add an image to the heather. You must add it after "MUI.nsh" is added, since what we need is inside it. 
 
+![todo2a](https://user-images.githubusercontent.com/51851736/81557709-b6373f80-938c-11ea-930a-1b8e295f28c1.PNG)
 
+We will add it just after "MUI.nsh" to avoid conflicts. You will need to define *!define* your variable/function. Ths first line is to initialize, the second one is asking for a bitmap (.bmp) and the third one is for the position. In our case, we have the image in the same folder as the file and "Game" foder, so there's no need to write the directoy. If you need to, "FolderName/Image.bmp" is how to do it.
+
+![todo2](https://user-images.githubusercontent.com/51851736/81557707-b59ea900-938c-11ea-9242-ca3bbb27eac9.PNG)
 
 
 #### TODO3
 
+To add an icon to your installer we are also using MUI, therefore, it will be written just below the previous TODO. It works in the same way the Bitmap image for the heather (TODO2, second line), you are defining and icon, so you have to add "Icon.ico" and in case it's not in the same folder, you will need to add the path.
 
+![todo3](https://user-images.githubusercontent.com/51851736/81557711-b6373f80-938c-11ea-8101-af5a84942d6c.PNG)
+
+**THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW**
+
+![1](https://user-images.githubusercontent.com/51851736/81558754-8ab55480-938e-11ea-855f-e0e888789ba9.PNG)
+![2](https://user-images.githubusercontent.com/51851736/81558758-8b4deb00-938e-11ea-8e1f-7ba3356b6dd7.PNG)
+![3](https://user-images.githubusercontent.com/51851736/81558760-8be68180-938e-11ea-9314-ad7b2e4e08cb.PNG)
+![4](https://user-images.githubusercontent.com/51851736/81558761-8be68180-938e-11ea-9b79-621cdb33b9f6.PNG)
+![5](https://user-images.githubusercontent.com/51851736/81558762-8be68180-938e-11ea-90e9-1e0dfd0a6899.PNG)
+
+This last picture shows the files I have in my folder at the moment.
+
+*__Pro tip!__* After all the TODOs, to create your working Installer, youu need to open NSIS and choose the option below "Compiler" called "Compile NSI scripts". This will open a new window. In "File" you have choose "Load script" and choose the .nsi file you want to create your installer from. It will run automatically: red if your code doesn't compiler, orange if there are warning and green if neither of those. Your installer will be generated automatically and you can **Press "Test Installer"** to see how it works.
 
 ### Where can you find the exercise?
 
