@@ -508,6 +508,20 @@ After that, the app will start showing you commands, but I will talk about them 
 
 There is a lot of room to improve your installers using NSIS. Since you can create your own scripts and produce all the content you need for your own Installer. In addition, some basic scripts can be used, and always come with NSIS when installing.
 
+### Custom actions
+
+When there is no built-in support for a certain operation or task in Windows Installer itself, or in any of the various third party tools available, you are left having to implement the feature yourself.
+
+When you use Windows Installer, this involves running custom actions of various types (Windows Installer’s mechanism for running executable, custom installation logic during installation).
+
+Custom actions are purpose built executables (binaries: dll, exe) and scripts capable of making advanced modifications to the system during installation that are not supported by Windows installer natively or by the deployment tool in use (WiX, Installshield, Advanced Installer, etc…).
+
+There are different custom action types: implemented as scripts (JavaScript, VBScript), .NET binaries (C#, VB.NET, DTF,…), PowerShell scripts, etc.
+
+Custom actions that make modifications to the system run with elevated rights so that changes can be made to the system even if the logged on user does not have admin rights. There is essentially no limit to what these custom actions can do. They are armed and dangerous.
+
+Custom actions are the leading causes of deployment errors and failure.
+
 
 ***
 
