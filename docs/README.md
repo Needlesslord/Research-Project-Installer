@@ -545,6 +545,12 @@ After opening NSI, you are shown different "links" that will take you to differe
 
 [Here](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/handout/Test%20Game%20Code/Exercises/TODO0-2) you can find a link to a script with basic syntax errors in this language. Find them all so that it works.
 
+#### TODO0: Icon game
+
+**You will need an icon (.ico).** It is advisable it is inside your game's assets folder.
+
+You need to add an icon to your game. Look at all the types of files you can add and see if you can find something to add this resource. Then import your icon.
+
 #### TODO1: Using NSIS Quick Setup Script Generator to create a basic script
 
 As said before, we will use this software provided by NSIS to create a basic script. Open the executable and play with it. The interface is very intuitive. After completing all of the fields, you will have your first script in NSIS. Of course, you may not understand some part or if you can leave a field blank, etc, so an explanation on how to use this software can be found in the solutions below.
@@ -585,6 +591,23 @@ If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you h
 #### TODO0-2
 
 [Here](https://github.com/Needlesslord/Research-Project-Installer/tree/master/exercises/solution/TODO0-2) you can find the script without errors and small explanations. Remember that ";" is used to comment, so the explanations will be after them.
+
+#### TODO0
+
+First you need to open Visual Studio. In a forlder of your choice (choose wisely), you will be adding your icon. In my case I chose the "tools" folder. Right-click the folder, choose "Add" and then "New element". Go to "resources" on the left and add a ,rc file, you can change the name. **Press "Add".** Then right-click again and choose "Add resource". Select "Icon" and "Import". Browse in your computer the .ico you wish to be the icon for your game. Now you just have to run the code! Bear in mind that, if you run it in "Debug", it will only change the icon in the Debug's executable. It will happen the same with "Release".
+
+<details>
+<summary> Here you have the screenshots of every step. </summary>
+<br>
+ 
+![todo4A](https://user-images.githubusercontent.com/51851736/81615344-b877b900-93e1-11ea-8571-c94ddae929df.png)
+![todo4B](https://user-images.githubusercontent.com/51851736/81615346-b9104f80-93e1-11ea-84f9-3575e1abf686.png)
+![todo4C](https://user-images.githubusercontent.com/51851736/81615347-b9a8e600-93e1-11ea-8320-d8318d50ea12.png)
+![todo4D](https://user-images.githubusercontent.com/51851736/81615348-b9a8e600-93e1-11ea-9fba-46c20852e288.png)
+![todo4E](https://user-images.githubusercontent.com/51851736/81615349-ba417c80-93e1-11ea-98f5-1882df170173.png)
+
+ 
+ </details>
 
 #### TODO1
 
@@ -679,9 +702,11 @@ To add an icon to your installer we are also using MUI, therefore, it will be wr
 ![4](https://user-images.githubusercontent.com/51851736/81558761-8be68180-938e-11ea-9b79-621cdb33b9f6.PNG)
 ![5](https://user-images.githubusercontent.com/51851736/81558762-8be68180-938e-11ea-90e9-1e0dfd0a6899.PNG)
 
+This last picture shows the files I have in my folder at the moment.
+
 </details>
 
-This last picture shows the files I have in my folder at the moment.
+
 
 *__Pro tip!__* After all the TODOs, to create your working Installer, youu need to open NSIS and choose the option below "Compiler" called "Compile NSI scripts". This will open a new window. In "File" you have choose "Load script" and choose the .nsi file you want to create your installer from. It will run automatically: red if your code doesn't compiler, orange if there are warning and green if neither of those. Your installer will be generated automatically and you can **Press "Test Installer"** to see how it works.
 
