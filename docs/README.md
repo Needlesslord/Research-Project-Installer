@@ -32,7 +32,7 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
  - [How can YOU do it?](#how-can-you-do-it)
  - [How can you continue improving?](#how-can-you-continue-improving)
  - [Links to documentation](#links-to-documentation)
- - [Further information](#further-information) /
+ - [Further information](#further-information) 
 
 
 </details>
