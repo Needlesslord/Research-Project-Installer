@@ -209,8 +209,11 @@ Nevertheless, these are in my particular case, to know what I was looking for. W
 
 #### How does the MSI Application Management work?
 
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
+The Windows Installer service was designed to support every phase of the application management life cycle, providing a service to support each step involved in managing a desktop application from deployment through retirement.
 
+To support these functions, the Windows Installer needs to receive instructions from an installation package.
+
+![MSI-cycle_life](https://user-images.githubusercontent.com/51851736/81513955-793b6080-932c-11ea-8ed2-43e51b91e945.png)
 
 
 #### What files and components are included in the MSI?
@@ -238,10 +241,6 @@ Windows Installer can support many applications installed, from a network share 
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
-
-##### How does Deployment tasks work on MSI?
-
- - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
 
 
 ##### How do you sign an Application Packaging?
