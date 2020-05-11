@@ -19,6 +19,10 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 ## What is included in this research?
 
+<details>
+<summary>Sections</summary>
+<br>
+
  - [What is an *Installer*?](#what-is-an-installer)
  - [Have you seen it in games?](#have-you-seen-it-in-games)
  - [What is the approach to this problem in this research?](#what-is-the-approach-to-this-problem-in-this-research)
@@ -28,6 +32,8 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
  - [Links to documentation](#links-to-documentation)
  - [Further information](#further-information)
 
+
+</details>
 
 ***
 
