@@ -525,7 +525,7 @@ To start with your Installer, as obvious as it may be, you have to install the s
 
  - After that, we are going to create a script with a script generator, as said before. This will include Licenses, app's name, installer's name, directories, and more.
  
- - Finally, I will teach you in the final TODOs how to add an icon to an installer or how to personalize a little bit your Installer's UI, in our case, adding and image. However, you can do much more, and [here](https://nsis.sourceforge.io/Docs/Modern%20UI/Readme.html) you have a link to other personalization features.
+ - Finally, I will teach you in the final TODOs how to add an icon to an installer or how to personalize a little bit your Installer's UI, in our case, adding and image. However, you can do much more, and **[here](https://nsis.sourceforge.io/Docs/Modern%20UI/Readme.html) you have a link to other personalization features**.
 
 
 ### What do you have *TODO*?
@@ -537,7 +537,7 @@ To start with your Installer, as obvious as it may be, you have to install the s
 
 #### TODO0-1: Create an installer from a .zip file
 
-After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you belive will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "BZip2" and generate your file. You have it!
+After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you belive will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "LZMA" and generate your file. You have it!
 
 #### TODO0-2: Learn the NSI language
 
