@@ -707,6 +707,10 @@ To continue learning about installers, I propose that you do those exercises on 
 
 - **Inno Setup** is a free installer for Windows programs. [Here](https://jrsoftware.org/isinfo.php#features) you can see its features, from where I will highlight the support they offer, the creation of a single EXE and customizable setup types, as well as uninstall capabilities, shortcuts, multilingual, supports encrypted and passwarded installs as well as digital signs, and its full source code is available from [GitHub](https://github.com/jrsoftware/issrc). [Here](https://jrsoftware.org/ishelp/) you will find its documentation. [Here](https://jrsoftware.org/files/is/license.txt) you can read the license.
 
+    + Here you have some tutorials with Inno Setup:
+      - [YouTube: How To Create Setup File Using Inno Setup Compiler](https://www.youtube.com/watch?v=Gzx-WeJ6CNo)
+      - [Supinfo, International University: Create installer with inno setup](https://www.supinfo.com/articles/single/7176-create-installer-with-inno-setup)
+
 
  - **WiX Toolset**, is short for *Windows Installer XML Toolset*, is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates. *In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.* The following [link](https://wixtoolset.org/) leads to the official web page of WiX Toolset. MSBuild is supported from the command line, Visual Studio, and Team Build and includes several extensions that offer functionality beyond that of Windows Installer. You can also create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. In addition, you have custom actions, where you can code if you want to go further in your Installer. In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals. If you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
 
@@ -803,6 +807,8 @@ To continue learning about installers, I propose that you do those exercises on 
     - [Inno Setup: GitHub](https://github.com/jrsoftware/issrc)
     - [Inno Setup: Documentation](https://jrsoftware.org/ishelp/)
     - [Inno Setup: License](https://jrsoftware.org/files/is/license.txt)
+    - [YouTube: How To Create Setup File Using Inno Setup Compiler](https://www.youtube.com/watch?v=Gzx-WeJ6CNo)
+    - [Supinfo, International University: Create installer with inno setup](https://www.supinfo.com/articles/single/7176-create-installer-with-inno-setup)
  + About WiX Toolset and how it could be improved:
     - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
 
