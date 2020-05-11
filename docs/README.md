@@ -35,7 +35,7 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 </details>
 <br>
-<br>
+
 
 ***
 
@@ -193,7 +193,7 @@ Of course, Mods for different games also require and almost always use installer
 
 </details>
 <br>
-<br>
+
 
 ***
 
@@ -350,7 +350,7 @@ And you are done!
  
  </details>
 <br>
-<br>
+
 
 ###### *How do you create your own VM in VirtualBox and start using it?*
 
@@ -390,7 +390,6 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 ![R](https://user-images.githubusercontent.com/51851736/81562992-f8b14a00-9395-11ea-9025-2935464b4ca1.PNG)
 
  </details>
-<br>
 <br>
 
 
@@ -486,7 +485,7 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 
 </details>
 <br>
-<br>
+
 
 ##### Installing/Start using NSIS Quick Setup Script Generator 
 
@@ -506,7 +505,6 @@ After that, the app will start showing you commands, but I will talk about them 
 
 </details>
  <br>
-<br>
 
 
 ***
@@ -781,7 +779,7 @@ To continue learning about installers, I propose that you do those exercises on 
 
 </details>
 <br>
-<br>
+
 
 ***
 
