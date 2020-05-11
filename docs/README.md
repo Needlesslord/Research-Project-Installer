@@ -553,7 +553,7 @@ As said before, we will use this software provided by NSIS to create a basic scr
 
 **You will need a bitmap (.bmp).**
 
-In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the [MUI](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System#Modern_user_interface) to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define!" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the [MUI](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System#Modern_user_interface) to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
 
 #### TODO3: Icon executable
 
