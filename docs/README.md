@@ -304,7 +304,6 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 ###### How do you work with VirtualBox?
 
-###### *How do you install VirtualBox?*
 
 <details>
 <summary> Click on me to see how to install VirutalBox </summary>
@@ -345,10 +344,6 @@ And you are done!
  ![8](https://user-images.githubusercontent.com/51851736/81560450-b7b73680-9391-11ea-9bfa-51cb7466f656.PNG)
  
  </details>
-
-
-
-###### *How do you create your own VM in VirtualBox and start using it?*
 
 
 Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your sofware will be alone to test it.
@@ -429,7 +424,9 @@ To see the full features of NSIS, here you have a [link](https://nsis.sourceforg
 
 The following images will show you all the steps to install NSIS. In addition, I will show you how to install a package to help you with the creation of scripts for NSIS.
 
-##### Installing NSIS (and Uninstalling)
+<details>
+ <summary><strong> Installing NSIS (and Uninstalling) </strong></summary>
+<br>
 
 First of all, you have to go to the download page, you have the link [here](https://nsis.sourceforge.io/Download). In this case, we are downloading the version NSIS 3.05, released Decembre 15th 2019. [Here](https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/RELEASE.html/view) you have the release notes. You just have to **click "Download"** in bold letters under the release date and version.
 
@@ -480,10 +477,11 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
 </details>
+</details>
 
-
-
-##### Installing/Start using NSIS Quick Setup Script Generator 
+<details>
+ <summary><strong> Installing/Start using NSIS Quick Setup Script Generator </strong></summary>
+<br>
 
 <details>
  <summary> In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator. </summary>
@@ -500,6 +498,8 @@ Once downloaded it, you just have to click the downloaded file, called "Nsisqssg
 After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
 
 </details>
+</details>
+
 
 
 ***
@@ -525,7 +525,7 @@ To start with your Installer, as obvious as it may be, you have to install the s
 
  - After that, we are going to create a script with a script generator, as said before. This will include Licenses, app's name, installer's name, directories, and more.
  
- - Finally, I will teach you in the final TODOs how to add an icon to an installer or how to personalize a little bit your Installer's UI, in our case, adding and image. However, you can do much more, and [here](https://nsis.sourceforge.io/Docs/Modern%20UI/Readme.html) you have a link to other personalization features.
+ - Finally, I will teach you in the final TODOs how to add an icon to an installer or how to personalize a little bit your Installer's UI, in our case, adding and image. However, you can do much more, and **[here](https://nsis.sourceforge.io/Docs/Modern%20UI/Readme.html) you have a link to other personalization features**.
 
 
 ### What do you have *TODO*?
@@ -537,7 +537,7 @@ To start with your Installer, as obvious as it may be, you have to install the s
 
 #### TODO0-1: Create an installer from a .zip file
 
-After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you belive will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "BZip2" and generate your file. You have it!
+After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you belive will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "LZMA" and generate your file. You have it!
 
 #### TODO0-2: Learn the NSI language
 
@@ -553,7 +553,7 @@ As said before, we will use this software provided by NSIS to create a basic scr
 
 **You will need a bitmap (.bmp).**
 
-In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the [MUI](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System#Modern_user_interface) to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define!" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the [MUI](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System#Modern_user_interface) to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
 
 #### TODO3: Icon executable
 
@@ -707,6 +707,10 @@ To continue learning about installers, I propose that you do those exercises on 
 
 - **Inno Setup** is a free installer for Windows programs. [Here](https://jrsoftware.org/isinfo.php#features) you can see its features, from where I will highlight the support they offer, the creation of a single EXE and customizable setup types, as well as uninstall capabilities, shortcuts, multilingual, supports encrypted and passwarded installs as well as digital signs, and its full source code is available from [GitHub](https://github.com/jrsoftware/issrc). [Here](https://jrsoftware.org/ishelp/) you will find its documentation. [Here](https://jrsoftware.org/files/is/license.txt) you can read the license.
 
+    + Here you have some tutorials with Inno Setup:
+      - [YouTube: How To Create Setup File Using Inno Setup Compiler](https://www.youtube.com/watch?v=Gzx-WeJ6CNo)
+      - [Supinfo, International University: Create installer with inno setup](https://www.supinfo.com/articles/single/7176-create-installer-with-inno-setup)
+
 
  - **WiX Toolset**, is short for *Windows Installer XML Toolset*, is a free software toolset that builds Windows Installer packages from [XML](https://en.wikipedia.org/wiki/XML). For those which are not familiar with XML, it is a [markup language](https://en.wikipedia.org/wiki/Markup_language) (a system for annotating a document in a way that is **syntactically distinguishable** from the text, which means that, when the document is processed to display it, the markup language, what you have written, it is not shown, since it is only used to give format to the text) widely used, remarkably because it is used across the Internet. It uses C++ and C# and the target OS is always Windows, as the name itself indicates. *In the following [link](https://wixtoolset.org/) you can go to the official web page of WiX Toolset.* The following [link](https://wixtoolset.org/) leads to the official web page of WiX Toolset. MSBuild is supported from the command line, Visual Studio, and Team Build and includes several extensions that offer functionality beyond that of Windows Installer. You can also create setup bundles that install prerequisites like the .NET Framework and other runtimes along with your own product. In addition, you have custom actions, where you can code if you want to go further in your Installer. In the following [link](https://wixtoolset.org/development/wips/) you can go to the official web page of WiX Toolset, to the WiX Improvement Proposals. If you want to master WiX Toolset, the following links will lead you to other tutorials which may be useful:
 
@@ -803,6 +807,8 @@ To continue learning about installers, I propose that you do those exercises on 
     - [Inno Setup: GitHub](https://github.com/jrsoftware/issrc)
     - [Inno Setup: Documentation](https://jrsoftware.org/ishelp/)
     - [Inno Setup: License](https://jrsoftware.org/files/is/license.txt)
+    - [YouTube: How To Create Setup File Using Inno Setup Compiler](https://www.youtube.com/watch?v=Gzx-WeJ6CNo)
+    - [Supinfo, International University: Create installer with inno setup](https://www.supinfo.com/articles/single/7176-create-installer-with-inno-setup)
  + About WiX Toolset and how it could be improved:
     - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
 
