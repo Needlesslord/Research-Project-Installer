@@ -292,7 +292,7 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
  
- Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS.
+ Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS. [Here](https://www.virtualbox.org/wiki/Downloads) you have the link to the download page of VirtualBox.
  
 
 ###### *How do you create your own VM in VirtualBox and start using it?*
@@ -302,8 +302,11 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your sofware will be alone to test it.
 
-- First, open Vitual Box and click "New" to create a new virtual machine
+- First, open Vitual Box and click "New" to create a new virtual machine. You will also need to download the ISO file according to the OS you want to try
 
+- Then, install the operating system of your choice, in our case we will choose Windows, onto the VM
+
+- Before you install anything else, take a snapshot. This will allow you to revert to your original install, without any change of states, after you are done testing.
 
 
 For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Begginers Guide)*.
