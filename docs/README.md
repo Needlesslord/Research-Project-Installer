@@ -17,10 +17,10 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 ***
 
 
-
+## What is included in this research?
 
 <details>
-<summary> ## What is included in this research? </summary>
+<summary> Sections </summary>
 <br>
 
  - [What is an *Installer*?](#what-is-an-installer)
@@ -296,6 +296,9 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 ###### *How do you install VirtualBox?*
 
+<details>
+<summary> Click on me to see how to install VirutalBox </summary>
+<br>
 
 The welcome page will be first shown. **Press "Next".**
 
@@ -330,11 +333,11 @@ Before installing VirtualBox, please be sure that you install the proper platfor
 And you are done!
 
  ![8](https://user-images.githubusercontent.com/51851736/81560450-b7b73680-9391-11ea-9bfa-51cb7466f656.PNG)
+ 
+ </details>
 
 ###### *How do you create your own VM in VirtualBox and start using it?*
 
-- - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
- 
 
 Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your sofware will be alone to test it.
 
@@ -346,6 +349,34 @@ Obviously, once we have installed VirtualBox we cannot start testing right away.
 
 
 For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Begginers Guide)*.
+
+<details>
+<summary> To see the screenshots on how to create a new Virtual Machine in your computer step by step, click here </summary>
+<br>
+ 
+ 
+![A](https://user-images.githubusercontent.com/51851736/81562939-ea632e00-9395-11ea-9861-cbb4cdc7ce80.PNG)
+![B](https://user-images.githubusercontent.com/51851736/81562943-eafbc480-9395-11ea-8c31-c2536a8b82f5.PNG)
+![C](https://user-images.githubusercontent.com/51851736/81562946-ec2cf180-9395-11ea-9096-9488a9b87733.PNG)
+![D](https://user-images.githubusercontent.com/51851736/81562951-ecc58800-9395-11ea-9724-e40ba721e0ee.PNG)
+![E](https://user-images.githubusercontent.com/51851736/81562958-ee8f4b80-9395-11ea-920d-d991c036ca2f.PNG)
+![F](https://user-images.githubusercontent.com/51851736/81562959-ef27e200-9395-11ea-8766-36a909ad79e0.PNG)
+![G](https://user-images.githubusercontent.com/51851736/81562962-f0590f00-9395-11ea-8935-9993d1165e88.PNG)
+![H](https://user-images.githubusercontent.com/51851736/81562965-f18a3c00-9395-11ea-9c79-10bc83cca41a.PNG)
+![I](https://user-images.githubusercontent.com/51851736/81562967-f222d280-9395-11ea-8250-146ebebc85e6.PNG)
+![J](https://user-images.githubusercontent.com/51851736/81562972-f353ff80-9395-11ea-8faa-bea6351efc04.PNG)
+![K](https://user-images.githubusercontent.com/51851736/81562973-f3ec9600-9395-11ea-930c-5c47c6ce132f.PNG)
+![L](https://user-images.githubusercontent.com/51851736/81562977-f51dc300-9395-11ea-82d2-7c802ddca168.png)
+![M](https://user-images.githubusercontent.com/51851736/81562981-f5b65980-9395-11ea-8e62-5b0afaaabb0c.png)
+![N](https://user-images.githubusercontent.com/51851736/81562984-f5b65980-9395-11ea-9f01-b123a3e10c5c.PNG)
+![O](https://user-images.githubusercontent.com/51851736/81562987-f64ef000-9395-11ea-96ab-f2f30fe1f695.PNG)
+![P](https://user-images.githubusercontent.com/51851736/81562988-f6e78680-9395-11ea-91bc-d7f395fd0833.PNG)
+![Q](https://user-images.githubusercontent.com/51851736/81562989-f7801d00-9395-11ea-9877-887a96a56c1a.png)
+![R](https://user-images.githubusercontent.com/51851736/81562992-f8b14a00-9395-11ea-9025-2935464b4ca1.PNG)
+
+
+ 
+ </details>
 
 
 ### What is [*NSIS*](https://nsis.sourceforge.io/Main_Page)?
@@ -394,6 +425,10 @@ First of all, you have to go to the download page, you have the link [here](http
 
 ![1](https://user-images.githubusercontent.com/51851736/81496479-33dd4b80-92b8-11ea-92cc-c9a8f2604bcc.PNG)
 
+<details>
+<summary> To see the screenshots on how to install NSIS in your computer step by step, click here </summary>
+<br>
+ 
 Once downloaded it, you just have to click the downloaded file, called "nsis-3.05-setup.exe". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it else where. Double click on it and the NSIS installer will start running. You will see this. **Press "Next".**
 
 ![2](https://user-images.githubusercontent.com/51851736/81496614-165cb180-92b9-11ea-821d-6bc2bde1c956.PNG)
@@ -433,6 +468,8 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![C](https://user-images.githubusercontent.com/51851736/81496955-9edc5180-92bb-11ea-91d6-83d908a620ad.PNG)
 ![D](https://user-images.githubusercontent.com/51851736/81496956-9f74e800-92bb-11ea-8dc3-c6cba2962d31.PNG)
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
+
+</details>
 
 ##### Installing/Start using NSIS Quick Setup Script Generator 
 
