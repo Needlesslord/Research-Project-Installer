@@ -250,7 +250,14 @@ First of all, it is important to understand what [*digital signature*](https://e
  
 Signing an application package provides the user with verification that the application data has not been modified after being signed, while confirming the identity of the user or the company that signed it. Therefore, signing an Installer is an importnat thing since you help ensure that tampered files are not installed on end-user computers.
 
-There are many methods and ways to approach this topic, but since we are using .msi files for the deploument of applications, I chose [SignTool.exe](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe), which is a command line tool that is used to sign an Application Package or a batch of applications with a certificate. This 
+There are many methods and ways to approach this topic, but since we are using .msi files for the deploument of applications, I chose [SignTool.exe](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe), which is a command line tool that is used to sign an Application Package or a batch of applications with a certificate. This tool is installed in the Bin folder of the Microsoft Windows [Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit) installation path. Therfore, we need Microsoft Windows SDK to be able to work with SingTool.exe, which you can download [here](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/). [Here](https://stackoverrun.com/es/q/8776869) you will find how ton install SignTool.exe for Windows 10. [Here](https://stackoverflow.com/questions/43636484/how-to-install-signtool-exe-for-vs-2017) you will find a link to learn how to install SignTool.exe for Visual Studio 2017.
+
+The steps are easy:
+
+- First, make sure you have the certificate you want to sign the file with in your computer.
+- Then, open a Visual Studio command prompt
+- Afterwards, change to the directory that contains the .msi file.
+- You can now sign the .msi file using the following command: *__signtool sign /sha1 CertificateHash SetupNameFile.msi__*
 
 
 ##### How can you test an Application in a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
@@ -285,7 +292,7 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
  - - - - - - - - - - - - - - - - **TO DO** - - - - - - - - - - - - - - - -
  
- Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS.
+ Before installing VirtualBox, please be sure that you install the proper platform package according to your current OS. [Here](https://www.virtualbox.org/wiki/Downloads) you have the link to the download page of VirtualBox.
  
 
 ###### *How do you create your own VM in VirtualBox and start using it?*
@@ -295,8 +302,11 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 
 Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your sofware will be alone to test it.
 
-- First, open Vitual Box and click "New" to create a new virtual machine
+- First, open Vitual Box and click "New" to create a new virtual machine. You will also need to download the ISO file according to the OS you want to try
 
+- Then, install the operating system of your choice, in our case we will choose Windows, onto the VM
+
+- Before you install anything else, take a snapshot. This will allow you to revert to your original install, without any change of states, after you are done testing.
 
 
 For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Begginers Guide)*.
@@ -606,6 +616,7 @@ Here are the links and references where I got all the information I used to crea
 - [YouTube: *How to Use VirtualBox (Begginers Guide)*, by TechGumbo](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo)
 - [Wikipedia: Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
 - [Microsoft Build: SignTool.exe (Sign Tool)](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe)
+- [Wikipedia: Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit)
 
 *All images were taken from Google Images. Credit goes to their respective authors.*
 
