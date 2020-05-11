@@ -468,7 +468,7 @@ In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh 
 
 #### TODO3: Icon executable
 
-**You will need an icon (.ico).** [If it complains about your icons](https://nsis.sourceforge.io/Why_does_it_complain_about_my_icons%3F) 
+**You will need an icon (.ico).** [(If it complains about your icons check this information)](https://nsis.sourceforge.io/Why_does_it_complain_about_my_icons%3F) 
 
 In this TODO  You will have to add a .nsh for the MUI to control the interface (UI Dialog). In this case, you have to add an "executable image" to personalize your setup software. In this case you will have to "!define" an icon. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
 
@@ -496,10 +496,57 @@ Here there is an explanation on how to use Quick Setup Script Generator.
 
 AS stated beforehand, to use this software you just need the executable. Once done, all your scripts will be saved into the same folder, but I'll get to that later. Open the executable and **Press "Next"**.
 
-!
+![A](https://user-images.githubusercontent.com/51851736/81554952-f516c680-9387-11ea-95db-b5f9c250f03a.PNG)
 
-Here is where you will start creating your script with the help of your software. In this section you are asked for a "New project name". You can also "Load a previously saved project", but since we are creating a script from scratch we will not use that feature. Here you can write down the name of your game. The following two images are used as a how it is first shown and what I have written for the example used in this research. **Press "Next".**
+Here is where you will start creating your script with the help of your software. In this section you are asked for a "New project name". You can also "Load a previously saved project", but since we are creating a script from scratch we will not use that feature. Here you can write down the name of your game, in my case Test_Game_Pong. The following two images are used as a how it is first shown and what I have written for the example used in this research. **Press "Next".**
 
+![B1](https://user-images.githubusercontent.com/51851736/81554954-f5af5d00-9387-11ea-96ad-5f5143bab671.PNG)
+![B2](https://user-images.githubusercontent.com/51851736/81554957-f5af5d00-9387-11ea-9610-6f3c1a31abd2.PNG)
+
+Now, you have to put a lot more information about your software. You will need to write in each field You game name, who developed it, under which license, the version it is done for, etc. There are some fields you don't have to fill, like the license one. I recommend you choose in the compression type *LZMA*, since it's top one at the moment. To add a License, you will need it in .txt format; you just have to press the the button next to it (it has "...") and browse in your computer to add it. I also recommend you to choose "Install for all users". You can see how I filled out the information and what is shown before changing anything. **Press "Next".**
+
+![C1](https://user-images.githubusercontent.com/51851736/81554958-f647f380-9387-11ea-8edf-55538f9cf959.PNG)
+![C2](https://user-images.githubusercontent.com/51851736/81554960-f647f380-9387-11ea-9237-f20823c918fd.PNG)
+
+In the next step, you are going to basically select what's going inside the end-user. You will need to look for the executable first. In the "Main exe" section, you need to press the button "..." and browse through your computer for the game's executable. Then, in "Add files", you will need to add what the game or software needs to run. In our particular case, in the Pong game provided, there is a folder called "Game", with 2 different folders. You need to browse clicking "..." and add "Game". Then, next to the "..." button, you have to tick "Include subdirectories" in order to also add all the files which are in other folders inside "Game", the main folder. You don't need "Additional Installation Files" in this case, but you can do it in this section too. **Press "Next".**
+
+![D1](https://user-images.githubusercontent.com/51851736/81554961-f6e08a00-9387-11ea-8942-9c0d278f3b1a.PNG)
+![D2](https://user-images.githubusercontent.com/51851736/81554963-f6e08a00-9387-11ea-815a-5d4d9a67aee4.PNG)
+
+Before generating the script, you will need to say how you want the Start Menu and set the compiler preferences. In this case, I chose to tick to "Create a desktop shortcut as well", to add a shortcut of the game in the end-user computer's desktop. This is what's most important about this section with the compiler preferences. For the other ticks, I chose to also tick them in order to give the end-user more options, but it will depend on your needs, which may not be the same as mine. In the "Compiler Preferences" section you will be choosing where to save your Installer and its name, which you don't need to touch at all and it will be automatically set to "setup.exe" in the folder you first opened NSIS-QSSG. It's important to tick "Save compiled script for further editing", since we will be adding things in the following TODOs. I also chose to "Also open up saved script in editor" to continue working. **Press "Generate".** You will be asked "Do you want to save/update the current project settings?", say **"YES"**.
+
+![E1](https://user-images.githubusercontent.com/51851736/81554964-f7792080-9387-11ea-9e4b-bd3810a036fe.PNG)
+![E2](https://user-images.githubusercontent.com/51851736/81554966-f7792080-9387-11ea-81ad-b37ec5e0060c.PNG)
+![E3](https://user-images.githubusercontent.com/51851736/81554968-f7792080-9387-11ea-8d59-c12fefcdf9d1.PNG)
+
+Shortly after, the script will start generating and a pop-up will say it is "Done!". **Press "Accept".** Then **Press "Close".**
+
+![F](https://user-images.githubusercontent.com/51851736/81554969-f811b700-9387-11ea-803c-0a75453b8322.PNG)
+![G](https://user-images.githubusercontent.com/51851736/81554971-f811b700-9387-11ea-9385-360e1c01cc03.PNG)
+
+Here you have your script!
+
+![H](https://user-images.githubusercontent.com/51851736/81554973-f8aa4d80-9387-11ea-9414-1ad1ce7e7bd9.PNG)
+
+As said, everything will be saved in the NSI-QSSG folder in your computer. The following files will be generated (the name is for the game and code I provided):
+
+- Test_Game_Pong.ini
+- Test_Game_Pong.log
+- Inside "Output" folder: 
+   + Test_Game_Pong (folder):
+      - Test_Game_Pong.nsi
+      - Test_Game_Pong_setup.exe
+      - Test_Game_Pong.nsi.bak (in case of choosing to edit your file)
+
+If you want to edit your file again with NSIS-QSSG you will need to open the .ini file. To continue working to add your own code, you will need the .nsi file.
+
+#### TODO2
+
+
+
+
+
+#### TODO3
 
 
 
