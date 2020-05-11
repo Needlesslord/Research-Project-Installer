@@ -135,9 +135,10 @@ Installation Packages are used broadly, as said before. From programs to games t
 
 *Disclaimer! Please note that these pictures are from different years, so the design or usage may be different now.*
 
-
-### Game Shops
-
+<details>
+ <summary> <strong> Game shops </strong> </summary>
+<br>
+ 
 For example, in Game shops, when you want to use the app instead of the web, you are asked to install them to your computer through an Installation Package. Epic Games and Steam are used as examples below.
 
 Here you can see two different pictures of the Epic Games Launcher Setup, which in this case, since it was in a Windows OS uses MSI. In both of them they are asking for a "Destination Folder" or "directory". This means they installer is asking for a folder where you want to save all the files needed to run the game and possible future downloads.
@@ -164,21 +165,31 @@ The following two pictures are from installing a game from Steam on a Mac OS (Ap
 
 ![Steam-Game-Install-Finish](https://user-images.githubusercontent.com/51851736/81014847-e6974f00-8e5d-11ea-884e-d0b41d4d4684.png)
 
+</details>
 
-### Games
 
+<details>
+ <summary> <strong> Games </strong> </summary>
+<br>
+ 
 In games, for example, you always see them. The following images display different installers for individual games, which are not installed from Game Shops.
 
 Here we can see what is first shown to the user when installing LOL (League of Legends).
 
 ![Install-League-of-Legends](https://user-images.githubusercontent.com/51851736/81014844-e5662200-8e5d-11ea-8058-f40517477f2f.jpg)
 
+</details>
 
-### Mods
+
+<details>
+ <summary> <strong> Mods </strong> </summary>
+<br>
 
 Of course, Mods for different games also require and almost always use installers. The following picture is for an installation of a Vehicle Mod Pack for the game GTA IV (Grand Theft Auto IV).
 
 ![Install-Mods-GTAIV](https://user-images.githubusercontent.com/51851736/81014845-e6974f00-8e5d-11ea-9876-c1d2a04dfdbf.jpg)
+
+</details>
 
 
 ***
@@ -354,7 +365,6 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 <summary> To see the screenshots on how to create a new Virtual Machine in your computer step by step, click here </summary>
 <br>
  
- 
 ![A](https://user-images.githubusercontent.com/51851736/81562939-ea632e00-9395-11ea-9861-cbb4cdc7ce80.PNG)
 ![B](https://user-images.githubusercontent.com/51851736/81562943-eafbc480-9395-11ea-8c31-c2536a8b82f5.PNG)
 ![C](https://user-images.githubusercontent.com/51851736/81562946-ec2cf180-9395-11ea-9096-9488a9b87733.PNG)
@@ -374,8 +384,6 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 ![Q](https://user-images.githubusercontent.com/51851736/81562989-f7801d00-9395-11ea-9877-887a96a56c1a.png)
 ![R](https://user-images.githubusercontent.com/51851736/81562992-f8b14a00-9395-11ea-9025-2935464b4ca1.PNG)
 
-
- 
  </details>
 
 
@@ -473,7 +481,9 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 
 ##### Installing/Start using NSIS Quick Setup Script Generator 
 
-In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator.
+<details>
+ <summary> In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator. </summary>
+<br>
 
 First of all, you have to download the .zip from the following [web page](https://nsis.sourceforge.io/NSIS_Quick_Setup_Script_Generator). There is a link provided to download the package. It can be found in "Links"->"Download", in the line that says "NSIS Quick Setup Script Generator  Nsisqssg.zip (74 KB) the current release.".
 
@@ -484,6 +494,9 @@ Once downloaded it, you just have to click the downloaded file, called "Nsisqssg
 ![2](https://user-images.githubusercontent.com/51851736/81497296-da781b00-92bd-11ea-866c-891264a28f67.PNG)
 
 After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
+
+</details>
+ 
 
 ***
 
@@ -554,11 +567,17 @@ In this TODO  You will have to add a .nsh for the MUI to control the interface (
 
 Here are all the screenshots on how to do it. First you need to select "Installer based on .ZIP file" under the "Compiler" section. A new window will be opened. You will need to look for the .zip in "Open...", which will let ou browse in your computer. You can then change your installer name and choose the interface design (I left it at "Modern" since it's what we will be using) and then select the "Output EXE File", which if you click "Browse..." you can look for it and select it in your computer. I recommend you to leave LMZA in "Compression" since it's the most efficient out of all of them. **Press "Generate".** You now have your installer, which should look like the last picture.
 
+<details>
+ <summary> Click to see the screenshots </summary>
+<br>
+
 ![1](https://user-images.githubusercontent.com/51851736/81559309-76be2280-938f-11ea-9cc7-c01914a26a6b.PNG)
 ![2](https://user-images.githubusercontent.com/51851736/81559310-7756b900-938f-11ea-808b-95de1bbfb4ed.PNG)
 ![3](https://user-images.githubusercontent.com/51851736/81559311-77ef4f80-938f-11ea-8647-ea0e3e1f8e1f.PNG)
 ![4](https://user-images.githubusercontent.com/51851736/81559312-77ef4f80-938f-11ea-8544-552866fe128a.PNG)
 ![5](https://user-images.githubusercontent.com/51851736/81559315-7887e600-938f-11ea-9c9c-5d44a5bdf396.PNG)
+
+</details>
 
 If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you have a Youtube video Tutorial by Ivan Angelkoski that may help.
 
