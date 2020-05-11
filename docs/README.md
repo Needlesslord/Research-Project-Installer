@@ -2,7 +2,7 @@
 
 This web page and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and NSIS Installer extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below. 
 
-*__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictinary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
+*__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictionary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
 
 *__DISCLAIMER! This information is relevant as of may 2020__*
 
@@ -40,18 +40,18 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 ## What is an [*Installer*](https://en.wikipedia.org/wiki/Installation_(computer_programs)#Installer)?
 
-An **Installer**, **Installation Package** or **Application Packaging** is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The istallation process for software depends on your OS (operation system) and the program you are installing. 
+An **Installer**, **Installation Package** or **Application Packaging** is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The installation process for software depends on your OS (operation system) and the program you are installing. 
 
-You may have seen them as executable (they can come in different formats, usually depending on the device) files you open to install games, different softwares and others, with detailed instructions that you usually skip with the "Next" button. This executable (sofware which is a file used by a service) is created to install an application onto an specified device contain the files, registry and logic. They involve the preparation of standard, structured sofware installations targeted for automated deployment and should be prepared for both commercial software and home-made apps. 
+You may have seen them as executable (they can come in different formats, usually depending on the device) files you open to install games, different softwares and others, with detailed instructions that you usually skip with the "Next" button. This executable (sotfware which is a file used by a service) is created to install an application onto an specified device contain the files, registry and logic. They involve the preparation of standard, structured software installations targeted for automated deployment and should be prepared for both commercial software and home-made apps. 
 
-They usually **contain more than only the .exe** (executable file). For example, they often contain multiple files in different locations, shorcuts, registry, runtime engines, .NET registration, shell integration, ActiveX controls, databases, and more! As said before, they can also come in different formats, such as Setup.MSI (Microsoft Windows Installer); Setup.exe (Legacy executables); .APPX (Windows store, introduced with Windows 8); Install.vbs, Install.ps1 or Install. bat (Batch or script files), Loose/Raw Files or .dll, .xla, .xlam, .ppam, .dotm, etc. (add-ins or plug-ins), and more!
+They usually **contain more than only the .exe** (executable file). For example, they often contain multiple files in different locations, shortcuts, registry, runtime engines, .NET registration, shell integration, ActiveX controls, databases, and more! As said before, they can also come in different formats, such as Setup.MSI (Microsoft Windows Installer); Setup.exe (Legacy executables); .APPX (Windows store, introduced with Windows 8); Install.vbs, Install.ps1 or Install. bat (Batch or script files), Loose/Raw Files or .dll, .xla, .xlam, .ppam, .dotm, etc. (add-ins or plug-ins), and more!
 
 
 ### What are Installers used for?
 
 Installers can be used to install games on end-user machines. They usually offer full support for a customized user interface, as well as patching.
 
-**Application management costs** can be a problem for many corporate networks due to the expense of the mantainance of desktop and notebook systems. Therefore, new application management techniques are being developed to help enterprises administer their existing PC investments more efficiently. One of them is application packaging, which helps business manage growing volumes of software for desktop and server systems.
+**Application management costs** can be a problem for many corporate networks due to the expense of the maintenance of desktop and notebook systems. Therefore, new application management techniques are being developed to help enterprises administer their existing PC investments more efficiently. One of them is application packaging, which helps business manage growing volumes of software for desktop and server systems. Therefore, Installers are used to avoid them.
 
 
 ### What should you know before installing a software?
@@ -59,23 +59,23 @@ Installers can be used to install games on end-user machines. They usually offer
  + First of all, you have to make sure **your computer meets the *system/software requirements* of the program you are attempting to install**, it being a game, utility, etc. It is a listing of what software programs or hardware devices are required to operate the program properly and can be found on their packaging or can be found on the Internet. If your computer does not meet the *minimum requirements*, it will probably not run or not even install. Also, if your computer **only** meets the *minimum requirements* but not the *suggested requirements*, it will run, but very slowly. 
 *__Pro tip!__* If you do not understand a term used in the requirements (they can be very technical and most people may not be familiar with many IT lingo), the easiest way to understand the meaning behind it is to perform a search on the word. [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) is a very complete web where all these terms and information can be easily found.
  
- + Secondly, you should **check the manual or readme file**, which contains the **exact instructions** on how to install your program and are usually fouund in the same directory (a directory could be compared to a folder, for those who are not familiar with the term) as the installation files. 
- For those of you who may not be ffamiliar with what a "readme file" is, it is a file with the extensions .txt or .md that contains information for the user about the software, such as instructions, additional help and details about patches and updates. Sometimes, the information it contains may not be included in the full documentation, so it is good to check out both. I the readme is not in a .txt file extension, your computer may not know how to open it. You cna choose the Notepad (advised) or any text editor of choice to open the file, since it will only contain text.
+ + Secondly, you should **check the manual or readme file**, which contains the **exact instructions** on how to install your program and are usually found in the same directory (a directory could be compared to a folder, for those who are not familiar with the term) as the installation files. 
+ For those of you who may not be familiar with what a "readme file" is, it is a file with the extensions .txt or .md that contains information for the user about the software, such as instructions, additional help and details about patches and updates. Sometimes, the information it contains may not be included in the full documentation, so it is good to check out both. I the readme is not in a .txt file extension, your computer may not know how to open it. You cna choose the Notepad (advised) or any text editor of choice to open the file, since it will only contain text.
  
  
- + *__Pro tip!__* Finally, when installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it promps you to **reboot the computer**, do so.
+ + *__Pro tip!__* Finally, when installing any new program, it is advised to **first close or disable any running programs** and, after installing it, if it prompts you to **reboot the computer**, do so.
 
 
 ### What is the real purpose of Installers?
 
 
-After all of this, application packages may be a very generic concept to you or you don't fully know why you should use it. Of course, Installers were first created to solve arising problems, and in this section I will talk about the concrete ppurposes and benefits sought.
+After all of this, application packages may be a very generic concept to you or you don't fully know why you should use it. Of course, Installers were first created to solve arising problems, and in this section I will talk about the concrete purposes and benefits sought.
 
 - First of all, only the simplest applications can work with a simple file copy, and even then you need to have a **convenient** way to actually download and do the copying of the files to the right location.
 
-- The setup is also a **marketing tool**: it can be used for branding and consistency across products. Also, it allows the installation of trial versios of the product.
+- The setup is also a **marketing tool**: it can be used for branding and consistency across products. Also, it allows the installation of trial versions of the product.
 
-- A setup provides **upgrade and patching features** for newer versions, as well as **uninstall and cleanup** for the sowftware when the user wants the remove it from the computer.
+- A setup provides **upgrade and patching features** for newer versions, as well as **uninstall and cleanup** for the software when the user wants the remove it from the computer.
 
 - **Digital certificates** can be used to sign, to ensure that the file cannot be hampered with in transit or that the vendor is certificable and hence, serious.
 
@@ -84,11 +84,11 @@ After all of this, application packages may be a very generic concept to you or 
 
 ### What is [*Deployment*](https://en.wikipedia.org/wiki/Software_deployment)?
 
-First of all, we need to understad what [*Automated Builds*](https://en.wikipedia.org/wiki/Build_automation) are. In a short and easy way, it is the process of automating the creation of a software build and the associated processes. This means that, with no human interaction, the code will create releases of our software, like different "launches", mainly to have a contingency plan. Imagine you are working on your code, but you made a mistake and it doesn't work anymore; you could go back to a previous version, created automatically, in order to continue working. There are many programs which can do that for you. 
+First of all, we need to understand what [*Automated Builds*](https://en.wikipedia.org/wiki/Build_automation) are. In a short and easy way, it is the process of automating the creation of a software build and the associated processes. This means that, with no human interaction, the code will create releases of our software, like different "launches", mainly to have a contingency plan. Imagine you are working on your code, but you made a mistake and it doesn't work anymore; you could go back to a previous version, created automatically, in order to continue working. There are many programs which can do that for you. 
 
 Automated build can be divided in two main parts: *deployment* and [*continuous iteration*](https://en.wikipedia.org/wiki/Continuous_integration). However, we are just going to talk about deployment in this research.
 
-Diving into *deployment*, it is a very simple concept: it is all of the activities that make a software system available for use. The general deployment process consists of several interrelated activities with possible transitions between them. Somethign to take into account is that, since it involves both the producer and the consumer, it has to be customized according to specific requirements or characteristics. 
+Diving into *deployment*, it is a very simple concept: it is all of the activities that make a software system available for use. The general deployment process consists of several interrelated activities with possible transitions between them. Something to take into account is that, since it involves both the producer and the consumer, it has to be customized according to specific requirements or characteristics. 
 
 In short, software deployment includes all the process required for preparing a software application to run and operate in a specific environment. It can bring many advantages, such as it being time saving, enhancing security, enabling to monitoring of user actions, effectiveness in software updates, and more. For more about its advantages, check out the following [link](https://pdf.wondershare.com/business/what-is-software-deployment.html).
 
@@ -97,9 +97,9 @@ In short, software deployment includes all the process required for preparing a 
 
 The following part is particular to MSI Tools, which will be introduced below.
 
-The tasks and features included in a setup are very different and they can range from very basic, such as third party tool support, to highly customized tasks. MSI has "custom actions", where you can actually code yourself to deal with unique deployment requirements. In this section, however, I'm only going to be talking about the first one, since custom actions ca be used to improve and go beyond in your Installer.
+The tasks and features included in a setup are very different and they can range from very basic, such as third party tool support, to highly customized tasks. MSI has "custom actions", where you can actually code yourself to deal with unique deployment requirements. In this section, however, I'm only going to be talking about the first one, since custom actions can be used to improve and go beyond in your Installer.
 
-The set up basics are fundamental to your Installation Package. All third party tools provide good support for there setup fundamentals, but there are some differences. The installation of prerequisites may be the area where third party tools and free frameworks differe the most in terms of ease of use. However, there are some fundamentals that all setups must have built-in.
+The set up basics are fundamental to your Installation Package. All third party tools provide good support for there setup fundamentals, but there are some differences. The installation of prerequisites may be the area where third party tools and free frameworks different the most in terms of ease of use. However, there are some fundamentals that all setups must have built-in.
 
 - They must check if the system is suitable for installation (your computer meets the *system/software requirements*)
 
@@ -116,14 +116,14 @@ As said before, deployment is a simple concept, but it has some things we must t
 
 - **Errors are cumulative.** Errors in deployment are cumulative, since once you have deployed an error, you generally have no access to the machine in question to debug, which could do more damage in the long run. A delivery process is being managed, not just debugging and binaries.
 
-- **A disciplined approach is needed.** Deplyoment (setups) is tha complex proces of migrating any computer from one stable state to another; in other words, change the files directory from one computer to another. This requires a disciplined approach. The setup should install all the required files and settings and ensure the product, the software we are creating the installer for, is configured for a fisrts launch to ready to be configured upon launch. This means we need to have a software which won't crash.
+- **A disciplined approach is needed.** Deployment (setups) is the complex process of migrating any computer from one stable state to another; in other words, change the files directory from one computer to another. This requires a disciplined approach. The setup should install all the required files and settings and ensure the product, the software we are creating the installer for, is configured for a first launch to ready to be configured upon launch. This means we need to have a software which won't crash.
 
 - **Setup requirements are always changing and growing.** In addition to technical problems that we may have, we have the list of things a setup may need to do, which with upgrades, changes and advancements in technology, has to also be updated and is continuously growing. New versions of Windows (in this particular case, which could be generalized) seem to bring new obstacles to make deployment harer.
 
-Then, even if it can create problems for our source code and the list of requirements is always growing, is it worth? The answer, of course, is yes. It is actually key for Installation Packages, since it can allow for example, unattended setup, meaning that, taking into account that some installs are toughter than others, it can help you distribute such packags to your computer by recording the changes in your system after it is installed and then these changes are deployed to other computers on your network automatically, so you don't have to do it. To summarize, it only make the life of developers easier, since it simplifies your work, automates the code and the releases and it can prevent errors in the code.
+Then, even if it can create problems for our source code and the list of requirements is always growing, is it worth? The answer, of course, is yes. It is actually key for Installation Packages, since it can allow for example, unattended setup, meaning that, taking into account that some installs are tougher than others, it can help you distribute such packages to your computer by recording the changes in your system after it is installed and then these changes are deployed to other computers on your network automatically, so you don't have to do it. To summarize, it only make the life of developers easier, since it simplifies your work, automates the code and the releases and it can prevent errors in the code.
 
 
-*__For more information about Deployment, please take a look at the research my collegue [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH) or [Pol Galan](https://github.com/pgalmor) did as well on the same topic [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
+*__For more information about Deployment, please take a look at the research my colleague [Daniel Ruiz](https://github.com/xsiro) did on [Automated Builds](https://github.com/xsiro/RESEARCH) or [Pol Galan](https://github.com/pgalmor) did as well on the same topic [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD).__*
 
 
 
@@ -160,7 +160,7 @@ The following picture is from Steam's Installer. It shows the License agreement,
 
 ![Steam-License-Agreement](https://user-images.githubusercontent.com/51851736/81014851-e72fe580-8e5d-11ea-908a-d984f41d7ef6.jpg)
 
-The following two pictures are from installing a game from Steam on a Mac OS (Apple). The first one shows how the end-user can choose whether to create or not shourtcuts and the second one is the message Steam displays once you have already installed your product.
+The following two pictures are from installing a game from Steam on a Mac OS (Apple). The first one shows how the end-user can choose whether to create or not shortcuts and the second one is the message Steam displays once you have already installed your product.
 
 ![Steam-Game-Install-Shortcuts](https://user-images.githubusercontent.com/51851736/81014849-e72fe580-8e5d-11ea-89a4-de2d4b6288e6.png)
 
@@ -203,20 +203,20 @@ This research in particular will be used in an RTS game developed for the same s
 
 MSI, also known as Microsoft Software Installer or nowaadays as Windows Installer, is an installer package file format used by Windows. MSI files are used for installation, storage and removal of programs. It was developed by Microsoft and it is used for the OS of Microsoft Windows, under the [Freeware License](https://en.wikipedia.org/wiki/Freeware).
 
-MSI files are database files, used by Windows Installer. They contain information about an application which is devided into features and components, and every component may hold files, registry data, shortcuts, etc. It also contains the UI that is to be used for installing, and various other data such as any prerequisites to look for, custom actions to execute, the order of the installation procedure, whether to support Administrative installations, etc. It can also contain the actual files to be installed themselves, but this isn't always the case. MSI files are executed by an EXE file that is part of Windows, called MSIEXEC.EXE. This application reads the data in the MSI file and executes the installation.
+MSI files are database files, used by Windows Installer. They contain information about an application which is divided into features and components, and every component may hold files, registry data, shortcuts, etc. It also contains the UI that is to be used for installing, and various other data such as any prerequisites to look for, custom actions to execute, the order of the installation procedure, whether to support Administrative installations, etc. It can also contain the actual files to be installed themselves, but this isn't always the case. MSI files are executed by an EXE file that is part of Windows, called MSIEXEC.EXE. This application reads the data in the MSI file and executes the installation.
 
 MSI files are the current recommended way of doing installations on Windows. The alternative is writing a program that performs the installation itself. 
 
 
 #### Why am I using MSI?
 
-In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisits. 
+In my particular case, I had to choose with limited options in mind. My small scope of project which is only for a research for my university's degree with no revenue from it made me move towards free software. In addition my computer and my university's computers run on Windows OS and I had to choose a reliable software to work on it. MSI fulfills all the requisites. 
 
 Nevertheless, these are in my particular case, to know what I was looking for. Windows Installer has many built-in functions that will save you time and effort, and here you have a list to show you why I went with it:
 
-- Automatic, install, uninstall, reinstall, reapir support and add/remove components. In addition, if yout software is already installed, instead of showing you the install interface it will show you the mateinance interface.
+- Automatic, install, uninstall, reinstall, repair support and add/remove components. In addition, if your software is already installed, instead of showing you the install interface it will show you the maintenance interface.
 
-- In manteinance mode, it will detect which components ofan application are installed and it will allow the user  to add or remove features or reinstall/uninstall the application. In addition, the repair functionality is automatically run everytime a shortcut for the application is activated, which is particularly useful for administrators whose users may clean up the disk's space carelessly.
+- In maintenance mode, it will detect which components of an application are installed and it will allow the user to add or remove features or reinstall/uninstall the application. In addition, the repair functionality is automatically run every time a shortcut for the application is activated, which is particularly useful for administrators whose users may clean up the disk's space carelessly.
 
 - Installer’s advertising feature. Advertising allows an application to appear to be installed, but files are not actually installed on the system until the application is activated through a shortcut, extension, or COM server. Advertising makes an application available on the desktop, but since it’s not installed until it is activated, companies save on licensing fees and disk space. Once a user clicks on a shortcut or double-clicks on a file associated with that application, the application installs automatically.
 
@@ -262,9 +262,9 @@ Windows Installer can support many applications installed, from a network share 
 
 First of all, it is important to understand what [*digital signature*](https://en.wikipedia.org/wiki/Digital_signature) means.  Basically, a digital signature is a mathematical scheme based on algorithms to verify the authenticity of digital messages or documents. They are a standard element of the most cryptographic protocol suits and widely used for software distribution, as well as in other fields, such as financial transactions or contract management software, and it is key to detect forgery or tampering.
  
-Signing an application package provides the user with verification that the application data has not been modified after being signed, while confirming the identity of the user or the company that signed it. Therefore, signing an Installer is an importnat thing since you help ensure that tampered files are not installed on end-user computers.
+Signing an application package provides the user with verification that the application data has not been modified after being signed, while confirming the identity of the user or the company that signed it. Therefore, signing an Installer is an important thing since you help ensure that tampered files are not installed on end-user computers.
 
-There are many methods and ways to approach this topic, but since we are using .msi files for the deploument of applications, I chose [SignTool.exe](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe), which is a command line tool that is used to sign an Application Package or a batch of applications with a certificate. This tool is installed in the Bin folder of the Microsoft Windows [Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit) installation path. Therfore, we need Microsoft Windows SDK to be able to work with SingTool.exe, which you can download [here](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/). [Here](https://stackoverrun.com/es/q/8776869) you will find how ton install SignTool.exe for Windows 10. [Here](https://stackoverflow.com/questions/43636484/how-to-install-signtool-exe-for-vs-2017) you will find a link to learn how to install SignTool.exe for Visual Studio 2017.
+There are many methods and ways to approach this topic, but since we are using .msi files for the deployment of applications, I chose [SignTool.exe](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe), which is a command line tool that is used to sign an Application Package or a batch of applications with a certificate. This tool is installed in the Bin folder of the Microsoft Windows [Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit) installation path. Therefore, we need Microsoft Windows SDK to be able to work with SingTool.exe, which you can download [here](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/). [Here](https://stackoverrun.com/es/q/8776869) you will find how to install SignTool.exe for Windows 10. [Here](https://stackoverflow.com/questions/43636484/how-to-install-signtool-exe-for-vs-2017) you will find a link to learn how to install SignTool.exe for Visual Studio 2017.
 
 The steps are easy:
 
@@ -281,7 +281,7 @@ The steps are easy:
 
 ###### What is a [*Virtual Machine*](https://en.wikipedia.org/wiki/Virtual_machine)?
 
-Before explaining how to test an application in a Virtual Machine, it is important to undertand the concept and what it is. Basically, a Virtual Machine (VS) is an emulation of a computer system. They are based on computer architectures and provide the same functionality of a physical computer. 
+Before explaining how to test an application in a Virtual Machine, it is important to understand the concept and what it is. Basically, a Virtual Machine (VS) is an emulation of a computer system. They are based on computer architectures and provide the same functionality of a physical computer. 
 
 There are different kinds fo virtual machines, each one with different functions:
 
@@ -289,11 +289,11 @@ There are different kinds fo virtual machines, each one with different functions
 
 - [**Process virtual machines.**](https://en.wikipedia.org/wiki/Virtual_machine#Process_virtual_machines) They are designed to execute computer programs in a platform-independent environment.
 
-**The main purpose of VM is to test software in the safest way.** Testing in VM allws to simulate a full operating system, isolated from the rest of our machine, and it's the perfect way to test our setup installer to check whether it works or not in different OS and their previous versions.
+**The main purpose of VM is to test software in the safest way.** Testing in VM allows to simulate a full operating system, isolated from the rest of our machine, and it's the perfect way to test our setup installer to check whether it works or not in different OS and their previous versions.
 
 ###### What is [*VirtualBox*](https://es.wikipedia.org/wiki/VirtualBox)?
 
-There are several tools that you can use to create VM. In my researh, however, I'm going to use VirtualBox, but bear in mind that there are many other and some may be more suitable for you project, depending on the scope, knowledge, etc.
+There are several tools that you can use to create VM. In my research, however, I'm going to use VirtualBox, but bear in mind that there are many other and some may be more suitable for you project, depending on the scope, knowledge, etc.
 
 Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, Linux, Solaris and OpenSolaris. Basically it supports the creation and management of guest virtual machines. It is aimed both for enterprises and home use. Bear in mind that VirtualBox is being actively developed with frequent releases and a growing list of features.
 
@@ -317,7 +317,7 @@ Here you can choose, what install or not to install. **Press "Next".**
 
 ![2](https://user-images.githubusercontent.com/51851736/81560030-e41e8300-9390-11ea-84db-bf2f96fe022c.PNG)
 
-Here you can choos how to install said features. **Press "Next".**
+Here you can choose how to install said features. **Press "Next".**
 
 ![3](https://user-images.githubusercontent.com/51851736/81560032-e41e8300-9390-11ea-8021-1c4694ee9322.PNG)
 
@@ -346,16 +346,16 @@ And you are done!
  </details>
 
 
-Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your sofware will be alone to test it.
+Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your software will be alone to test it.
 
-- First, open Vitual Box and click "New" to create a new virtual machine. You will also need to download the ISO file according to the OS you want to try
+- First, open Virtual Box and click "New" to create a new virtual machine. You will also need to download the ISO file according to the OS you want to try
 
 - Then, install the operating system of your choice, in our case we will choose Windows, onto the VM
 
 - Before you install anything else, take a snapshot. This will allow you to revert to your original install, without any change of states, after you are done testing.
 
 
-For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Begginers Guide)*.
+For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Beginners Guide)*.
 
 <details>
 <summary> To see the screenshots on how to create a new Virtual Machine in your computer step by step, click here </summary>
@@ -388,12 +388,12 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 
 **NSIS** stands for *Nullsoft Scriptable Install System*. It is a professional open source system to create Windows installers. It [Here](https://nsis.sourceforge.io/License) you can read the license.
 
-*__DISCLAIMER! I decided to use NSIS due to the fetures it has to offer, but please note that there are a lot of other Installation softwares, such as WiX Toolset or Inno Setup which can be more suitable for you. Some of them are mentioned in sections below with tutorials so you can also learn about them__*
+*__DISCLAIMER! I decided to use NSIS due to the features it has to offer, but please note that there are a lot of other Installation softwares, such as WiX Toolset or Inno Setup which can be more suitable for you. Some of them are mentioned in sections below with tutorials so you can also learn about them__*
 
 
 #### What are the features of NSIS?
 
-NSIS is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic bulds, its portable compiler, its easy and understandable design, and more. 
+NSIS is small and flexible, which makes it very suitable for internet distribution. It also has many plug-ins and scripts available to create web installers, communicate with Windows and other software components, install or update components, its custom dialogs and interfaces, multiple languages available, support for web installation and file patching, project integration and different releases and automatic builds, its portable compiler, it's easy and understandable design, and more. 
 
 The most important aspects you have to remember of NSIS are:
 
@@ -401,7 +401,7 @@ The most important aspects you have to remember of NSIS are:
 
 - Compatible with all major Windows versions, from Windows 95 to Windows 10
 
-- Unique compression methods, from ZLib to, what's most important, LZMA. LZMA is the best compressor nowadays since it hasthe best results with difference
+- Unique compression methods, from ZLib to, what's most important, LZMA. LZMA is the best compressor nowadays since it has the best results with difference
 
 - Multiple languages in one installer, and you can also create your own language files
 
@@ -428,7 +428,7 @@ The following images will show you all the steps to install NSIS. In addition, I
  <summary><strong> Installing NSIS (and Uninstalling) </strong></summary>
 <br>
 
-First of all, you have to go to the download page, you have the link [here](https://nsis.sourceforge.io/Download). In this case, we are downloading the version NSIS 3.05, released Decembre 15th 2019. [Here](https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/RELEASE.html/view) you have the release notes. You just have to **click "Download"** in bold letters under the release date and version.
+First of all, you have to go to the download page, you have the link [here](https://nsis.sourceforge.io/Download). In this case, we are downloading the version NSIS 3.05, released December 15th 2019. [Here](https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/RELEASE.html/view) you have the release notes. You just have to **click "Download"** in bold letters under the release date and version.
 
 ![1](https://user-images.githubusercontent.com/51851736/81496479-33dd4b80-92b8-11ea-92cc-c9a8f2604bcc.PNG)
 
@@ -436,11 +436,11 @@ First of all, you have to go to the download page, you have the link [here](http
 <summary> To see the screenshots on how to install NSIS in your computer step by step, click here </summary>
 <br>
  
-Once downloaded it, you just have to click the downloaded file, called "nsis-3.05-setup.exe". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it else where. Double click on it and the NSIS installer will start running. You will see this. **Press "Next".**
+Once downloaded it, you just have to click the downloaded file, called "nsis-3.05-setup.exe". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it elsewhere. Double click on it and the NSIS installer will start running. You will see this. **Press "Next".**
 
 ![2](https://user-images.githubusercontent.com/51851736/81496614-165cb180-92b9-11ea-821d-6bc2bde1c956.PNG)
 
-Next you will be shown the License Agreement. **Press "I agree".** It is advisable to read it throroughly.
+Next you will be shown the License Agreement. **Press "I agree".** It is advisable to read it thoroughly.
 
 ![3](https://user-images.githubusercontent.com/51851736/81496612-15c41b00-92b9-11ea-9ed9-2085c326b147.PNG)
 
@@ -448,7 +448,7 @@ Now you will need to choose what components to install. Since one of NSIS' main 
 
 ![4](https://user-images.githubusercontent.com/51851736/81496947-9c79f780-92bb-11ea-8699-60ac375200f0.PNG)
 
-Then, you will have to choose the Install location. It is also advisable to leave the destination folder as it is, but you can change it if you wnat to. **Press "Install".**
+Then, you will have to choose the Install location. It is also advisable to leave the destination folder as it is, but you can change it if you want to. **Press "Install".**
 
 ![5](https://user-images.githubusercontent.com/51851736/81496948-9d128e00-92bb-11ea-9231-4a5eaa3f5e54.PNG)
 
@@ -468,7 +468,7 @@ In addition, this is what it will show you if you had chosen to see the release 
 
 ![8b](https://user-images.githubusercontent.com/51851736/81496952-9e43bb00-92bb-11ea-8726-7d29a263a7ba.PNG)
 
-To uninstall NSIS, you must double click again the executable called "nsis-3.05-setup.exe". The first you will be shown will be the same as when installing, however, at some point you will be asked "Unistall NSIS" or "Add/Reinstall components". Choose "Uninstall NSIS". After that you need to choose the locaion where all the files related NSIS are and then click "Uninstall". A pregress bar will be shown and after choosing to "Close", NSIS will no longer be in your computer. The following images will show you the process.
+To uninstall NSIS, you must double click again the executable called "nsis-3.05-setup.exe". The first you will be shown will be the same as when installing, however, at some point you will be asked "Uninstall NSIS" or "Add/Reinstall components". Choose "Uninstall NSIS". After that you need to choose the location where all the files related NSIS are and then click "Uninstall". A progress bar will be shown and after choosing to "Close", NSIS will no longer be in your computer. The following images will show you the process.
 
 ![A](https://user-images.githubusercontent.com/51851736/81496953-9e43bb00-92bb-11ea-953d-0f06f293deb5.PNG)
 ![B](https://user-images.githubusercontent.com/51851736/81496954-9edc5180-92bb-11ea-9a6e-25d35ff17f19.PNG)
@@ -491,11 +491,11 @@ First of all, you have to download the .zip from the following [web page](https:
 
 ![1](https://user-images.githubusercontent.com/51851736/81497300-dba94800-92bd-11ea-8680-17bb71750aac.PNG)
 
-Once downloaded it, you just have to click the downloaded file, called "Nsisqssg.zip". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it else where. We want to unzip the file, so you will have to right-click the file and select "Extract in Nsisqssg\". This will creeate a folder where all the scrips will be saved, both in .nsi format, .ini and .txt. If you go inside this folder, you will find an executable called "NSIS Quick Setup Script Generator.exe". Double click it to start running. **Press "Next".**
+Once downloaded it, you just have to click the downloaded file, called "Nsisqssg.zip". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it elsewhere. We want to unzip the file, so you will have to right-click the file and select "Extract in Nsisqssg\". This will create a folder where all the scripts will be saved, both in .nsi format, .ini and .txt. If you go inside this folder, you will find an executable called "NSIS Quick Setup Script Generator.exe". Double click it to start running. **Press "Next".**
 
 ![2](https://user-images.githubusercontent.com/51851736/81497296-da781b00-92bd-11ea-866c-891264a28f67.PNG)
 
-After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found belown in the exercise.
+After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found below in the exercise.
 
 </details>
 </details>
@@ -517,7 +517,7 @@ There is a lot of room to improve your installers using NSIS. Since you can crea
 
 ### What will the TODOs (exercises) teach you *TODO*?
 
-To start with your Installer, as obvious as it may be, you have to install the software first. Above this section you can find how to install NSIS, the program I will be teaching you how to use in order to create an Installer for your game, software adn others.
+To start with your Installer, as obvious as it may be, you have to install the software first. Above this section you can find how to install NSIS, the program I will be teaching you how to use in order to create an Installer for your game, software and others.
 
  - In the first step, to get familiar with NSIS, I will be teaching how to create an executable (.exe) from a .zip. Since this research is aimed mostly to the games developed in the subject Project II taught at CITM and they are delivered in .zip and also are released in Github in the same format, I thought it was a previous step that would be nice to get to know the software and how it works.
 
@@ -537,7 +537,7 @@ To start with your Installer, as obvious as it may be, you have to install the s
 
 #### TODO0-1: Create an installer from a .zip file
 
-After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you belive will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "LZMA" and generate your file. You have it!
+After opening NSI, you are shown different "links" that will take you to different parts of NSIS depending on what you need to do for your Installer. You will have to choose the option from the "Compiler" you believe will lead you to create an executable from a .zip file. Once there, you will need to choose from which .zip you want to take the files of your software, the name of the installer and the default folder. Then, choose "LZMA" and generate your file. You have it!
 
 #### TODO0-2: Learn the NSI language
 
@@ -559,7 +559,7 @@ As said before, we will use this software provided by NSIS to create a basic scr
 
 **You will need a bitmap (.bmp).**
 
-In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the [MUI](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System#Modern_user_interface) to control the interface (UI Dialog). In this case, you have to add a "heather image" to personalize your interface. You will have to use "!define" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
+In this TODO I will remind you of some .nsi syntax. You will have to add a .nsh for the [MUI](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System#Modern_user_interface) to control the interface (UI Dialog). In this case, you have to add a "header image" to personalize your interface. You will have to use "!define" and you must do it under the *!include "MUI.nsh"*. Bear in mind the localization of your script, since in the previous step you chose a directory to both save the .nsi file and a directory where your installer will take the files from.
 
 #### TODO3: Icon executable
 
@@ -572,7 +572,7 @@ In this TODO  You will have to add a .nsh for the MUI to control the interface (
 
 #### TODO0-1
 
-Here are all the screenshots on how to do it. First you need to select "Installer based on .ZIP file" under the "Compiler" section. A new window will be opened. You will need to look for the .zip in "Open...", which will let ou browse in your computer. You can then change your installer name and choose the interface design (I left it at "Modern" since it's what we will be using) and then select the "Output EXE File", which if you click "Browse..." you can look for it and select it in your computer. I recommend you to leave LMZA in "Compression" since it's the most efficient out of all of them. **Press "Generate".** You now have your installer, which should look like the last picture.
+Here are all the screenshots on how to do it. First you need to select "Installer based on .ZIP file" under the "Compiler" section. A new window will be opened. You will need to look for the .zip in "Open...", which will let you browse in your computer. You can then change your installer name and choose the interface design (I left it at "Modern" since it's what we will be using) and then select the "Output EXE File", which if you click "Browse..." you can look for it and select it in your computer. I recommend you to leave LZMA in "Compression" since it's the most efficient out of all of them. **Press "Generate".** You now have your installer, which should look like the last picture.
 
 <details>
  <summary> Click to see the screenshots </summary>
@@ -594,7 +594,7 @@ If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you h
 
 #### TODO0
 
-First you need to open Visual Studio. In a forlder of your choice (choose wisely), you will be adding your icon. In my case I chose the "tools" folder. Right-click the folder, choose "Add" and then "New element". Go to "resources" on the left and add a ,rc file, you can change the name. **Press "Add".** Then right-click again and choose "Add resource". Select "Icon" and "Import". Browse in your computer the .ico you wish to be the icon for your game. Now you just have to run the code! Bear in mind that, if you run it in "Debug", it will only change the icon in the Debug's executable. It will happen the same with "Release".
+First you need to open Visual Studio. In a folder of your choice (choose wisely), you will be adding your icon. In my case I chose the "tools" folder. Right-click the folder, choose "Add" and then "New element". Go to "resources" on the left and add a ,rc file, you can change the name. **Press "Add".** Then right-click again and choose "Add resource". Select "Icon" and "Import". Browse in your computer the .ico you wish to be the icon for your game. Now you just have to run the code! Bear in mind that, if you run it in "Debug", it will only change the icon in the Debug's executable. It will happen the same with "Release".
 
 <details>
 <summary> Here you have the screenshots of every step. </summary>
@@ -680,7 +680,7 @@ Here, as said before, you have to add an image to the heather. You must add it a
 
 ![todo2a](https://user-images.githubusercontent.com/51851736/81557709-b6373f80-938c-11ea-930a-1b8e295f28c1.PNG)
 
-We will add it just after "MUI.nsh" to avoid conflicts. You will need to define *!define* your variable/function. Ths first line is to initialize, the second one is asking for a bitmap (.bmp) and the third one is for the position. In our case, we have the image in the same folder as the file and "Game" foder, so there's no need to write the directoy. If you need to, "FolderName/Image.bmp" is how to do it.
+We will add it just after "MUI.nsh" to avoid conflicts. You will need to define *!define* your variable/function. This first line is to initialize, the second one is asking for a bitmap (.bmp) and the third one is for the position. In our case, we have the image in the same folder as the file and "Game" foder, so there's no need to write the directory. If you need to, "FolderName/Image.bmp" is how to do it.
 
 ![todo2](https://user-images.githubusercontent.com/51851736/81557707-b59ea900-938c-11ea-9242-ca3bbb27eac9.PNG)
 
@@ -708,7 +708,7 @@ This last picture shows the files I have in my folder at the moment.
 
 
 
-*__Pro tip!__* After all the TODOs, to create your working Installer, youu need to open NSIS and choose the option below "Compiler" called "Compile NSI scripts". This will open a new window. In "File" you have choose "Load script" and choose the .nsi file you want to create your installer from. It will run automatically: red if your code doesn't compiler, orange if there are warning and green if neither of those. Your installer will be generated automatically and you can **Press "Test Installer"** to see how it works.
+*__Pro tip!__* After all the TODOs, to create your working Installer, you need to open NSIS and choose the option below "Compiler" called "Compile NSI scripts". This will open a new window. In "File" you have choose "Load script" and choose the .nsi file you want to create your installer from. It will run automatically: red if your code doesn't compiler, orange if there are warning and green if neither of those. Your installer will be generated automatically and you can **Press "Test Installer"** to see how it works.
 
 ### Where can you find the exercise?
 
@@ -730,7 +730,7 @@ If you want to **Import a root certificate**, you can go to the following [link]
 
 To continue learning about installers, I propose that you do those exercises on these other installers, which are [WiX Toolset](https://en.wikipedia.org/wiki/) and [Inno Setup](https://jrsoftware.org/isinfo.php).
 
-- **Inno Setup** is a free installer for Windows programs. [Here](https://jrsoftware.org/isinfo.php#features) you can see its features, from where I will highlight the support they offer, the creation of a single EXE and customizable setup types, as well as uninstall capabilities, shortcuts, multilingual, supports encrypted and passwarded installs as well as digital signs, and its full source code is available from [GitHub](https://github.com/jrsoftware/issrc). [Here](https://jrsoftware.org/ishelp/) you will find its documentation. [Here](https://jrsoftware.org/files/is/license.txt) you can read the license.
+- **Inno Setup** is a free installer for Windows programs. [Here](https://jrsoftware.org/isinfo.php#features) you can see its features, from where I will highlight the support they offer, the creation of a single EXE and customizable setup types, as well as uninstall capabilities, shortcuts, multilingual, supports encrypted and passworded installs as well as digital signs, and its full source code is available from [GitHub](https://github.com/jrsoftware/issrc). [Here](https://jrsoftware.org/ishelp/) you will find its documentation. [Here](https://jrsoftware.org/files/is/license.txt) you can read the license.
 
     + Here you have some tutorials with Inno Setup:
       - [YouTube: How To Create Setup File Using Inno Setup Compiler](https://www.youtube.com/watch?v=Gzx-WeJ6CNo)
@@ -789,7 +789,7 @@ To continue learning about installers, I propose that you do those exercises on 
 - [Whatis: MSI File format](https://whatis.techtarget.com/fileformat/MSI-Installer-package-Microsoft-Windows)
 - [Broadcom: Understanding the Difference Between .exe and .msi](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=0e501eb2-b17e-471a-abcb-a638045342ce&CommunityKey=41d8253b-a238-4563-8718-ed7623beafbc&tab=librarydocuments)
 - [Wikipedia: System virtual machines (VMs)](https://en.wikipedia.org/wiki/System_virtual_machine)
-- [YouTube: *How to Use VirtualBox (Begginers Guide)*, by TechGumbo](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo)
+- [YouTube: *How to Use VirtualBox (Beginners Guide)*, by TechGumbo](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo)
 - [Wikipedia: Digital signature](https://en.wikipedia.org/wiki/Digital_signature)
 - [Microsoft Build: SignTool.exe (Sign Tool)](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe)
 - [Wikipedia: Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit)
