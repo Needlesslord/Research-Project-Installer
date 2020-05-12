@@ -136,9 +136,7 @@ Installation Packages are used broadly, as said before. From programs to games t
 
 *Disclaimer! Please note that these pictures are from different years, so the design or usage may be different now.*
 
-<details>
- <summary> <strong> Game shops </strong> </summary>
-<br>
+### Game shops 
  
 For example, in Game shops, when you want to use the app instead of the web, you are asked to install them to your computer through an Installation Package. Epic Games and Steam are used as examples below.
 
@@ -166,12 +164,7 @@ The following two pictures are from installing a game from Steam on a Mac OS (Ap
 
 ![Steam-Game-Install-Finish](https://user-images.githubusercontent.com/51851736/81014847-e6974f00-8e5d-11ea-884e-d0b41d4d4684.png)
 
-</details>
-
-
-<details>
- <summary> <strong> Games </strong> </summary>
-<br>
+### Games 
  
 In games, for example, you always see them. The following images display different installers for individual games, which are not installed from Game Shops.
 
@@ -179,18 +172,13 @@ Here we can see what is first shown to the user when installing LOL (League of L
 
 ![Install-League-of-Legends](https://user-images.githubusercontent.com/51851736/81014844-e5662200-8e5d-11ea-8058-f40517477f2f.jpg)
 
-</details>
-
-
-<details>
- <summary> <strong> Mods </strong> </summary>
-<br>
+### Mods 
 
 Of course, Mods for different games also require and almost always use installers. The following picture is for an installation of a Vehicle Mod Pack for the game GTA IV (Grand Theft Auto IV).
 
 ![Install-Mods-GTAIV](https://user-images.githubusercontent.com/51851736/81014845-e6974f00-8e5d-11ea-9876-c1d2a04dfdbf.jpg)
 
-</details>
+
 
 ***
 
@@ -305,9 +293,7 @@ Oracle VM VirtualBox is a free and open-source compatible with Windows, macOS, L
 ###### How do you work with VirtualBox?
 
 
-<details>
-<summary> Click on me to see how to install VirutalBox </summary>
-<br>
+*How to install VirutalBox*
 
 The welcome page will be first shown. **Press "Next".**
 
@@ -343,7 +329,7 @@ And you are done!
 
  ![8](https://user-images.githubusercontent.com/51851736/81560450-b7b73680-9391-11ea-9bfa-51cb7466f656.PNG)
  
- </details>
+
 
 
 Obviously, once we have installed VirtualBox we cannot start testing right away. First, it is necessary to create a secluded place where your software will be alone to test it.
@@ -357,9 +343,7 @@ Obviously, once we have installed VirtualBox we cannot start testing right away.
 
 For a more visual representation, [here](https://www.youtube.com/watch?time_continue=65&v=sB_5fqiysi4&feature=emb_logo) you can find a video by TechGumbo on *How to Use VirtualBox (Beginners Guide)*.
 
-<details>
-<summary> To see the screenshots on how to create a new Virtual Machine in your computer step by step, click here </summary>
-<br>
+Screenshots on how to create a new Virtual Machine in your computer step by step:
  
 ![A](https://user-images.githubusercontent.com/51851736/81562939-ea632e00-9395-11ea-9861-cbb4cdc7ce80.PNG)
 ![B](https://user-images.githubusercontent.com/51851736/81562943-eafbc480-9395-11ea-8c31-c2536a8b82f5.PNG)
@@ -379,8 +363,6 @@ For a more visual representation, [here](https://www.youtube.com/watch?time_cont
 ![P](https://user-images.githubusercontent.com/51851736/81562988-f6e78680-9395-11ea-91bc-d7f395fd0833.PNG)
 ![Q](https://user-images.githubusercontent.com/51851736/81562989-f7801d00-9395-11ea-9877-887a96a56c1a.png)
 ![R](https://user-images.githubusercontent.com/51851736/81562992-f8b14a00-9395-11ea-9025-2935464b4ca1.PNG)
-
- </details>
 
 
 
@@ -424,17 +406,12 @@ To see the full features of NSIS, here you have a [link](https://nsis.sourceforg
 
 The following images will show you all the steps to install NSIS. In addition, I will show you how to install a package to help you with the creation of scripts for NSIS.
 
-<details>
- <summary><strong> Installing NSIS (and Uninstalling) </strong></summary>
-<br>
+##### Installing NSIS
 
 First of all, you have to go to the download page, you have the link [here](https://nsis.sourceforge.io/Download). In this case, we are downloading the version NSIS 3.05, released December 15th 2019. [Here](https://sourceforge.net/projects/nsis/files/NSIS%203/3.05/RELEASE.html/view) you have the release notes. You just have to **click "Download"** in bold letters under the release date and version.
 
 ![1](https://user-images.githubusercontent.com/51851736/81496479-33dd4b80-92b8-11ea-92cc-c9a8f2604bcc.PNG)
 
-<details>
-<summary> To see the screenshots on how to install NSIS in your computer step by step, click here </summary>
-<br>
  
 Once downloaded it, you just have to click the downloaded file, called "nsis-3.05-setup.exe". You will find this file in the "Downloads" directory unless you have specifically changed the directory path or saved it elsewhere. Double click on it and the NSIS installer will start running. You will see this. **Press "Next".**
 
@@ -476,16 +453,9 @@ To uninstall NSIS, you must double click again the executable called "nsis-3.05-
 ![D](https://user-images.githubusercontent.com/51851736/81496956-9f74e800-92bb-11ea-8dc3-c6cba2962d31.PNG)
 ![E](https://user-images.githubusercontent.com/51851736/81496957-9f74e800-92bb-11ea-854e-65b501cf5198.PNG)
 
-</details>
-</details>
+##### Installing/Start using NSIS Quick Setup Script Generator 
 
-<details>
- <summary><strong> Installing/Start using NSIS Quick Setup Script Generator </strong></summary>
-<br>
-
-<details>
- <summary> In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator. </summary>
-<br>
+In order to do the TODOS and learn  how to create scripts to create installers, we will help ourselves with NSIS Quick Setup Script Generator. 
 
 First of all, you have to download the .zip from the following [web page](https://nsis.sourceforge.io/NSIS_Quick_Setup_Script_Generator). There is a link provided to download the package. It can be found in "Links"->"Download", in the line that says "NSIS Quick Setup Script Generator  Nsisqssg.zip (74 KB) the current release.".
 
@@ -496,10 +466,6 @@ Once downloaded it, you just have to click the downloaded file, called "Nsisqssg
 ![2](https://user-images.githubusercontent.com/51851736/81497296-da781b00-92bd-11ea-866c-891264a28f67.PNG)
 
 After that, the app will start showing you commands, but I will talk about them later, since from this point onwards you are already creating a script. The steps to create said script will be found below in the exercise.
-
-</details>
-</details>
-
 
 
 ***
@@ -588,17 +554,13 @@ In this TODO  You will have to add a .nsh for the MUI to control the interface (
 
 Here are all the screenshots on how to do it. First you need to select "Installer based on .ZIP file" under the "Compiler" section. A new window will be opened. You will need to look for the .zip in "Open...", which will let you browse in your computer. You can then change your installer name and choose the interface design (I left it at "Modern" since it's what we will be using) and then select the "Output EXE File", which if you click "Browse..." you can look for it and select it in your computer. I recommend you to leave LZMA in "Compression" since it's the most efficient out of all of them. **Press "Generate".** You now have your installer, which should look like the last picture.
 
-<details>
- <summary> Click to see the screenshots </summary>
-<br>
+See the screenshots:
 
 ![1](https://user-images.githubusercontent.com/51851736/81559309-76be2280-938f-11ea-9cc7-c01914a26a6b.PNG)
 ![2](https://user-images.githubusercontent.com/51851736/81559310-7756b900-938f-11ea-808b-95de1bbfb4ed.PNG)
 ![3](https://user-images.githubusercontent.com/51851736/81559311-77ef4f80-938f-11ea-8647-ea0e3e1f8e1f.PNG)
 ![4](https://user-images.githubusercontent.com/51851736/81559312-77ef4f80-938f-11ea-8544-552866fe128a.PNG)
 ![5](https://user-images.githubusercontent.com/51851736/81559315-7887e600-938f-11ea-9c9c-5d44a5bdf396.PNG)
-
-</details>
 
 If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you have a Youtube video Tutorial by Ivan Angelkoski that may help.
 
@@ -610,9 +572,7 @@ If you need more help, [here](https://www.youtube.com/watch?v=PDFITKDbs-M) you h
 
 First you need to open Visual Studio. In a folder of your choice (choose wisely), you will be adding your icon. In my case I chose the "tools" folder. Right-click the folder, choose "Add" and then "New element". Go to "resources" on the left and add a ,rc file, you can change the name. **Press "Add".** Then right-click again and choose "Add resource". Select "Icon" and "Import". Browse in your computer the .ico you wish to be the icon for your game. Now you just have to run the code! Bear in mind that, if you run it in "Debug", it will only change the icon in the Debug's executable. It will happen the same with "Release".
 
-<details>
-<summary> Here you have the screenshots of every step. </summary>
-<br>
+Here you have the screenshots of every step:
  
 ![todo4A](https://user-images.githubusercontent.com/51851736/81615344-b877b900-93e1-11ea-8571-c94ddae929df.png)
 ![todo4B](https://user-images.githubusercontent.com/51851736/81615346-b9104f80-93e1-11ea-84f9-3575e1abf686.png)
@@ -621,13 +581,9 @@ First you need to open Visual Studio. In a folder of your choice (choose wisely)
 ![todo4E](https://user-images.githubusercontent.com/51851736/81615349-ba417c80-93e1-11ea-98f5-1882df170173.png)
 
  
- </details>
-
 #### TODO1
 
-<details>
-<summary><strong> Here there is an explanation on how to use Quick Setup Script Generator. </strong></summary>
-<br>
+Here there is an explanation on how to use Quick Setup Script Generator.
 
 AS stated beforehand, to use this software you just need the executable. Once done, all your scripts will be saved into the same folder, but I'll get to that later. Open the executable and **Press "Next"**.
 
@@ -663,8 +619,6 @@ Here you have your script!
 
 ![H](https://user-images.githubusercontent.com/51851736/81554973-f8aa4d80-9387-11ea-9414-1ad1ce7e7bd9.PNG)
 
-</details>
-
 As said, everything will be saved in the NSI-QSSG folder in your computer. The following files will be generated (the name is for the game and code I provided):
 
 - Test_Game_Pong.ini
@@ -677,16 +631,13 @@ As said, everything will be saved in the NSI-QSSG folder in your computer. The f
 
 If you want to edit your file again with NSIS-QSSG you will need to open the .ini file. To continue working to add your own code, you will need the .nsi file.
 
-<details>
-<summary><strong> THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW </strong></summary>
-<br>
+**THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW**
  
 ![1](https://user-images.githubusercontent.com/51851736/81557528-6a849600-938c-11ea-843f-9cd37ec427c5.PNG)
 ![2](https://user-images.githubusercontent.com/51851736/81557531-6b1d2c80-938c-11ea-9b7e-761c605ab969.PNG)
 ![3](https://user-images.githubusercontent.com/51851736/81557532-6c4e5980-938c-11ea-9d16-2fca40fcd051.PNG)
 ![4](https://user-images.githubusercontent.com/51851736/81557536-6ce6f000-938c-11ea-97be-8d6a5f8f389b.PNG)
 
-</details>
 
 #### TODO2
 
@@ -705,9 +656,7 @@ To add an icon to your installer we are also using MUI, therefore, it will be wr
 
 ![todo3](https://user-images.githubusercontent.com/51851736/81557711-b6373f80-938c-11ea-8101-af5a84942d6c.PNG)
 
-<details>
-<summary><strong> THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW </strong></summary>
-<br>
+**THIS IS HOW YOUR INSTALLER SHOULD LOOK NOW**
 
 
 ![1](https://user-images.githubusercontent.com/51851736/81558754-8ab55480-938e-11ea-855f-e0e888789ba9.PNG)
@@ -717,8 +666,6 @@ To add an icon to your installer we are also using MUI, therefore, it will be wr
 ![5](https://user-images.githubusercontent.com/51851736/81558762-8be68180-938e-11ea-90e9-1e0dfd0a6899.PNG)
 
 This last picture shows the files I have in my folder at the moment.
-
-</details>
 
 
 
@@ -764,9 +711,7 @@ To continue learning about installers, I propose that you do those exercises on 
 
 ## Links to documentation
 
-<details>
-<summary> Here are the links and references where I got all the information I used to create this research. </summary>
-<br>
+Here are the links and references where I got all the information I used to create this research.
 
 - [Computer Hope: Installer](https://www.computerhope.com/jargon/i/installer.htm)
 - [Computer Hope: System requirements](https://www.computerhope.com/jargon/s/systrequ.htm)
@@ -811,24 +756,15 @@ To continue learning about installers, I propose that you do those exercises on 
 
 *Some of the images were taken from Google Images. All the screenshots for the tutorials were done by me. Credit goes to their respective authors.*
 
-</details>
-
 ***
 
 ## Further information
 
-<details>
-<summary> About Automated Builds: </summary>
-<br>
+About Automated Builds: 
 
  + [Automated Builds](https://github.com/xsiro/RESEARCH)
 
-</details>
-
-
-<details>
-<summary> About other tools to create a Windows Installer Package: </summary>
-<br>
+About other tools to create a Windows Installer Package: 
 
  + [Help Desk Geek: 4 Great Tools to Create Windows Installer Packages](https://helpdeskgeek.com/free-tools-review/4-tools-to-create-windows-installer-packages/)
  + [Microsoft: Create an MSIX package from any desktop installer (MSI, EXE, ClickOnce, or App-V)](https://docs.microsoft.com/en-us/windows/msix/packaging-tool/create-app-package)
@@ -851,15 +787,8 @@ To continue learning about installers, I propose that you do those exercises on 
  + About WiX Toolset and how it could be improved:
     - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
 
-    
-</details>
+About Deployment and Automated Builds: 
 
-
-<details>
-<summary> About Deployment and Automated Builds: </summary>
-<br>
     - [Automated Builds](https://github.com/xsiro/RESEARCH)
     - [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD)
     - [Pdf Element: Best 5 Software Deployment Tools for Enterprise](https://pdf.wondershare.com/business/software-deployment-tools.html)
-
-</details>
