@@ -19,9 +19,6 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 
 ## What is included in this research?
 
-<details>
-<summary> Sections </summary>
-<br>
 
  - [What is an *Installer*?](#what-is-an-installer)
  - [Have you seen it in games?](#have-you-seen-it-in-games)
@@ -32,8 +29,6 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
  - [Links to documentation](#links-to-documentation)
  - [Further information](#further-information) 
 
-
-</details>
 
 ***
 
@@ -788,7 +783,6 @@ About other tools to create a Windows Installer Package:
     - [Wix Toolset: WiX Improvement Proposals](https://wixtoolset.org/development/wips/)
 
 About Deployment and Automated Builds: 
-
     - [Automated Builds](https://github.com/xsiro/RESEARCH)
     - [Automated Builds CI/CD](https://github.com/pgalmor/Automated-Builds-CI-CD)
     - [Pdf Element: Best 5 Software Deployment Tools for Enterprise](https://pdf.wondershare.com/business/software-deployment-tools.html)
