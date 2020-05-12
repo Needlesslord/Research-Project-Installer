@@ -748,6 +748,7 @@ Here are the links and references where I got all the information I used to crea
 - [Microsoft Build: SignTool.exe (Sign Tool)](https://docs.microsoft.com/es-es/dotnet/framework/tools/signtool-exe)
 - [Wikipedia: Software Development Kit](https://en.wikipedia.org/wiki/Software_development_kit)
 - [Youtube: How to Sign an Executable File using Signtool In Windows](https://www.youtube.com/watch?v=y00n9alXHGs)
+- [YouTube: How to set a custom Icon in Visual Studio C++](https://www.youtube.com/watch?v=gTwMyBDL5lg)
 
 *Some of the images were taken from Google Images. All the screenshots for the tutorials were done by me. Credit goes to their respective authors.*
 
