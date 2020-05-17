@@ -3,7 +3,7 @@
 
 ## Small summary
 
-[The web page](https://needlesslord.github.io/Research-Project-Installer/) and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using xml integration and the Wix Toolset extension to work wih, with small steps and a solution provided. For further information, a bibliography is provided below.
+[The web page](https://needlesslord.github.io/Research-Project-Installer/) and the [GitHub repository](https://github.com/Needlesslord/Research-Project-Installer) where it is created from are dedicated to what an Installer is and how to create one for your software in Windows using NSIS to work wih, with small steps and a solution provided. For further information, a bibliography is provided below.
 
 **What is an [*Installer*](https://en.wikipedia.org/wiki/Installation_(computer_programs)#Installer)?** An *Installer*, *Installation Package* or *Application Packaging* is used to install software programs on a system. They simplify the process of installing software by providing the user with a step-by-step process with options to select from which will best suit individual needs. The istallation process for software depends on your OS (operation system) and the program you are installing.
 
