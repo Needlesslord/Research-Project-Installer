@@ -1,0 +1,38 @@
+FOLDER STRUCTURE:
+
+
+REPOSITORY:
+
+     - docs -> folder where the documentation about the research can be found
+
+          + images -> images used in the documentation
+          + Personal Research - Installer Presentation -> presentation (in .pdf format) I did about the research
+          + README.md -> documentation
+          + guide_for_the_given_resources -> guide to know where to find everything
+
+     - exercises -> where the handouts, exercises, provided code to work from, etc. are located
+
+          + handout -> where you can find the raw exercises
+               # Test Game Code ->
+                    - Code -> Base Code for the game "Pong" I developed, used as an example for the research (TODO 0)
+                    - Exercises -> All the TODOs to work from (where the base code is not needed) (TODOS 0-1, 0-2)
+               # Test Game Release -> resources given to create your own installer. The game is in release form, in its final version (TODOS 1, 2, 3)
+          + installers -> the software used and their versions and where to get it from
+          + solution (same as full_code folder) -> solution. You can get the code give here, all are in their final form
+          + Test Game (Pong Code) -> Base Code for the game "Pong" I developed, used as an example for the research
+
+
+     - full_code -> solution. You can get the code give here, all are in their final form
+
+          + Code -> Base Code for the game "Pong" I developed, used as an example for the research
+          + Game -> Game in release form
+          + installers -> the software used and their versions and where to get it from
+
+
+     - LICENSE.md -> license under which this project is being developed
+
+
+     - README.md -> summary of the research and important information
+
+
+*Please note that some files have not been listed since they are not relevant for this information
