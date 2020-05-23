@@ -21,4 +21,6 @@ I am [Núria Lamonja i Pujol](https://www.linkedin.com/in/needlesslord/) (GitHub
 + [Links to documentation in the web page](https://needlesslord.github.io/Research-Project-Installer/#links-to-documentation)
 + [Further information in the web page](https://needlesslord.github.io/Research-Project-Installer/#further-information)
 
+A [guide](https://github.com/Needlesslord/Research-Project-Installer/blob/master/docs/guide_for_the_given_resources.txt) for the folders can be found in the "docs" folder. 
+
 *__DISCLAIMER! This information is relevant as of May 2020__*
