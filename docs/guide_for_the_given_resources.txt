@@ -13,7 +13,7 @@ REPOSITORY:
      - exercises -> where the handouts, exercises, provided code to work from, etc. are located
 
           + handout -> where you can find the raw exercises
-               # Test Game Code ->
+               # Test Game Code -> resources to create the previous TODOS
                     - Code -> Base Code for the game "Pong" I developed, used as an example for the research (TODO 0)
                     - Exercises -> All the TODOs to work from (where the base code is not needed) (TODOS 0-1, 0-2)
                # Test Game Release -> resources given to create your own installer. The game is in release form, in its final version (TODOS 1, 2, 3)
