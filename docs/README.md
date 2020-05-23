@@ -4,6 +4,8 @@ This web page and the [GitHub repository](https://github.com/Needlesslord/Resear
 
 *__Pro tip!__* *If you do not understand a term or need further help with this documentation, please use IT Dictionary pages such as [Computer Hope](https://www.computerhope.com/) or [Stack Overflow](https://stackoverflow.com/) or contact me directly at needlesslord@gmail.com.*
 
+**_A [guide](https://github.com/Needlesslord/Research-Project-Installer/blob/master/docs/guide_for_the_given_resources.txt) for the folders can be found in the "docs" folder._**
+
 *__DISCLAIMER! This information is relevant as of may 2020__*
 
 ***
